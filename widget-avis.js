@@ -35,6 +35,7 @@
   const teinte = (nom) => { let h = 0; for (const c of String(nom)) h = (h * 31 + c.charCodeAt(0)) % 360; return h; };
   const auteurAffiche = (nom) => { const m = String(nom || '').trim().split(/\s+/).filter(Boolean); if (!m.length) return ''; const cap = (s) => s.charAt(0).toLocaleUpperCase('fr') + s.slice(1); const p = m[0].split('-').map(cap).join('-'); return m.length > 1 ? p + ' ' + m[m.length - 1].charAt(0).toLocaleUpperCase('fr') + '.' : p; };
   const noteTexte = (n) => (n == null || n === '' ? '' : Number(n).toLocaleString('fr-FR', { minimumFractionDigits: 1, maximumFractionDigits: 1 }));
+  const nettoyerReponse = (s) => String(s || '').replace(/^R[ée]ponse du propri[ée]taire\s*(il y a \S+ \S+)?\s*/i, '');
   const initiale = (nom) => (String(nom).trim()[0] || '?').toUpperCase();
   const quand = (iso) => {
     if (!iso) return '';
@@ -121,6 +122,7 @@
         this.shadowRoot.innerHTML = `<style>${CSS}</style><a class="bandeau" href="${sur(s.lien || d.lienFiche)}" target="_blank" rel="noopener"><span class="logo" style="width:22px;height:22px">${src(s.id).svg}</span><strong>${echap(noteTexte(d.note))}</strong>${etoiles(d.note, 16)}<span class="mention">${echap(d.total)} avis</span></a>`;
         return;
       }
+      const reponses = this.hasAttribute('reponses') || af.reponses === true;
       const nombre = Number(this.getAttribute('nombre')) || Number(af.nombre) || 0;
       let avis = (d.avis || []).filter((a) => this.filtre === 'tous' || a.source === this.filtre);
       if (nombre) avis = avis.slice(0, nombre);
@@ -132,7 +134,7 @@
           <div class="ligne">${a.source === 'booking' ? note10('booking', a.note) : etoiles(a.note)}</div>
           ${a.titre ? `<strong>${echap(a.titre)}</strong>` : ''}<p class="txt" id="t${i}">${echap(a.texte)}</p>
           <button class="plus" data-t="t${i}" hidden>Lire la suite</button>
-          ${a.reponse ? `<p class="rep"><strong>Réponse :</strong> ${echap(a.reponse)}</p>` : ''}</article>`;
+          ${a.reponse && reponses ? `<p class="rep"><strong>Réponse :</strong> ${echap(nettoyerReponse(a.reponse))}</p>` : ''}</article>`;
       }).join('');
       const corps = modele === 'grille' ? `<div class="grille">${cartes}</div>` : `<div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><div class="nav"><button class="prec" aria-label="Avis précédents">‹</button><button class="suiv" aria-label="Avis suivants">›</button></div>`;
       this.shadowRoot.innerHTML = `<style>${CSS}</style><section class="w" aria-label="Avis clients">
