@@ -1,0 +1,158 @@
+{
+ "client": "sunsolutions",
+ "nom": "Sunsolutions",
+ "note": 5,
+ "total": 22,
+ "lienFiche": "https://www.google.com/maps/place/SunSolutions/@16.2397575,-95.3367019,4z/data=!4m10!1m2!2m1!1sSunSolutions!3m6!1s0x8c1345ada803ba5b:0x162b2ec80925c8a9!8m2!3d16.2397575!4d-61.5867019!15sCgxTdW5Tb2x1dGlvbnNaDiIMc3Vuc29sdXRpb25zkgEQc29mdHdhcmVfY29tcGFueeABAA!16s%2Fg%2F11j11926mc?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/SunSolutions/@16.2397575,-95.3367019,4z/data=!4m10!1m2!2m1!1sSunSolutions!3m6!1s0x8c1345ada803ba5b:0x162b2ec80925c8a9!8m2!3d16.2397575!4d-61.5867019!15sCgxTdW5Tb2x1dGlvbnNaDiIMc3Vuc29sdXRpb25zkgEQc29mdHdhcmVfY29tcGFueeABAA!16s%2Fg%2F11j11926mc?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 5,
+   "total": 22,
+   "lien": "https://www.google.com/maps/place/SunSolutions/@16.2397575,-95.3367019,4z/data=!4m10!1m2!2m1!1sSunSolutions!3m6!1s0x8c1345ada803ba5b:0x162b2ec80925c8a9!8m2!3d16.2397575!4d-61.5867019!15sCgxTdW5Tb2x1dGlvbnNaDiIMc3Vuc29sdXRpb25zkgEQc29mdHdhcmVfY29tcGFueeABAA!16s%2Fg%2F11j11926mc?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/SunSolutions/@16.2397575,-95.3367019,4z/data=!4m10!1m2!2m1!1sSunSolutions!3m6!1s0x8c1345ada803ba5b:0x162b2ec80925c8a9!8m2!3d16.2397575!4d-61.5867019!15sCgxTdW5Tb2x1dGlvbnNaDiIMc3Vuc29sdXRpb25zkgEQc29mdHdhcmVfY29tcGFueeABAA!16s%2Fg%2F11j11926mc?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUM5dzdTTWZREAE",
+   "source": "google",
+   "auteur": "Killianluel",
+   "note": 5,
+   "texte": "Jonathan a parfaitement répondu à notre besoin et plus encore : par sa vision transverse des business model issus de différents secteurs économiques, il a en effet apporté un œil nouveau sur notre gestion financière.\nIl a été réactif et proactif. Merci !",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nBonjour Killian,\nUn grand merci pour ton retour et tes compliments. Nous sommes heureux de savoir que l'application sur mesure et les tableaux de bord Power BI développés pour FT DEVELOPMENT répondent efficacement à vos besoins en gestion immobilière et en suivi de l'activité. Votre satisfaction est notre plus grande récompense, et elle nous encourage à continuer de fournir des solutions innovantes et personnalisées. Au plaisir de continuer à vous accompagner dans vos projets futurs.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUM5M1lYdmJ3EAE",
+   "source": "google",
+   "auteur": "Cecile E.",
+   "note": 5,
+   "texte": "SunSolutions a été incroyable dans l'implémentation de Power BI pour notre entreprise. Leur expertise et leur soutien exceptionnels ont vraiment fait la différence. Je recommande vivement leurs services à toute entreprise cherchant à optimiser son analyse de données!",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nBonjour Cécile,\nMerci beaucoup pour ton retour et pour avoir pris le temps de partager ton expérience. Nous sommes ravis de travailler avec le groupe GOLDFINGER sur l'implémentation et l'amélioration continue de rapports et tableaux de bord Power BI. Ta confiance en nos services est très appréciée et nous motive à poursuivre nos efforts pour fournir la meilleure qualité de service possible.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURaZ09DTnJnRRAB",
+   "source": "google",
+   "auteur": "Yannick C.",
+   "note": 5,
+   "texte": "Gestion du projet au livrable en passant par la force de proposition et à  l'adaptation. Cette société a répondu rapidement à mes besoins.",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nBonjour Yannick,\nUn grand merci pour votre commentaire. C’est un plaisir pour nous de travailler avec le groupe MEDIAGESTION, et nous sommes impatients de poursuivre cette collaboration. Merci encore pour votre confiance.",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNPeHVtNkVBEAE",
+   "source": "google",
+   "auteur": "Frederic M.",
+   "note": 5,
+   "texte": "Prestataire efficace, qui comprend bien les besoins de l'entreprise et s'adapte. J'ai travaillé avec eux pour des tableaux de reporting sur PowerBi et des enquêtes satisfaction client.",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNtb2Nqd2h3RRAB",
+   "source": "google",
+   "auteur": "Matthias M.",
+   "note": 5,
+   "texte": "Très réactif et très professionnel. Comprend et s'adapte aux enjeux du client, force de proposition, tableaux de reportings très clairs et complets. Bravo Sun Solutions !",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChRDSUhNMG9nS0VJQ0FnSUNtd1prcBAB",
+   "source": "google",
+   "auteur": "Sandro-M. H.",
+   "note": 5,
+   "texte": "Un accompagnement au top ! Des réponses à toutes les questions.",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUR5MmR6c0FREAE",
+   "source": "google",
+   "auteur": "Jeb C.",
+   "note": 5,
+   "texte": "Parfaite prise en compte de nos problématiques. J’apprécie particulièrement la réactivité et la proximité avec SunSolutions. Toujours force de proposition. Je recommande vivement.",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNpelBYakFnEAE",
+   "source": "google",
+   "auteur": "Marine F.",
+   "note": 5,
+   "texte": "Jonathan nous a créé un logiciel pour gérer la logistique interne et externe de notre entreprise. Très professionnel, il a su répondre à nos attentes et nous proposer une application qui nous facilite la vie au quotidien !!!!",
+   "reponse": "Réponse du propriétaire il y a 4 ans\nMerci beaucoup Marine pour ce commentaire. Nous sommes très heureux de travailler avec EN'O Energies Caraïbes sur la logistique de gestion des commandes, des installations, des équipes, du suivi de la défiscalisation, etc.\nA très vite,\nJonathan",
+   "titre": "",
+   "date": "2020-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQ4cF9TbzV3RRAB",
+   "source": "google",
+   "auteur": "Roberte L.",
+   "note": 5,
+   "texte": "Bonjour,\n\nJe vous recommande fortement les services de SunSolution.\n\nSon gérant, Jonathan DOQUIN, se veut à l'écoute des problématiques de ses clients et vous apporte en un temps record une solution optimum tant part son professionnalisme que sa réactivité d'exécution.\nNous sommes si séduits par les services apportés par SunSolutions qui arrivent à anticiper nos besoins en nous proposant des idées et développements innovants.\n\nCollaborer avec SunSolution, c'est la garantie de miser sur un avenir serein de croissance pour votre entreprise.\n\nRoberte LOULENDO\nResponsable de la Relation Client chez CAMA",
+   "reponse": "",
+   "titre": "",
+   "date": "2020-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUM4dnBUc1NREAE",
+   "source": "google",
+   "auteur": "Jonathan V.",
+   "note": 5,
+   "texte": "Dynamique et efficace. Jonathan a su trouver rapidement des solutions pour fluidifier nos process et gagner en productivité!\nJe recommande.",
+   "reponse": "",
+   "titre": "",
+   "date": "2020-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNNNzVETGhBRRAB",
+   "source": "google",
+   "auteur": "Xavier V.",
+   "note": 5,
+   "texte": "SunSolutions nous a permis d’automatiser le reporting décisionnel chez Protex, n°1 du vêtement de travail en Guadeloupe. Désormais, nous recevons automatiquement sur dropbox les alertes de stock, le suivi des ventes et des commerciaux, les flux de trésorerie... Bref, nous disposons quotidiennement de toutes les informations utiles à la prise de décision.",
+   "reponse": "",
+   "titre": "",
+   "date": "2020-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNPcHFuVUdREAE",
+   "source": "google",
+   "auteur": "Alex C.",
+   "note": 5,
+   "texte": "Une superbe réactivité et une intervention rapide.\nTrès bons services 👍 …",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURpdkxidDlnRRAB",
+   "source": "google",
+   "auteur": "Benoit P.",
+   "note": 5,
+   "texte": "Super appli et service très pro !",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

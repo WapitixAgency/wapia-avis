@@ -1,0 +1,228 @@
+{
+ "client": "mecanosk",
+ "nom": "Mecanosk",
+ "note": 4.9,
+ "total": 139,
+ "lienFiche": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.9,
+   "total": 139,
+   "lien": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0aFNEQjVVMVIyWmxGRWEwdERiRW95VlhGVFExRRAB",
+   "source": "google",
+   "auteur": "R8FSI",
+   "note": 5,
+   "texte": "Olivier fait son maximum pour rendre service un mécanicien comme lui est Rare de nos jours. Mécanicien passionné prix attractif les 5 étoiles ne suffit pas il en faudrait plus 😉",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pabWRrTmhXSEJ3YVVoRVdGOU9SRkZoZVhKSk1VRRAB",
+   "source": "google",
+   "auteur": "Cristian B.",
+   "note": 5,
+   "texte": "Il a remplacé l'autoradio classique de ma voiture par un modèle tactile avec caméra. Service impeccable et prix compétitif. Personnel attentif et sympathique.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-07-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWcFlVVTRORkJET0RsRVIwaEtZMFI0ZUZGRU1sRRAB",
+   "source": "google",
+   "auteur": "Guillaume",
+   "note": 5,
+   "texte": "Merci à Olivier qui a fait un excellent travail sur ma voiture.\nChangement des 4 disques, de la batterie, et des filtres habitacle/pollen.\nQualité du travail, disponibilité, gentillesse et un prix très raisonnable et sans comparaison avec d’autres garages.\nJe vous le recommande vivement.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-05-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwcVdsTmhRa1ExVkdSSFZWWktSbUpwUVVwM1RuYxAB",
+   "source": "google",
+   "auteur": "Charlene L.",
+   "note": 5,
+   "texte": "Après des mois de recherche, j'ai enfin trouvé un vrai professionnel !\nRéparation sur mon véhicule nickel prend le temps d'expliquer les choses\nVous pouvez y aller les yeux fermés\nTrès contente, rapport qualité prix + que correct 👌🏼\nJe recommande a 100%",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-04-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKc2ExUXdVVGhmVnpObWJXbFdiRTVMUTB4MVVGRRAB",
+   "source": "google",
+   "auteur": "Clarisse V.",
+   "note": 5,
+   "texte": "Merci beaucoup d’avoir changé mes amortisseurs, rapide efficace et pédagogue ! Vous avez pris le temps de bien m’expliquer comment ça fonctionnait et ce qui était à changer.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-03-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21zM1QxbGlTUzFRTTFvMVpFd3lTVVp5UjNGZmFXYxAB",
+   "source": "google",
+   "auteur": "Killian V.",
+   "note": 5,
+   "texte": "Une perle ! Un grand merci à Olivier qui est un très bon mécanicien, gentil et honnête. Je suis venu pour un remplacement de boîte de vitesse et embrayage.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-03-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25ONU9WUmxOVXRtTVdKS1pWWkZiVFpqYkZkM1FrRRAB",
+   "source": "google",
+   "auteur": "Aude G.",
+   "note": 5,
+   "texte": "Ma voiture est tombée en panne, elle avait été placée dans un garage connu mais le devis était extrêmement cher, j’ai donc fait appel au garage MECANOSK qui m’a fait un devis largement en dessous du précédent et bien plus réel.\nCe qui est important de souligner avec Mr Brival c’est que le travail est bien fait et pour autant la facture n’est pas salée. Personne de confiance.\nJe recommande et garde cette adresse pour les prochaines fois.\nMerci pour le travail et surtout la rapidité !!",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-03-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOa1gzQmxNVzlqUmtoV2RrSXdXRzV0YVhFM1lXYxAB",
+   "source": "google",
+   "auteur": "Mahamadou F.",
+   "note": 5,
+   "texte": "J’ai fait installer un écran CarPlay dans ma voiture et un caméra de recul par M.Olivier et je suis vraiment ravi du résultat. L’installation a été rapide, très soignée, et le service était excellent. Je recommande vivement",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-12-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25sNlNIRmtiR2RWWWpKTGJYcHVjWGRwWWpZNFNtYxAB",
+   "source": "google",
+   "auteur": "Camille H.",
+   "note": 5,
+   "texte": "Super mécanicien. Je l'ai appelé pour un changement de catalyseur en \"urgence\", je ne le connaissais pas avant. Prise en charge efficace, envoi d'un devis très rapide. En plus très sympa et explique bien le problème et la réparation de la voiture. Surtout, et c'est très appréciable, ne change pas de pièce en plus pour le \"plaisir\". Son diagnostic a été parfait. Je referai appel à lui bien sûr.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21kUE1XcHdaamhUWm5rNFVYUk5aRXRJTFZWRlpHYxAB",
+   "source": "google",
+   "auteur": "Laurent L.",
+   "note": 5,
+   "texte": "Très professionnel et très agréable. Nous avons eu toutes les explications. Du très sérieux et avec un excellent service à domicile. Merci encore",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURmeDR5alhBEAE",
+   "source": "google",
+   "auteur": "Olga H.",
+   "note": 5,
+   "texte": "Le ciel m'a envoyé Un Ange Mécano!\nTout y est : super pro, super humain, supers tarifs.\nCompétent, gentil, agréable, fiable, honnête et économies énormes par rapport aux devis garages classiques !\nJ'ai fait appel 2 fois à Olivier et j'en suis encore tellement reconnaissante. 1 fois pour kit de distribution.  Et dernièrement pour contre visite contrôle technique pb pollution : il m'a fait économiser une pièce importante qui n'était pas à changer alors qu'un autre garage m'avait dit qu'il le fallait. Il a eu raison, elle est passée ! J'ai trouvé mon Mécano. Je recommande à fond.\nMerci Olivier ! C'est bon de voir des gens comme vous. Je vous souhaite le meilleur, et plein de clients sympas !",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNId2RiR0ZnEAE",
+   "source": "google",
+   "auteur": "Ulrike G.",
+   "note": 5,
+   "texte": "Problèmes électriques sur plusieurs points, Olivier a pris tout son temps pour réparer ma voiture pour que je puisse passer le contrôle technique le lendemain. Merci beaucoup pour votre professionnalisme et votre patience, ce n'était pas évident. Prix très correct.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNUOXZuMk93EAE",
+   "source": "google",
+   "auteur": "Hugo !.",
+   "note": 5,
+   "texte": "Venu pour une distribution, pompe à eau et remplacement des disques et plaquettes. Prise rapide de rendez-vous, Olivier ne vient pas juste pour faire son travail mais prend le temps de discuter et surtout d’expliquer se qu’il fait. Le fait qu’il vienne à domicile est très pratique. Très content de ma prestation et je n’hésiterais pas à refaire appel à lui, de plus il ne sur vend pas ses services.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUR0dmRqTXZ3RRAB",
+   "source": "google",
+   "auteur": "Nina P.",
+   "note": 5,
+   "texte": "Très professionnel, qui prend le temps d'expliquer ce qui ne fonctionne pas et ce qu'il répare. Ne cherche pas à sur facturer. Très pratique le déplacement au domicile ou sur le lieu de travail.\nJe recommande",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUR5ajdpTlF3EAE",
+   "source": "google",
+   "auteur": "Amaury C.",
+   "note": 5,
+   "texte": "J'ai fait appel une 2ème fois à Mecanosk pour un changement de courroie et une vidange complète. Malgré un imprévu M. Brival est allé au bout de l'opération. Très satisfait de l'intervention!",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNsbk5fVHd3RRAB",
+   "source": "google",
+   "auteur": "Liliane M.",
+   "note": 5,
+   "texte": "Très compétent - notre Jaguar le remercie  pour son intervention, elle ronronne de nouveau avec un injecteur tout neuf et en plus une très belle rencontre avec un homme sympathique",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURCNHZmVDNBRRAB",
+   "source": "google",
+   "auteur": "Amad P.",
+   "note": 5,
+   "texte": "J'ai contacté Mecanosk pour décrasser la vanne erg de ma Lexus. Il est rapidement revenu à ma maison et s'est engagé à démontrer et à nettoyer la vanne. Il a fait un travail parfait, propre et attentionné. Je vous le recommande vivement.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQtc3NqbzZRRRAB",
+   "source": "google",
+   "auteur": "Thibault C.",
+   "note": 5,
+   "texte": "super service mécanique, très aimable, pas cher, se déplace : que demander de plus :) merci olivier, à recommander !",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUM2MlpMZm53RRAB",
+   "source": "google",
+   "auteur": "Charles T.",
+   "note": 5,
+   "texte": "J'ai contacté Mecanosk sur la base des avis Google, et n'ai pas été déçu, bien au contraire. M. Brival est intervenu plusieurs fois sur mon véhicule, toujours dans de courts délais et dans le souci d'avoir terminé ses interventions avant …",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURpeWQyeDFRRRAB",
+   "source": "google",
+   "auteur": "Alain L.",
+   "note": 5,
+   "texte": "J’ai rarement laissé des avis positifs, mais là, Bravo.\nMERCI Olivier.\nContacté plusieurs fois, au début pour une simple vidange, suivis de divers …",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

@@ -1,0 +1,228 @@
+{
+ "client": "deauvijeune",
+ "nom": "DeauviJeûne",
+ "note": 4.9,
+ "total": 109,
+ "lienFiche": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.9,
+   "total": 109,
+   "lien": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5NGRrZzRSSFJIVm1FMFpYUnpVRkJ1VVZSRFVHYxAB",
+   "source": "google",
+   "auteur": "Isa L.",
+   "note": 5,
+   "texte": "Accueil chaleureux et amical, très bon accompagnement et conseils pour mon 1er jeûne. Jus et bouillons sont très bons et diversifiés. Les randonnées effectuées dans un superbe environnement, de quoi se ressourcer. Le longe-côte est un +, c'était une bonne découverte.",
+   "reponse": "Réponse du propriétaire il y a un mois\nMerci beaucoup Isabelle, et jeûne un jour, jeûne toujours !",
+   "titre": "",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0TVFuVm1XWEpxWW0xWmVVbFVla0ZtVGxoTGRrRRAB",
+   "source": "google",
+   "auteur": "Laura S.",
+   "note": 5,
+   "texte": "J’ai voulu faire mon premier jeûne et j’étais ravie de trouver cette formule plus courte de 3,5 jours pour les débutants. Le lieu est parfait calme , verdoyant la piscine est un vrai plus et les chambres superbes . Cela n’est pourtant pas le plus important : l accompagnement bienveillant et sécurisant de Clara et Jean Michel fait la différence , un moment hors du temps que je recommande  sans hésiter .",
+   "reponse": "Réponse du propriétaire il y a 3 mois\nMerci beaucoup Laura, au plaisir de te retrouver quand tu seras prête !",
+   "titre": "",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tremFWOUVaSG95U0VKT2NWUlVjV0phZGtSdFNYYxAB",
+   "source": "google",
+   "auteur": "Henri X.",
+   "note": 5,
+   "texte": "Nous ne sommes pas à notre premier jeûne et avons particulièrement apprécié celui proposé par DeauviJeûne après notre   séjour du mois de juillet. Le lieu est propice, cocooning, isolé des tentations.  Clara et Jean-Michel, ont animé avec énergie, bienveillance et générosité. Nous étions avec un groupe très intéressant et les journées sont passées très vite entre les échanges et les activités variées.\nLes plus : la piscine, le yoga matin et soir,  le grand jardin, les belles randonnées depuis la maison, les conférences, les jus et les bouillons qui nous ont souvent fait oublier que nous étions en jeûne.\nNous savons pourquoi nous voulions jeûner et nous savons pourquoi nous y retournerons.\nHenri et Laurence.",
+   "reponse": "Réponse du propriétaire il y a 3 mois\nUn grand merci à tous deux, nous vous attendons l’année prochaine !",
+   "titre": "",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kxd2JWZ3lNMnh0ZG1oUlpXNU1OR1JTVnpWR1MwRRAB",
+   "source": "google",
+   "auteur": "Zora Z.",
+   "note": 5,
+   "texte": "Un lieu paisible et confortable, des hôtes charmants.\nUn jeune jalonné de temps forts avec du longe côte, des randos, des visites culturelles. Des jus délicieux le matin, des bouillons goûtus le soir, on ne voit pas le temps passer, l’ambiance est relax et tout est propice à une profonde détente et détox !\nJean Michel est vraiment aux petits soins 😉🙏",
+   "reponse": "Réponse du propriétaire il y a 5 mois\nUn grand merci, Zora, 😽 …",
+   "titre": "",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWWGREWjVRVmh6UmpSSk5GWmtPWE5VVDJsYWVuYxAB",
+   "source": "google",
+   "auteur": "Sandrine C.",
+   "note": 5,
+   "texte": "Un merveilleux séjour orchestré par Clara et Jean-Michel !\n​Les nombreuses activités proposées ont rendu ces moments extrêmement agréables. La découverte du longe-côte fut un moment incroyable et vivifiant, surtout en plein mois de novembre !\nCe temps de jeûne, cette véritable  parenthèse dans ma vie m'a apporté un immense bien-être, notamment grâce à l'ambiance et l'énergie d'un groupe formidable.",
+   "reponse": "Réponse du propriétaire il y a 11 mois\nUn grand merci, Sandrine !",
+   "titre": "",
+   "date": "2025-12-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGZlJXdDNaMHBuY1hFeVVVeFBNR2RWTTFSS2NIYxAB",
+   "source": "google",
+   "auteur": "M S.",
+   "note": 5,
+   "texte": "J'ai passé une semaine incroyable, bien au delà de ce à quoi je m'attendais.\nTout d'abord Clara et Jean-Michel nous ont accompagnés tout au long de ce jeûne ainsi que pendant la descente et la reprise. Tout était parfaitement pensé pour nous accompagner en douceur, que ce soit dans la descente comme dans la reprise alimentaire. Pendant le jeûne nous avons eu la chance de se délecter de jus frais de fruits/legumes extraits le matin même a l'extracteur vraiment délicieux pour commencer la journée reboostée en plus à chaque fois les saveurs était differentes. Le soir nous nous retrouvions tous dans le salon cozy autour d'un délicieux bouillon de legumes frais reconfortant parfait avant d aller se coucher le ventre plein réchauffé de l intérieur.\n\nClara, Caroline et Jean-Michel nous ont tenus\noccupés avec des séances d'exercices d'êveil du corps le matin avant le jus, puis des randonnées de toute beauté dans le pays d auges à chaque fois différentes (avec de belles rencontres: vâches, chevaux , ânes et splendides maisons), des ballades en bord de mer (et où on a eu de la chance de pouvoir se baigner, un régal), découverte du longe cote , séance de spa à Deauville, de massage tibétains, visite de la ferme de spiruline bio, séance de relaxation et yoga... Le tout dans une ambiance de bienveillance, à l'écoute et de franche rigolade. J'ai eu de la chance de partager ces moments merveilleux dans un groupe chaleureux , interessant et drôle.\n\nMerci  à Clara et Jean-Michel pour leur bienveillance, leur professionnalisme et leur bonne humeur et merci aux autres jeûneurs qui m'ont permise de me sentir en vaccances :-) et de vivre une vrai parenthèse , de souffler et surtout de mettre ma tête et mon corps au repos en douceur.\n\nJe termine par la maison au Mont Roty de toute beauté et au grand calme dans la nature, propice au coconning , à la relaxation, on s'est senti choyé. Ma chambre était grande avec de belles fenêtre , propre et le lit très confortable , parfait pour une bonne récupération.\n\nJe recommande donc  100% et je referai le voyage Marseille-Pays D'Auges les yeux fermés chez Clara et Jean-Michel.\n\nIl y a un avant un après, et je repars en pleine forme reboostée et relaxée avec de la spiruline  (et des caramels au beurre salé shut! ) dans les baggages :-) ainsi que des nouvelles routines et des conseils que j'espère pouvoir appliquer dés maintenant.\n\nA très bientot j'espère\nBises\nManal",
+   "reponse": "Réponse du propriétaire il y a un an\nUn grand merci Manal, pour ce commentaire très complet que je découvre à l’instant !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT210cmVuWnZTbk5SVEcxbmFtTnFUekpXZEVvd1oyYxAB",
+   "source": "google",
+   "auteur": "Gaston R.",
+   "note": 5,
+   "texte": "1er jeûne pour moi, 1eres séances yoga, 1er longe côte…. Bref j’avais rendez-vous en terre inconnue (sauf la destination) et j’ai vécu une expérience formidable. Clara et jean michel se complètent pour nous accompagner , nous former, nous « nourrir » (les jus et bouillons de JM 😋), pour randonner, nous réveiller (musculairement), nous détendre et relaxer (le yoga de Clara). Les journées passent très bien , sans ennuis et en restant flexibles. Et chance d’un groupe top sous le soleil normand. What else !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup, Gaston ! Ce fut un plaisir de faire votre connaissance !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21SaFlXdHVPV2hWYWtVNWQzbzJWMmxNTjFsT1pFRRAB",
+   "source": "google",
+   "auteur": "Elise D.",
+   "note": 5,
+   "texte": "En Juin dernier, j’ai réalisé un stage de jeun pour la 3eme fois avec 2 amies! Un réel plaisir de découvrir l’univers de Clara & Jean-Michel… ils ont été aux petits soins pendant tout le séjour, superbes randos, découverte de longe côte (j’ai adoré malgré la houle), éveil musculaire et yoga, et repas de reprise vraiment délicieux !!!!\nMention spéciale pour les jus et bouillon de Jean-Michel qui sont de loin les meilleurs goûtés en jeun !\nUne belle expérience humaine !\nMerci Clara et Jean-Michel, je reviendrais!",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup, Elise, à l'année prochaine !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUNvdmEzaFh3EAE",
+   "source": "google",
+   "auteur": "Où ?.",
+   "note": 5,
+   "texte": "Je recommande vivement Deauvijine, surtout pour celles et ceux qui aiment le beau et le bon : les jus les plus délicieux jamais gouté, une maison plus que charmante, des balades sensass (et même la découverte du longe cote pour moi). De …",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup, Hélène, ça fait très plaisir.",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUNvbVplOGh3RRAB",
+   "source": "google",
+   "auteur": "Groupe S.",
+   "note": 5,
+   "texte": "J’ai eu la chance de vivre une semaine de jeûne avec Deauvijeune, et ce fut une expérience absolument incroyable. Tout était parfaitement pensé pour nous accompagner en douceur, que ce soit dans la descente comme dans la reprise …",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup, Françoise, excellente reprise !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUR3cllPM2VBEAE",
+   "source": "google",
+   "auteur": "Christine B.",
+   "note": 5,
+   "texte": "Nous venons de terminer avec mon mari notre1er jeûne. Nous avons été ravis de notre séjour de 6 jours. Clara et Jean-Michel sont très investis et bienveillants et nous ont apportés quantité d’informations intéressantes. Nos journées étaient …",
+   "reponse": "Réponse du propriétaire il y a un an\nUn grand merci à tous deux, ça nous encourage à toujours mieux vous recevoir. À bientôt !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURUaDRmYzNBRRAB",
+   "source": "google",
+   "auteur": "Cornelia B.",
+   "note": 5,
+   "texte": "Excellente parenthèse, même novice on s’y sent serein et bien chouchouté. Encadrement sérieux, de grande qualité, mais sans sectarisme, en toute bienveillance et avec une gentillesse extraordinaire. Cadre idyllique et randonnées superbes.\nUne expérience que je réitérai avec grand plaisir !",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nUn grand merci, Cornelia !",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURqaWJIakZnEAE",
+   "source": "google",
+   "auteur": "MARYLOU A.",
+   "note": 5,
+   "texte": "Je recommande vivement Deauvijeûne, centre de jeûne très séreux et très apprécié des jeûneurs.\nEn tant que réflexologue, je suis intervenue pendant deux ans à Deauvijeûne et …",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNwX1BQVU13EAE",
+   "source": "google",
+   "auteur": "Murielle L.",
+   "note": 5,
+   "texte": "Nous avons vécu cette semaine de stage, en couple, comme une merveilleuse pause ressourçante.\nTout y a contribué : le superbe cadre du Mont Roty, si paisible et si …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNwMlBmOEp3EAE",
+   "source": "google",
+   "auteur": "MissB",
+   "note": 5,
+   "texte": "Un séjour qui remplit toutes ses promesses, et même davantage. Journées rythmées par des activités diverses, qui nourrissent un sentiment de sécurité et de joie partagée. Chaque jour de nouveaux paysages d'une beauté à couper le souffle. …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUN4NjhhZlpnEAE",
+   "source": "google",
+   "auteur": "Sophie H.",
+   "note": 5,
+   "texte": "Cadre et équipe idylliques !! Tout est fait pour que le jeûne se passe bien ! Jus de fruit et bouillon chaque jour différent et goûteux ! Les randonnées sont merveilleuses ! Je conseille le longe  côte ! Et je recommande ce séjour.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURSenV1dG1RRRAB",
+   "source": "google",
+   "auteur": "Jean-Maurice M.",
+   "note": 5,
+   "texte": "Avec ma femme nous avons découvert le jeûne plus comme un chalenge mais sans vraiment savoir à quoi s’attendre, Clara et Jean-Michel ont su nous faire découvrir et réussir cette expérience en y prenant plaisir,  ils ont également su …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURodl9QTW1BRRAB",
+   "source": "google",
+   "auteur": "Yann H.",
+   "note": 5,
+   "texte": "Bonjour,\nJe suis un homme, plutôt axé sur la ''bonne bouffe'', et ma compagne, l'été dernier, m'a convaincu de faire l'essai d'un jeûne de 3 jours pour ''dégraisser le …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURCaHRIOEVnEAE",
+   "source": "google",
+   "auteur": "Sofiane D.",
+   "note": 5,
+   "texte": "J’ai passé un très bon stage au Mont Roty avec Clara et Jean Michel. Leur formule de 4 ou 6 jours était parfaitement adaptée pour moi à ce moment de début d’année. Expérience efficace, chaleureuse et relaxante. J’ai aimé avoir un programme …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNXOV8yWU9REAE",
+   "source": "google",
+   "auteur": "Lucie Y.",
+   "note": 5,
+   "texte": "J’ai eu la joie d’experimenter mon premier jeûne avec Clara et Jean-Michel et l’expérience s’est déroulée à merveille. J’ai choisi Deauvijeûne car le centre est affilié à la fédération de jeûne et randonnée FFJR et que Clara et Jean-Michel …",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

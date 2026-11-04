@@ -1,0 +1,228 @@
+{
+ "client": "gerycorpo",
+ "nom": "Gery Corporation",
+ "note": 4.8,
+ "total": 41,
+ "lienFiche": "https://www.google.com/maps/place/Gery+Corporation+-+Chemisage+de+canalisation/@30.6959409,-49.8171262,3z/data=!3m1!4b1!4m6!3m5!1s0x47e60ba969c28cb5:0x3471bf7d17751805!8m2!3d30.6959409!4d-49.8171262!16s%2Fg%2F11r3ndw38w?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/Gery+Corporation+-+Chemisage+de+canalisation/@30.6959409,-49.8171262,3z/data=!3m1!4b1!4m6!3m5!1s0x47e60ba969c28cb5:0x3471bf7d17751805!8m2!3d30.6959409!4d-49.8171262!16s%2Fg%2F11r3ndw38w?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.8,
+   "total": 41,
+   "lien": "https://www.google.com/maps/place/Gery+Corporation+-+Chemisage+de+canalisation/@30.6959409,-49.8171262,3z/data=!3m1!4b1!4m6!3m5!1s0x47e60ba969c28cb5:0x3471bf7d17751805!8m2!3d30.6959409!4d-49.8171262!16s%2Fg%2F11r3ndw38w?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/Gery+Corporation+-+Chemisage+de+canalisation/@30.6959409,-49.8171262,3z/data=!3m1!4b1!4m6!3m5!1s0x47e60ba969c28cb5:0x3471bf7d17751805!8m2!3d30.6959409!4d-49.8171262!16s%2Fg%2F11r3ndw38w?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pJeFZTMTZlRzlyVG1aelZsVjJURlpyZFdGd1ZtYxAB",
+   "source": "google",
+   "auteur": "Victor P.",
+   "note": 5,
+   "texte": "Etant également artisan dans un tout autre domaine j'ai sollicité deux fois l'Entreprise Gery pour deux sinistres !\nLa rapidité de leur intervention en pleine saison et ensuite également 2 mois plus tard est exemplaire .\nJ'ai eu affaire pour chacune des interventions au même personnel sympathique rapide efficace et surtout PRO.\nLa directrice des travaux Noemie est parfaite et très bon conseillère pour l'administratif du début à la fin des sinistres .\nJe ne peux que recommander cette Entreprise d'ailleurs une des seule qui m'a répondu pendant le mois de Juillet .\nCertes cela a un coût mais j'en suis pleinement satisfait et c'est terriblement propre maintenant chez moi et SAFE pour mes canalisations d'eaux usées et WC.\nJE RECOMMANDE",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT205TVUxRlhXVFp5TWtOV1ZGbEpNRmh1VTNOM2RtYxAB",
+   "source": "google",
+   "auteur": "René L.",
+   "note": 5,
+   "texte": "Super équipe!\nTravail complexe du chemisage d'une canalisation des eaux usées d'un immeuble de 4 étages.\nl'expertise et le professionnalisme de toute l'équipe sont remarquables. Un travail précis, une gentillesse à toute épreuve.\nUne implication sans faille dans l'ensemble des étapes recherche vidéo, curage et chemisage, et tout cela en période de canicule. Pour finalement terminer dans les délais annoncés aux riverains (coupure d'eau).Gery Corporation est une entreprise très fiable que je recommande sans hésitations.\nMerciii\nRL",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2paR1l6ZEJTR05ITldGaGJrUTRVbVZhYW14bFlYYxAB",
+   "source": "google",
+   "auteur": "Apimmo3",
+   "note": 5,
+   "texte": "La société a réalisé un diagnostic parfait.\nArnaud et son collègue ont été les seuls à poser un diagnostic sur mon problème. Ils n'ont pas compté leur temps et sont allés au bout des choses. Sur 4 entreprises qui sont passées, clairement celle à recommander +++\nMerci!",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-07-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT210UGNVZDFhVWh6YmtOVU1qaDFVWEV5VUZSbWJGRRAB",
+   "source": "google",
+   "auteur": "Gaelle F.",
+   "note": 5,
+   "texte": "La société est intervenue pour réaliser un diagnostic (2eme avis) suite à plusieurs engorgements de notre canalisation d'évacuation et l'annonce d'effondrement et de fissures. Suite à la confirmation du diagnostic, gery corp a procédé au curage et au chemisage et à l'ouverture d'un regard. Intervention très pro, rapide et propre. Équipe très agréable.  Idem aussi pour partie administrative,  prise en charge agréable,  très pro et sympathique.  Je recommande.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pBelkzbHpTRmRGWjA1MVdWOVFlVVozTFc0MlNHYxAB",
+   "source": "google",
+   "auteur": "Cyrille D.",
+   "note": 5,
+   "texte": "Super équipe !\nTravail complexe du chemisage d’une canalisation des eaux usées enfouies sous une maison.\nL’expertise et le professionnalisme de l’équipe sont remarquables.\nNous sommes reconnaissants pour leur travail, leurs explications et leur gentillesse.\nGery Corporation est une entreprise fiable que nous recommandons sans hésitations.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-05-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214dFFuQlROMGc0T1ZsRlVrSk1NVWc1WVMxMWNIYxAB",
+   "source": "google",
+   "auteur": "Olívia C.",
+   "note": 5,
+   "texte": "La relation client est excellente : elle est très réactive et efficace. Côté chantier, tout a été bien organisé : les techniciens qui sont intervenus dans l'immeuble où je suis gardienne pour curer une descente d'eau usée qui présentait des problèmes depuis des années ont été ponctuels et très professionnels. Le résultat est flagrant, car j'ai pu voir les images avant et après l'intervention. De plus, ils ont laissé le lieu d'intervention propre. Je recommande sans hésiter la société Gery Corporation aux particuliers comme aux syndics.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-05-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pZMU5qVjNlRGR4TjBndGFrMXJha3Q0YWpsc1NXYxAB",
+   "source": "google",
+   "auteur": "ETABLISSEMENT K.",
+   "note": 5,
+   "texte": "Suite à une inspection par caméra dans une canalisation en fibrociment, une casse non accessible a été détectée.\nNous avons donc opté pour une solution de chemisage.\nL’entreprise Gery a réalisé cette intervention sur une vingtaine de mètres.\n\nMerci encore pour votre professionnalisme.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-04-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xOZk4yWnBSVzlTVWpoNU1UTlJRbTUwU21JNFFsRRAB",
+   "source": "google",
+   "auteur": "Beatrice T.",
+   "note": 5,
+   "texte": "Entreprise très sérieuse  devis  délais réalisation parfait\nChemisage de 22 ml  préparation du travail le samedi réalisation le lundi  équipe très professionnelle et sympathique, explique bien ,travail précis ,chantier très propre et un matériel à la pointe de la technologie  impressionnant   Un grand merci je suis rassurée pour ma maison",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-04-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5WU1ITmZSVzVZWlRsdWJuaFRUVVJSVW1wUVdHYxAB",
+   "source": "google",
+   "auteur": "Christian R.",
+   "note": 5,
+   "texte": "Intervention hier et aujourd'hui d'une équipe très compétente de GERY. La réparation sans casse d'une canalisation des eaux usées dans notre pavillon. Grâce au chemisage sur 14 m. terminés les débouchages à répétition depuis des années... Un procédé vraiment formidable exécuté par des professionnels, et un excellent contact aussi avec le service commercial.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-04-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSMWQwRnZNekJDY2xJd2FXOXpTMUpoYUhsbWNGRRAB",
+   "source": "google",
+   "auteur": "Patrick F.",
+   "note": 5,
+   "texte": "Nous tenions à remercier l'entreprise GERY CORPORATION pour la qualité de leurs travaux et interventions, de pronostic par passage caméra, curage de notre canalisation d'assainissement puis chemisage de celle-ci. Les techniciens, Tom et Arnaud, qui sont intervenus à notre domicile ont fait preuve de grand professionnalisme et nous ont tout le long de leurs interventions expliqués chaque étape ce qui nous a bien rassuré !\nDe plus, l'assistante que nous avons eu au téléphone a tout de suite réagit à nos demandes et questionnements divers de manière très efficace et professionnelle.\nNous recommandons cette entreprise sans hésitation 🙂👍 Patrick et Marie-Hélène",
+   "reponse": "Réponse du propriétaire il y a 8 mois\nMerci infiniement pour votre avis. Belle continuation.",
+   "titre": "",
+   "date": "2026-03-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21OcWVHMVpaVkF6TkdOaFVVNVBWbUZtYTFkUWJYYxAB",
+   "source": "google",
+   "auteur": "Kévin B.",
+   "note": 5,
+   "texte": "Intervention de débouchage, curage puis chemisage. Le réseau présentais des fissures. L’équipes a été super réactives et professionnelles. Nous les remercions pour le travail.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-12-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tjMlNVTjBla3R3UlZvNU5HcDJiVmxTYld0cFJHYxAB",
+   "source": "google",
+   "auteur": "Judith T.",
+   "note": 5,
+   "texte": "Équipe très réactive et investie, le chemisage s'est parfaitement déroulé malgré des difficultés d'accès.\nLa canalisation étant enterrée au croisement de 3 pièces nous avons pu éviter énormément de casse.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT204M01UUnhaVk5UV1ZCRGNGRkhWVjh4ZEdwQmNWRRAB",
+   "source": "google",
+   "auteur": "Marco F.",
+   "note": 5,
+   "texte": "La Société Gery Corporation m’a effectué des travaux de Chemisage dans un immeuble familial de cinq appartement. Cela a été fait dans les délais très raisonnable, Noémie, l’assistante très agréable et très professionnel. Quant au technicien Tom et Arnaud, Très compétent, je recommande cette entreprise moi-même qui a été dans le bâtiment secteur plomberie pendant 40 ans.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25jM1JsZFlPV1J5UkZSQmJ5MHlaRVZPT0hSd1ZuYxAB",
+   "source": "google",
+   "auteur": "Laurence R.",
+   "note": 5,
+   "texte": "Intervention urgente sur canalisation EU.\ntout d'abord excellent accueil téléphonique de Noémie. Très claire et très pro dans ses explications, et surtout très rassurante.\nEnsuite sur place une équipe hors pair! Très ponctuelle, bien organisée, propre mais surtout extrêmement professionnelle.\nBravo et encore merci.",
+   "reponse": "Réponse du propriétaire il y a un an\nBonjour\nUn grand merci pour votre avis si chaleureux sur Google ! Votre retour nous touche énormément et nous motive à continuer à offrir le meilleur service possible.\nVotre confiance et votre soutien sont précieux.\nMerci pour vos mots encourageants !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNub2VLVnhBRRAB",
+   "source": "google",
+   "auteur": "Aymeric (.",
+   "note": 5,
+   "texte": "Intervention pour débouchage, verification camera puis chemisage suite a la detection de fissure importantes dans le PVC passant sous les fondations de la maison.\nLes deux interventions (débouchage et chemisage) se sont super bien déroulées avec des explications complètes a chaque étape avec visuel via la caméra. Equipe très pro qui connait parfaitement son métier et également discrète lors de la longue intervention, tout en laissant tout parfaitement propre après l'intervention 👍🏻.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQxb2FDYjhnRRAB",
+   "source": "google",
+   "auteur": "Livia R.",
+   "note": 5,
+   "texte": "Très belle expérience.\nTravaux de chemisage réalisé le 30 novembre 2023 à mon domicile. Equipe de professionnels à l'écoute, apporte des explications claires. Résultat des travaux satisfaisant. Après les difficultés de trouver un professionnel pour mes travaux, je vous conseille cette société.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURsdEpUQ3NRRRAB",
+   "source": "google",
+   "auteur": "Lesley R.",
+   "note": 5,
+   "texte": "Pour ce chantier compliqué (canalisation fuyarde inaccessible sans casse) l'équipe a été sérieuse et ponctuelle. ! La maîtrise et l'interprétation des passages caméra étaient professionnelles et le chemisage très impressionnant et bien explique.  Bravo et merci.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNac3F2YS1nRRAB",
+   "source": "google",
+   "auteur": "Brice D.",
+   "note": 5,
+   "texte": "Équipe souriante et très professionnelle.\n\nLes canalisations de mon atelier sont refaites à neuf !\n\nLes explications avant et pendant le chantier ont été claires. Je recommande.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNaOUtfcUlBEAE",
+   "source": "google",
+   "auteur": "Etienne J.",
+   "note": 5,
+   "texte": "Prestation de chemisage d'EP sur un site monument historique dans le cadre d'un marché public. Entreprise professionnelle et reactive.",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nGERY CORPORATION, spécialiste du chemisage, vous remercie pour votre commentaire. Au plaisir de travailler à nouveau ensemble.",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUN4X0xyMkpBEAE",
+   "source": "google",
+   "auteur": "BASTIEN G.",
+   "note": 5,
+   "texte": "Intervention de Gery Corporation le 21/04/2023 pour le chemisage d'un tuyau de 11 ml (eaux usées), situé dans un vide sanitaire très étroit (30/40 cm de haut, dans le noir). Très bonne prestation de l'entreprise. Personnel professionnel, ponctuel à la minute près et discret. L'équipe s'investie complétement dans son travail. Nettoyage du chantier après l'intervention (rare de nos jours). L' échange avec le personnel administratif s'est déroulé dans les meilleures conditions possibles ainsi que le paiement. Nous avons trouvé de vrais professionnels, là où aucune autre entreprise n'a voulu intervenir. Nous recommandons vivement GERY CORPORATION.",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nMerci Mr Goigoux pour ce message qui sera transmis à nos équipes.\nBelle continuation à vous.",
+   "titre": "",
+   "date": "2023-11-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

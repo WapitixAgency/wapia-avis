@@ -1,0 +1,228 @@
+{
+ "client": "gambas-royale",
+ "nom": "Gambas Royale",
+ "note": 4.3,
+ "total": 1413,
+ "lienFiche": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.3,
+   "total": 1413,
+   "lien": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tscmEyaHdaVXAxT1c5UlFrbzBOMWN5ZW1GaWFrRRAB",
+   "source": "google",
+   "auteur": "Christelle G.",
+   "note": 5,
+   "texte": "⭐⭐⭐⭐⭐ Une véritable pépite à Bourges ! ❤️🍤\n\nSi vous cherchez un restaurant où l’on mange très bien, où tout est impeccable …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tnd1dtVmlRMjFzYTNkd1JWWjRTMkpFUlMxTVNFRRAB",
+   "source": "google",
+   "auteur": "Rose D.",
+   "note": 5,
+   "texte": "Une adresse qui mérite largement ses 5 étoiles ⭐ La cuisine est délicieuse, le restaurant est toujours d’une propreté irréprochable et le service est aussi souriant qu’attentionné. Même les toilettes sont impeccables et délicatement …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25vMGJsQjZWVU5mZUZsNFJsZDNWVVpTYjNWQ2JsRRAB",
+   "source": "google",
+   "auteur": "Samia N.",
+   "note": 5,
+   "texte": "Encore un superbe repas au gambas Royal aujourd'hui comme d'habitude les produits sont frais les fruits de mer sont d'une fraîcheur incroyable les patrons savent se renouveler et faire en sorte que le client puisse trouver son bonheur …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25sV1NqRXdiVEJUYUZCbk0wcFRNbFpNUWtWTlQyYxAB",
+   "source": "google",
+   "auteur": "Amandine P.",
+   "note": 5,
+   "texte": "Le meilleur restaurant a volonté de bourges .  Cuisine gouteuse . Personnel au petit soin et a l'ecoute de ses clients . Je recommande a 100%",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xsd01IRndlRGhKYjFaM2FWZE9iVzVTYjNaNmNXYxAB",
+   "source": "google",
+   "auteur": "Théofania M.",
+   "note": 5,
+   "texte": "Pour moi les meilleurs de tout les restaurants de cette type.\nJ'ai fêté mon anniversaire ici et j'étais traité comme une princesse. Merci infiniment pour tout!!",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25wb1FXVjBSbEIzWlU1S1R6VjFZMmRHY0RCRVgyYxAB",
+   "source": "google",
+   "auteur": "Lizette",
+   "note": 5,
+   "texte": "Super soirée en famille avec option karaoké\nC était vraiment top on s est super bien amusé\nEt la nourriture beaucoup de choix et très frais …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xsaVRGQnpOSFZmZDFGbVNWZGhSR05oT1UxTmMyYxAB",
+   "source": "google",
+   "auteur": "Michel P.",
+   "note": 5,
+   "texte": "Cuisine variée et excellente. La côte de boeuf n’a d’égale que le gratin dauphinois. Les huîtres étaient délicieuses.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsaVVsVjRjVUp4WDFwWWJuQTJlVFpTTVdndFluYxAB",
+   "source": "google",
+   "auteur": "Christelle M.",
+   "note": 5,
+   "texte": "Buffet très varié avec des produits de qualité. Asiatiques mais également français et italien. Et des fruits que je ne connaissais pas. Très belle découverte. Un petit robot vous apporte vos boissons, café et aliments cuits. Amusant. Ambiance familiale avec un déco sympa.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURDbThHWE13EAE",
+   "source": "google",
+   "auteur": "Philippe R.",
+   "note": 5,
+   "texte": "⭐⭐⭐⭐⭐\nTrès belle redécouverte de la Gambas Royale à Bourges après les travaux !\nLe changement de mobilier apporte une ambiance plus moderne et agréable, les …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-02-03"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2psV1FtcE5Ta3R3ZURkTWRYUmxSVVYxWkhaWFgwRRAB",
+   "source": "google",
+   "auteur": "Corinne P.",
+   "note": 5,
+   "texte": "Nous sommes des habitués de ce restaurant depuis l'ouverture. C'est le premier réveillon que nous faisons là-bas cette année. Nous sommes toujours très satisfaits , mais là sincèrement tout était vraiment parfait. Les buffets …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-01-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25CeGIzSjFORGgwZFhKZlFUQnZSWGxTWDBwNk5HYxAB",
+   "source": "google",
+   "auteur": "Chloé N.",
+   "note": 5,
+   "texte": "Un très bon buffet ou j'adore faire une razzia sur la zone sushis et sashimi 🤤\nBon choix de plats, salle très agréable …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-01-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNPc2EyalJBEAE",
+   "source": "google",
+   "auteur": "Frazy (.",
+   "note": 5,
+   "texte": "Petit partage entre Amis (environ 60)\nTrès bien accueilli et le repas s'est bien déroulé",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-01-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25kR1JWZGZkbDlTV0RKU1lYcEZPRGx5V0RWUlgwRRAB",
+   "source": "google",
+   "auteur": "Cassandra P.",
+   "note": 5,
+   "texte": "Nous avons mangé dans ce restaurant à deux reprises depuis les travaux qui ont été entrepris.\nLes buffets sont magnifiques et classes ! …",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUR1by1iN1FREAE",
+   "source": "google",
+   "auteur": "Rose",
+   "note": 5,
+   "texte": "Très bon restaurant, très bon accueil, le buffet est excellent, tout est délicieux, très frais, c'est rigolo le robot serveur qui emmène les boissons à table. L'ambiance est super sympa avec le karaoké, c'est familial. La gestion de la …",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xRMmRIWjJObnBNWWpJdFgyd3RXamxvWDNScWRXYxAB",
+   "source": "google",
+   "auteur": "Victor B.",
+   "note": 5,
+   "texte": "Excellent restaurant à volonté ! Un large choix en termes de plat à déguster. Le verre de saké offert aide à faire passer le tout ! Le prix est dans les standard. Le restaurant est propre. Petit bémol au niveau des desserts sur la qualité …",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUR2eEwyMkZ3EAE",
+   "source": "google",
+   "auteur": "Alexandra",
+   "note": 5,
+   "texte": "Le plus incroyable buffet asiatique que je connais !  Un choix interminable, haut de gamme, très gourmand, bien présenté et très bien cuisiné !\nLe choix des desserts est surprenant, ça change des autres buffets asiatiques, …",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURQakpQekxnEAE",
+   "source": "google",
+   "auteur": "Jessica A.",
+   "note": 5,
+   "texte": "On y a mangé deux fois et franchement pas déçue, le personnel a était super avec notre bébé puis de la part de Monsieur ( Est-ce que pour le 11 juillet 2026 vous êtes d'accord pour une réservation de 20 personnes pour un mariage vu que vous avez le karaoké ?)",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNQZ1BPRGtnRRAB",
+   "source": "google",
+   "auteur": "Elise B.",
+   "note": 5,
+   "texte": "Très belle découverte, nous étions de passage à Bourges et nous avons mangé dans ce buffet asiatique de bonne qualité.\nBeaucoup de choix, sushi, poisson frais, large gamme de dessert pour un budget …",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNwa3BqR2VnEAE",
+   "source": "google",
+   "auteur": "Sylvie C.",
+   "note": 5,
+   "texte": "J'aime beaucoup, j'adore, les buffets sont excellents le wok un pur Bonheur pour les papilles et le personnel au petit soin. Et les enfants aiment bien les petits robots qui vous apportent les boissons jusqu'à votre table. Les produits sont frais et fait maison.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURMbEpHaUtnEAE",
+   "source": "google",
+   "auteur": "Odile V.",
+   "note": 5,
+   "texte": "Le plus grand des restaurant à volonté asiatique que nous avons fait, le plus beau en déco et surtout le mieux achalandé avec des produits frais et bien cuisinés. Le personnel est agréable. Merci à vous",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  }
+ ],
+ "maj": "2026-11-04"
+}

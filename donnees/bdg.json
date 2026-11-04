@@ -1,0 +1,228 @@
+{
+ "client": "bdg",
+ "nom": "BDG Découpe et Pliage",
+ "note": 5,
+ "total": 25,
+ "lienFiche": "https://www.google.com/maps/place/BDG+d%C3%A9coupes+et+pliages/@48.568568,2.6296588,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5f130e0f7a645:0x386bd9335877f0d1!8m2!3d48.568568!4d2.6296588!16s%2Fg%2F11sbgj8x1n?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/BDG+d%C3%A9coupes+et+pliages/@48.568568,2.6296588,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5f130e0f7a645:0x386bd9335877f0d1!8m2!3d48.568568!4d2.6296588!16s%2Fg%2F11sbgj8x1n?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 5,
+   "total": 25,
+   "lien": "https://www.google.com/maps/place/BDG+d%C3%A9coupes+et+pliages/@48.568568,2.6296588,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5f130e0f7a645:0x386bd9335877f0d1!8m2!3d48.568568!4d2.6296588!16s%2Fg%2F11sbgj8x1n?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/BDG+d%C3%A9coupes+et+pliages/@48.568568,2.6296588,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5f130e0f7a645:0x386bd9335877f0d1!8m2!3d48.568568!4d2.6296588!16s%2Fg%2F11sbgj8x1n?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKV2VsRnRTME5CUzNreWNrZGxZV1EzUkhrNVNYYxAB",
+   "source": "google",
+   "auteur": "Ariel L.",
+   "note": 5,
+   "texte": "Très bonne expérience avec la société BDG à Dammarie. Équipe sérieuse, réactive et professionnelle du début à la fin. Les échanges ont été clairs et efficaces, avec un vrai suivi du dossier. Je recommande sans hésiter.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-01-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VPNlNwcjdqeWZub0hREAE",
+   "source": "google",
+   "auteur": "Cyrille P.",
+   "note": 5,
+   "texte": "J'ai fait appel a l'équipe BDG pour la réalisation d'un projet complexe. Celui d'un escalier compact que j'avais dessiné en 3D sur FreeCAD. Cette entreprise n'a pas beaucoup l'habitude de travailler pour des particuliers mais intrigué par le projet ils m'ont vraiment accompagné.\nL'équipe à repris mon plan et suggéré des améliorations puis procédé aux découpe, assemblage et peinture.\nLe résultat du travail est remarquable. Ils ont tenus les délais et les prix étaient raisonnable avec la livraison.\nUn grand bravo et merci à toute l'équipe.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUNROHNHOGh3RRAB",
+   "source": "google",
+   "auteur": "S G.",
+   "note": 5,
+   "texte": "J'ai demandé une commande spéciale pour mon véhicule, une barre de seuil pour mon T3 VW de 1984. Ils ont tout de suite bien compris mon projet et s'adapter aux dimensions spécifiques. Très à l'écoute durant la phase de conception et réalisation conforme à mes attentes. Du super boulot. Très professionnels. Merci à eux",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUNBMi1pLW1nRRAB",
+   "source": "google",
+   "auteur": "Flo M.",
+   "note": 5,
+   "texte": "Entreprise sérieuse, bonne communication, les délais sont tenus et les prix compétitifs. Je recommande!\nA bientôt pour de nouveaux projets.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNybTZiX1pBEAE",
+   "source": "google",
+   "auteur": "DissidentJV",
+   "note": 5,
+   "texte": "rien à dire sur la réalisation et découpage des pièces, c'est parfait",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nMerci pour votre commentaire, nous faisons de notre mieux pour répondre aux besoins de nos clients.\nAu plaisir de vous revoir prochainement !",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNEaHBMVGpRRRAB",
+   "source": "google",
+   "auteur": "Romuald B.",
+   "note": 5,
+   "texte": "Entreprise et personnel très professionnelle et sérieux, si vous chercher quelques choses athypique et peu courant c’est la bas qu’il faut allez\nils ont déjà relever de nombreux challenges pas si simple.",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nMerci pour votre commentaire très positif, ce dépasser chaque jour est notre let motive...",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUROZzdLTlFREAE",
+   "source": "google",
+   "auteur": "Rachid H.",
+   "note": 5,
+   "texte": "Une entreprise très sérieuse qui sait vous accompagner dans vos projets de découpe laser et pliages. Très réactif je recommande",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNwbWVYQ2RREAE",
+   "source": "google",
+   "auteur": "NELLY D.",
+   "note": 5,
+   "texte": "Très réactif, comprend le besoin du client et est force de proposition pour fournir un produit de qualité. Je recommande.",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nMerci Nelly pour votre commentaire nous nous efforçons de satisfaire nos clients en faisant toujours de notre mieux.",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNodDhpYlJ3EAE",
+   "source": "google",
+   "auteur": "Jessie B.",
+   "note": 5,
+   "texte": "Entreprise très sérieuse et compétitive en terme de tarifs et délai.\nJ'ai dessiné mes gardes corps et ma verrière et ils ont fabriqué les produits avec une qualité  au delà de mes espérances.\nTrès bonne prestation de service et après vente.\nJe recommande vivement.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNobDRqREFREAE",
+   "source": "google",
+   "auteur": "Michael W.",
+   "note": 5,
+   "texte": "Travail de qualité, atelier de serrurerie équipé d'une machine de découpe laser ! Mr BENONI réalise tous vos projets de métallerie serrurerie ! Je recommande pour son professionnalisme !",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNobF92Y1FBEAE",
+   "source": "google",
+   "auteur": "Brice M.",
+   "note": 5,
+   "texte": "Entreprise réactive et créative, une grande expérience pour trouvé là solution adaptée\nMerci à BDG 🤝 …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNobDl5UU5REAE",
+   "source": "google",
+   "auteur": "Sabrina Z.",
+   "note": 5,
+   "texte": "Entreprise sérieuse avec un savoir faire et un professionnalisme certain. Je recommande a 100%",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNobDlUeUtnEAE",
+   "source": "google",
+   "auteur": "Franck S.",
+   "note": 5,
+   "texte": "Equipe professionnelle.  Travail de qualité.\nMerci BDG pour vos travaux.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNobDdDaEpnEAE",
+   "source": "google",
+   "auteur": "Willy",
+   "note": 5,
+   "texte": "Très bonne entreprise, équipe sérieuse et très à l'écoute, sans compter les bons conseils sur les travaux qu'on leur demande. Je recommande vivement.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNobDlEUG1nRRAB",
+   "source": "google",
+   "auteur": "Service 9.",
+   "note": 5,
+   "texte": "Des délais imbattables, une équipe de bons conseils et sympathique\nA bientôt !",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNoNS0tS2p3RRAB",
+   "source": "google",
+   "auteur": "Fabrice H.",
+   "note": 5,
+   "texte": "Très pro\nDe bon conseil et travail de qualité\nFélicitations",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNoNTllRThBRRAB",
+   "source": "google",
+   "auteur": "Lea (.",
+   "note": 5,
+   "texte": "Entreprise sérieuse et à l’écoute. Ils m’ont été d’une grande aide. Je recommande vivement 👍🏻 …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNoNTZmSHhnRRAB",
+   "source": "google",
+   "auteur": "Anna M.",
+   "note": 5,
+   "texte": "Entreprise sérieuse qui propose un bon rapport qualité/prix. Je recommande vivement",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNoNTZmcmF3EAE",
+   "source": "google",
+   "auteur": "Vertu 7.",
+   "note": 5,
+   "texte": "Professionnel à l'écoute du client, du bon travail d'artisan.\nJe recommande.",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNoNTlmTDNnRRAB",
+   "source": "google",
+   "auteur": "Aurelien P.",
+   "note": 5,
+   "texte": "Travail très prope avec un bon délais\nJe recommande 👌 …",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

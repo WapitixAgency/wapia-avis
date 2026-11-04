@@ -1,0 +1,228 @@
+{
+ "client": "le-rideau",
+ "nom": "Le Rideau",
+ "note": 5,
+ "total": 25,
+ "lienFiche": "https://www.google.com/maps/place/Le+Rideau/@48.8493781,2.3534074,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f0d4536a277:0x7f7e25ae49f73d3a!8m2!3d48.8493781!4d2.3534074!16s%2Fg%2F11y87fl5dg?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/Le+Rideau/@48.8493781,2.3534074,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f0d4536a277:0x7f7e25ae49f73d3a!8m2!3d48.8493781!4d2.3534074!16s%2Fg%2F11y87fl5dg?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 5,
+   "total": 25,
+   "lien": "https://www.google.com/maps/place/Le+Rideau/@48.8493781,2.3534074,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f0d4536a277:0x7f7e25ae49f73d3a!8m2!3d48.8493781!4d2.3534074!16s%2Fg%2F11y87fl5dg?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/Le+Rideau/@48.8493781,2.3534074,17z/data=!3m1!4b1!4m6!3m5!1s0x47e66f0d4536a277:0x7f7e25ae49f73d3a!8m2!3d48.8493781!4d2.3534074!16s%2Fg%2F11y87fl5dg?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21ndGRFSkZTbVJQVVhCQ2VucGhWamhmUjE4MWIxRRAB",
+   "source": "google",
+   "auteur": "Thanit A.",
+   "note": 5,
+   "texte": "Très belle collaboration, je ne peux que recommander l’agence pour l’organisation de vos événements ! Nathan et Louis sont extrêmement professionnels, créatifs, réactifs et toujours arrangeants. Leur accompagnement est précieux et permet d’aborder le projet en toute confiance. Tout le monde s’accorde à dire que la soirée a été une véritable réussite, jusque dans les moindres détails. Un très grand merci à tous les deux !",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCM1YwWlhZazh4VFd0R1MxYzNkVzlyZW5sWlQxRRAB",
+   "source": "google",
+   "auteur": "Alexandra V.",
+   "note": 5,
+   "texte": "Super agence, Nathan est bienveillant, hyper dynamique, toujours partant pour proposer des supers projets évènementiels. J'ai eu la chance de travailler avec eux sur un team building de 100pers au mois de décembre avec un délai assez court pour une mise en place qui n'aurait pas pu mieux se dérouler. On refera surement appel à eux pour d'autre types d'évènements ! Merci",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-03-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21GSVJXcEJia0V4TUROR09XVm5OekI2YlV4U2JGRRAB",
+   "source": "google",
+   "auteur": "Anne Z.",
+   "note": 5,
+   "texte": "Nous avons collaboré avec l'agence Le Rideau pour notre séminaire à Paris en janvier 2026 et l'expérience a été excellente.\n\nIls nous ont été d'une aide précieuse pour trouver un lieu original, charmant et parfaitement fonctionnel pour notre séance plénière.\n\nLeur soutien a été exceptionnel, tant lors de la préparation que sur place le jour de l'événement.\n\nLe fait qu'ils coordonnent l'ensemble de l'événement a été très rassurant et nous a permis de gagner un temps considérable.\n\nNous les recommandons vivement !",
+   "reponse": "Réponse du propriétaire il y a 9 mois\nMerci Anne ! C'était un plaisir de travail avec toi. Content que les chouquettes aient été a ton goût 😁 …",
+   "titre": "",
+   "date": "2026-02-03"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWMlpDMURlSHBsVkhVelZFTk1kRlF5UkdKYWMwRRAB",
+   "source": "google",
+   "auteur": "Hassen C.",
+   "note": 5,
+   "texte": "Super équipe, super service ! Nathan et Louis sont à l’écoute, réactifs et très pros. C’est un vrai plaisir de travailler avec des personnes aussi impliquées et passionnées.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-02-03"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKVFJqQTJlV3RSWjJONlFYVTBNVFV4U0VWNFQyYxAB",
+   "source": "google",
+   "auteur": "Ludovic P.",
+   "note": 5,
+   "texte": "Très bonne expérience avec Le Rideau. Organisation impeccable et un vrai plaisir de collaborer avec l’équipe. Bravo à Louis pour son suivi efficace. Je recommande.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-12-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VOZkl3cnlfOGV2MnVRRRAB",
+   "source": "google",
+   "auteur": "Severine G.",
+   "note": 5,
+   "texte": "Louis de Le Rideau nous a aidé à trouver 2 lieux hypers sympas pour 2 soirées d'entreprise à Paris. Il a géré l'intégralité des prestations et est présent le jour J pour s'assurer que tout fonctionne à merveille. Je recommande les yeux fermés Le Rideau pour vos évènements d'entreprise.",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci Sévérine 🙏 Au plaisir d'accompagner à nouveau Great Place to Work !  …",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTURvc2JDZ1RBEAE",
+   "source": "google",
+   "auteur": "Florent",
+   "note": 5,
+   "texte": "Une agence sérieuse et créative. Organisation impeccable et super ambiance. Bravo à toute l’équipe ! 🎉 …",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci Florent ! Content d'avoir pu travailler ensemble, c'était une chouette soirée :)",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUNvc0tlV2tRRRAB",
+   "source": "google",
+   "auteur": "Muriel G.",
+   "note": 5,
+   "texte": "Louis m'a aidé à organiser une soirée client pour + 100 personnes, tout a été parfait, le lieu, le traiteur (délicieux), le dj, la déco... je ne sais pas comment on aurait fait sans lui !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci Muriel ! C'était un plaisir de t'accompagner :)",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTURJelBQZkdnEAE",
+   "source": "google",
+   "auteur": "Alice I.",
+   "note": 5,
+   "texte": "Merci à l'équipe Le Rideau pour cette soirée incroyable que nous ne sommes pas prêts d'oublier ! Organisation, communication et bienveillance, le trio gagnant  pour un projet événementiel à la hauteur des prestations signées Le Rideau. Merci !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Alice ! On a beaucoup apprécié travailler avec vous. A bientôt !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUR3eWJMMjdnRRAB",
+   "source": "google",
+   "auteur": "Louis G.",
+   "note": 5,
+   "texte": "Merci à Nath et Louis pour l'organisation de notre soirée annuelle. Ils ont bien anticipé tous les besoins et imprévus. Je recommande à 100%",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Louis ! C'était un plaisir !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUR3eVpqSkFREAE",
+   "source": "google",
+   "auteur": "Constance C.",
+   "note": 5,
+   "texte": "Un événement parfaitement organisé, avec des activités qui changent de ce qu’on connaît déjà, et une équipe réactive, disponible et joviale. Je recommande !\nMerci Le Rideau",
+   "reponse": "Réponse du propriétaire il y a un an\nAvec plaisir Constance ! Le concept amené était top :)",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUR3c2JfeVdBEAE",
+   "source": "google",
+   "auteur": "Audrey J.",
+   "note": 5,
+   "texte": "Nous avons fait appel à Le Rideau pour l'organisation de notre soirée de fin d'année, et tout a été parfait ! 🎉 Une équipe à l'écoute, réactive et professionnelle, qui a su répondre à nos attentes et même les dépasser. L'ambiance était au rendez-vous, et nos collaborateurs ont passé un excellent moment. Merci encore pour cette belle organisation ! Je recommande vivement 🚀",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Audrey ! On a passé un bon moment également avec vous 😁 …",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUR3dkoybVFnEAE",
+   "source": "google",
+   "auteur": "Simon D.",
+   "note": 5,
+   "texte": "Un événement parfaitement organisé, avec une ambiance magique et originale. Nos invités ont adoré ! Merci à l’équipe.",
+   "reponse": "Réponse du propriétaire il y a un an\nC'était un plaisir ! On est ravis que tes invités aient apprécié ce moment suspendu !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUR3dk9UOWFnEAE",
+   "source": "google",
+   "auteur": "Augustin E.",
+   "note": 5,
+   "texte": "Quelle soirée de fin d'année !! Merci encore pour l'organisation et votre créativité",
+   "reponse": "Réponse du propriétaire il y a un an\nQuel moment de notre coté également ! Avec plaisir Augustin 🙏 …",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUN3eDhiUFVnEAE",
+   "source": "google",
+   "auteur": "Patrick B.",
+   "note": 5,
+   "texte": "Très content de l'équipe du Rideau pour l'évènement de mon entreprise, je recommande vivement leurs services !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Patrick ! Au plaisir de retravailler ensemble :)",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUN3aDZ1MFRREAE",
+   "source": "google",
+   "auteur": "Tristan J.",
+   "note": 5,
+   "texte": "Très satisfait d'avoir fait appel à l'équipe du Rideau pour ma soirée d'entreprise de 600 personnes. Au-delà de leur disponibilité, rigueur et sympathie, ils font preuve d'originalité dans le choix des animations, des prestataires food, de la musique (le DJ était incroyable) et de la scénographie. Bref, une réussite !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Tristan ! On a fait passer le mot au DJ 😉 On est à fond pour l'année prochaine ! …",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUN3aC1iRHNBRRAB",
+   "source": "google",
+   "auteur": "Maxime C.",
+   "note": 5,
+   "texte": "Super soirée organisé par Le Rideau - équipe très pro - je recommande et réitérerai",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci Maxime ! Avec plaisir pour travailler à nouveau ensemble !",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUN3dTlYZjN3RRAB",
+   "source": "google",
+   "auteur": "Clothilde B.",
+   "note": 5,
+   "texte": "J’ai eu le plaisir de faire appel à cet agence événementielle et je suis absolument ravie du service. L’équipe a été incroyablement professionnelle, créative, attentive à nos besoins et a su organiser chaque détail avec soin. Je recommande vivement cette agence pour vos événements d’entreprise !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Clothilde ! On a adoré l'événement 😁 …",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTUN3dTdyZnFnRRAB",
+   "source": "google",
+   "auteur": "Emmanuel B.",
+   "note": 5,
+   "texte": "Une agence événementielle qui se démarque vraiment par sa créativité et son sens du détail. L’équipe est à l’écoute, réactive et force de proposition, avec une vraie capacité à transformer un brief en une expérience marquante. Leur approche innovante et humaine apporte un nouveau souffle au secteur des événements corporate. Une belle découverte que je recommande sans hésiter !",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci beaucoup Emmanuel, ça fait nous fait très plaisir 🙂 …",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCWmJEUXhlVTFDYUV0M01ETkplRGRTZDFKaGMxRRAB",
+   "source": "google",
+   "auteur": "Ines E.",
+   "note": 5,
+   "texte": "Merci pour l'organisation de notre séminaire c'était Top !!",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-10-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

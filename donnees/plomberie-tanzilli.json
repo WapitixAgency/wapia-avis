@@ -1,6 +1,6 @@
 {
  "client": "plomberie-tanzilli",
- "nom": "Plomberie / Climatisation / Chauffage TANZILLI",
+ "nom": "Plomberie Tanzilli",
  "note": 5,
  "total": 61,
  "lienFiche": "https://www.google.com/maps/place/Plomberie+%2F+Climatisation+%2F+Chauffage+TANZILLI/@45.7663837,4.9035615,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4c04e6e0b2d2d:0x61899094edbd857!8m2!3d45.7663837!4d4.9035615!16s%2Fg%2F11cmg5wpc6?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
@@ -15,16 +15,33 @@
    "lienAvis": "https://www.google.com/maps/place/Plomberie+%2F+Climatisation+%2F+Chauffage+TANZILLI/@45.7663837,4.9035615,17z/data=!3m1!4b1!4m6!3m5!1s0x47f4c04e6e0b2d2d:0x61899094edbd857!8m2!3d45.7663837!4d4.9035615!16s%2Fg%2F11cmg5wpc6?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
   }
  ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
  "avis": [
   {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCd1gwZEdNMmt5YkdaWmNuUXlRbXBwVm5kQ0xVRRAB",
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNqdHVQZFlBEAE",
    "source": "google",
-   "auteur": "Marie-Anne",
+   "auteur": "Sylvie N.",
    "note": 5,
-   "texte": "Très bonne expérience (à part le retard), agréable, professionnel et efficace. Communication satisfaisante (ce qui n'est pas le cas de tous les artisans!)",
+   "texte": "Interventions toujours impeccables, Julien est pro, très compétent et sympathique. Top !",
    "reponse": "",
-   "date": "2026-10-05",
-   "dateTexte": "il y a un mois"
+   "titre": "",
+   "date": "2026-10-30"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pnelRHZ3RkekJ0ZVRKbE9YRkdiemhFTkZSdWFsRRAB",
+   "source": "google",
+   "auteur": "Jean-Marie V.",
+   "note": 5,
+   "texte": "Intervention rapide et de qualité pour changer une pompe de relevage d’une climatisation, je recommande.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-09-04"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2s1aFRXNWtWM2RVWTNaRmNtSnhaRkZxWjNkZlozYxAB",
@@ -33,8 +50,8 @@
    "note": 5,
    "texte": "L'entreprise Tanzilli a effectué un travail remarquable en un minimum de temps et sachant s'adapter à toutes les nouveautés que le chantier a nécessité",
    "reponse": "",
-   "date": "2026-08-05",
-   "dateTexte": "Modifié il y a 3 mois"
+   "titre": "",
+   "date": "2026-08-05"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21KRlJuZFNSMDVHY1RNdFFqVmhiREpGU0ZSM1pHYxAB",
@@ -43,28 +60,8 @@
    "note": 5,
    "texte": "Un grand merci pour votre réactivité ! En plus d'être très professionnel et efficace, ce plombier-chauffagiste est hyper sympa et de bon conseil. C'est rare et précieux de trouver un artisan aussi agréable et disponible. Je referai appel à lui sans hésiter pour mes travaux de plomberie. Merci encore.",
    "reponse": "",
-   "date": "2026-07-05",
-   "dateTexte": "il y a 4 mois"
-  },
-  {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT2twQ1JtRmtUM1ZUTjE5TlNEaG5lbmh6VUZCRldGRRAB",
-   "source": "google",
-   "auteur": "Hélène N.",
-   "note": 5,
-   "texte": "Monsieur Tanzilli est très professionnel, compétent, réactif et sympathique. Je suis très satisfaite de ses interventions.",
-   "reponse": "",
-   "date": "2026-07-05",
-   "dateTexte": "il y a 4 mois"
-  },
-  {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT21GUFQzcExXSE5RVjJORFJHczBSMU5MVEhOQ1VuYxAB",
-   "source": "google",
-   "auteur": "Laurent S.",
-   "note": 5,
-   "texte": "Artisan très professionnel réactif et de très  bon conseil.\nLe travail est propre et la personne consciencieuse.\nA solliciter sans hésiter",
-   "reponse": "",
-   "date": "2026-06-05",
-   "dateTexte": "il y a 5 mois"
+   "titre": "",
+   "date": "2026-07-05"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT20xRFEwUm9TeTFOTlRaR2MwOXpOM2xxVEVWalExRRAB",
@@ -73,8 +70,8 @@
    "note": 5,
    "texte": "Intervention rapide et efficace pour l’entretien de ma climatisation. Techniciens professionnels  et ponctuels , travail soigné. Je recommande !",
    "reponse": "",
-   "date": "2026-05-06",
-   "dateTexte": "il y a 6 mois"
+   "titre": "",
+   "date": "2026-05-06"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkQ1p6bFJZMmRLZFZaek1qTmtVbWRzTlZkWGIyYxAB",
@@ -83,8 +80,8 @@
    "note": 5,
    "texte": "Mon chauffe-eau rend l'âme... M. Tanzilli me propose de le remplacer le lendemain. Une entreprise familiale réactive, sympathique et qui intervient à un tarif raisonnable. Je ne peux que recommander :-)",
    "reponse": "",
-   "date": "2026-03-06",
-   "dateTexte": "il y a 8 mois"
+   "titre": "",
+   "date": "2026-03-06"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT204MmVFZEpOV0Z2Ukc1cGIzcFVSRVF5UkZCR1ZVRRAB",
@@ -93,8 +90,8 @@
    "note": 5,
    "texte": "Je suis très satisfait de la prestation de l'entreprise Tanzilli. Il m'ont changé très rapidement mon cumulus, quelques jours après mon appel. Du travail bien fait, je recommande cette entreprise.",
    "reponse": "",
-   "date": "2026-03-06",
-   "dateTexte": "il y a 8 mois"
+   "titre": "",
+   "date": "2026-03-06"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCak5qRjNPRVI1U2tweGJrOW9ObGQyTjFWZlNsRRAB",
@@ -103,8 +100,8 @@
    "note": 5,
    "texte": "Très satisfait de la prise en charge de ma demande. Le devis était clair et respecté, et les réparations ont été faites dans les temps. L'employé qui est intervenu, est professionnel, et fort sympathique. Autre élément et pas des moindres, nous n'avons pas eu de surprise avec la facture, qui est très correcte.",
    "reponse": "",
-   "date": "2026-02-03",
-   "dateTexte": "il y a 9 mois"
+   "titre": "",
+   "date": "2026-02-03"
   },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t3MGNVaGZkSGRTY0RjMmJYQnlTR042ZUV4bFEwRRAB",
@@ -113,34 +110,119 @@
    "note": 5,
    "texte": "Nous sommes de fidèles clients de M. TANZILLI qui nous a installé notre chaudière Frisquet et à qui nous avons confié son entretien. Service et compétences au top, tarifs raisonnables quel que soit le type d'intervention. Nous recommandons chaleureusement!",
    "reponse": "",
-   "date": "2025-12-05",
-   "dateTexte": "il y a 11 mois"
+   "titre": "",
+   "date": "2025-12-05"
   },
   {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT21Ga1RHRmpjemhTYUhacE9GVk5PRzh6V1ZoTVUxRRAB",
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xab1dGTkthRkZDZVZSSVUweE5RelJEYlMxdVUxRRAB",
    "source": "google",
-   "auteur": "SCI S.",
+   "auteur": "Anny L.",
    "note": 5,
-   "texte": "Très professionnel et réactif. Nous travaillons depuis plusieurs années avec l'entreprise Tanzilli et nous sommes toujours satisfait.",
+   "texte": "Installation d'une climatisation, très professionnel, entreprise sérieuse et de bons conseils. A recommander sans hésitation",
    "reponse": "",
-   "date": "2025-12-05",
-   "dateTexte": "il y a 11 mois"
+   "titre": "",
+   "date": "2025-11-04"
   },
   {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT25CcE1XaHNjVzgzVXpCU2NqWktObm93TUc5dlpFRRAB",
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214NFFXcFFjek0yUkUxQk4zcFJlbmxpTlhKRGFIYxAB",
    "source": "google",
-   "auteur": "Dominique G.",
+   "auteur": "Akila M.",
    "note": 5,
-   "texte": "Monsieur Tanzilli est très professionnel, efficace,  fiable et de surcroît très courtois et agréable, je le recommande chaleureusement.",
+   "texte": "Disponible rapidement pour un diagnostic concernant une panne qui ne se résolvait pas selon d autre plombier et depuis plusieurs mois…\nIntervention rapide et professionnelle car maitrise du sujet ce qui est rassurant.\nAu nom de toute l équipe Merci Mr TANZILLI !",
    "reponse": "",
-   "date": "2025-11-04",
-   "dateTexte": "il y a un an"
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pNemRFSlRTVEoxVG5wUWNFOTRkMmhEU2psRE9FRRAB",
+   "source": "google",
+   "auteur": "Joelle V.",
+   "note": 5,
+   "texte": "Rapidité d'intervention et efficacité malgré 1 planning chargé et une chaleur étouffante. Merci d'avoir pris le temps de tout faire en 1 fois.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUNJNU5iT2R3EAE",
+   "source": "google",
+   "auteur": "Triboulat T.",
+   "note": 5,
+   "texte": "Intervention en urgence suite dégât des eaux. Compétence, gentillesse, politesse, prix raisonnable et explications. Je recommande !",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNQcnV1UmN3EAE",
+   "source": "google",
+   "auteur": "William",
+   "note": 5,
+   "texte": "Toujours satisfait des services. J'ai déjà fait une salle de bain entière. Une climatisation et des changements de radiateurs.\nTravail bien fait avec le sourire.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURudnJpSmJ3EAE",
+   "source": "google",
+   "auteur": "Loïc",
+   "note": 5,
+   "texte": "efficace et écoresponsable  préfère réparer si possible que changer",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNENTZPY0d3EAE",
+   "source": "google",
+   "auteur": "Gérard D.",
+   "note": 5,
+   "texte": "Depuis des années, Julien est bien plus qu'un plombier pour nous ; c'est le professionnel de confiance à qui on fait appel sans hésiter. Toujours là quand on a besoin de lui, il allie expertise et qualité, garantissant non seulement des interventions efficaces mais aussi une relation de confiance et de respect.\n\nSes conseils clairs et son travail soigné nous rassurent à chaque fois. C'est pour son professionnalisme autant que pour sa sympathie naturelle que je le recommande chaleureusement à tous ceux qui cherchent un service fiable et de qualité.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNPcll5eG5RRRAB",
+   "source": "google",
+   "auteur": "Stephanie P.",
+   "note": 5,
+   "texte": "Excellente entreprise, je recommande !!!\nL'employé est venu effectuer le dépannage malgré 8 étages à monter ... l'ascenseur étant en panne.\nTrès agréable, très pro, ponctuel, souriant, aimable.\nFélicitations à cet employé et à l'entreprise qui est très réactive sur les appels et/ou SMS.",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNPNU9md3dnRRAB",
+   "source": "google",
+   "auteur": "Johanna",
+   "note": 5,
+   "texte": "L'équipe de M. TANZILLI  a été très réactive suite à ma demande. Ils sont intervenus en urgence malgré un planning chargé et ont résolu mon problème malgré qu'un précèdent plombier était passé. Je recommande cet artisan !",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURtdVA3YkxBEAE",
+   "source": "google",
+   "auteur": "Veronique B.",
+   "note": 5,
+   "texte": "Dépannage rapide et en fin de journée sur Tassin la demi lune.\névier bouché un vendredi après-midi, j'avais déjà fait intervenir un artisan du coin mais il ne trouvait pas la cause. Vincent et Julien ont réussi à trouver la cause de ce problème récurrent.",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNxeXJUeUZBEAE",
+   "source": "google",
+   "auteur": "Abel B.",
+   "note": 5,
+   "texte": "J'ai contacté l'entreprise Tanzilli pour l'installation d'une climatisation multisplit pour trois pièces dans un duplex ancien. Tout au long du projet, de la conception à la réalisation, Monsieur Tanzilli s'est montré très coopératif et soucieux de préserver l'existant, ce qui n'a pas été sans difficultés; mais il a énormément payé de sa personne pour mener à bien le travail. La réalisation est tout-à-fait conforme à ce que j'attendais.",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
   }
  ],
- "maj": "2026-11-04T11:49:00.173Z",
- "affichage": {
-  "modele": "carrousel",
-  "theme": "clair",
-  "couleur": "#0b5cab"
- }
+ "maj": "2026-11-04"
 }

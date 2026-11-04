@@ -1,0 +1,228 @@
+{
+ "client": "ermitage-brouilly",
+ "nom": "L'Ermitage de Brouilly",
+ "note": 4.8,
+ "total": 86,
+ "lienFiche": "https://www.google.com/maps/place/L'Ermitage+de+Brouilly/@46.1003494,4.6356658,17z/data=!3m1!4b1!4m6!3m5!1s0x47f481c60dafc125:0xf971d95ed5dce218!8m2!3d46.1003494!4d4.6356658!16s%2Fg%2F11fmzgq66x?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/L'Ermitage+de+Brouilly/@46.1003494,4.6356658,17z/data=!3m1!4b1!4m6!3m5!1s0x47f481c60dafc125:0xf971d95ed5dce218!8m2!3d46.1003494!4d4.6356658!16s%2Fg%2F11fmzgq66x?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.8,
+   "total": 86,
+   "lien": "https://www.google.com/maps/place/L'Ermitage+de+Brouilly/@46.1003494,4.6356658,17z/data=!3m1!4b1!4m6!3m5!1s0x47f481c60dafc125:0xf971d95ed5dce218!8m2!3d46.1003494!4d4.6356658!16s%2Fg%2F11fmzgq66x?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/L'Ermitage+de+Brouilly/@46.1003494,4.6356658,17z/data=!3m1!4b1!4m6!3m5!1s0x47f481c60dafc125:0xf971d95ed5dce218!8m2!3d46.1003494!4d4.6356658!16s%2Fg%2F11fmzgq66x?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21GbmFXVXdXVUpKZDBwRk9WbzNibTVHYldkUGFHYxAB",
+   "source": "google",
+   "auteur": "Liliane B.",
+   "note": 5,
+   "texte": "Un cadre enchanteur en cette période automnale pour notre mariage 🫶 les extérieurs apportent le charme naturel des lieux la salle de réception exceptionnelle et fonctionnelle. La literie de tous les couchages du gîte extrêmement confortable 👍. Les prestataires qui nous ont été recommandés par l’hôte de ces lieux tellement adorables , serviables, sympathiques et un traiteur formidable tant sur le cocktail, le repas et le brunch du dimanche !! Une fête de mariage inoubliable car l’ensemble créait une harmonie extraordinaire qui nous a envoûté ainsi que nos convives ! Merci à tous 🤗🫶❤️",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSM1ZrRjBXR05JTm14YVpVZFhlVlpTY25WT2FrRRAB",
+   "source": "google",
+   "auteur": "W_H_W",
+   "note": 5,
+   "texte": "Superbe domaine viticole pour organiser la réception de son mariage ou passer un week-end entre amis.\n\nLa vue est magnifique, la bâtisse est très joliment décorée et rénovée, bref le cadre est parfait pour passer un très bon moment suspendu dans le temps a festoyer.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkVGVWSXlTRVZxUWw5d1J6UXliRmRoWmtGTVNsRRAB",
+   "source": "google",
+   "auteur": "Greg B.",
+   "note": 5,
+   "texte": "Je suis photographe de mariage et je trouve ce lieu incroyable ! J'ai eut le plaisir d'y faire un reportage. Cet endroit est une pure merveille. La vue est époustouflante.  Un immense bravo pour la beauté et l'entretien de ce lieu magique. Je le recommande à 1000% !",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kxS04zQTFVVXhCTjBvNVkyMUdWekl3UmpZd1dXYxAB",
+   "source": "google",
+   "auteur": "Tanaïs P.",
+   "note": 5,
+   "texte": "Nous avons célébré notre mariage dans ce magnifique lieu qui nous a transporté sur un nuage pour un des plus beau jours de notre vie. Tout était parfait, la literie est exceptionnelle, les lieux sont propres et décorés avec goût : nous ne regrettons pas une seul seconde d’avoir choisi l’ermitage pour notre mariage, c’était le cadre idéal pour célébrer l’amour.\nMerci Gaëlle de nous avoir si bien accueilli.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214TllrRTJNV0pKUTFCalFsQkRSMWRpZUdzNFkyYxAB",
+   "source": "google",
+   "auteur": "Angelique D.",
+   "note": 5,
+   "texte": "Notre mariage a eu lieu le 05/07/2025 au domaine de l’ermitage de brouilly qui a été magique et féerique grâce à cet endroit extraordinaire, une vue exceptionnelle, une salle magnifique, et des chambres très bien entretenues ! Un grand merci à la propriétaire, nous recommandons ce lieu à 100 % ! Cet instant restera gravé à jamais dans nos mémoires 😊",
+   "reponse": "Réponse du propriétaire il y a un an\nJe vous remercie d’avoir pris le temps de rédiger cet élogieux avis et suis très heureuse que notre domaine ait tenu ses promesses. Nous souhaitons le meilleur pour la suite à votre adorable famille.",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VNSDM1czNza05uTm13RRAB",
+   "source": "google",
+   "auteur": "Quentin F.",
+   "note": 5,
+   "texte": "Nous avons choisi ce domaine pour notre mariage samedi dernier. L’endroit est charmant et la vue aux alentours est splendide. Nos invités ont été subjugués par les extérieurs mais aussi l’intérieur. Gaelle, la propriétaire est très gentille et disponible rapidement. Le top pour un mariage au milieu des vignes avec un panorama inoubliable !!!",
+   "reponse": "Réponse du propriétaire il y a un an\nUn grand merci pour votre très gentil message. C’était un bonheur de pouvoir vous accueillir pour ce bel événement",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTUR3cHJ5blJBEAE",
+   "source": "google",
+   "auteur": "Marco C.",
+   "note": 5,
+   "texte": "Une expérience merveilleuse et un week-end fantastique entouré de mes proches pour fêter mes 30 ans. Le propriétaire a fourni un service excellent et attentionné.",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNfbWJLUkxnEAE",
+   "source": "google",
+   "auteur": "Juliette V.",
+   "note": 5,
+   "texte": "En tant que photographe, je peux vous assurer que l'Ermitage de Brouilly est un bonheur à photographier ! La vue est imprenable et confère aux photos une ambiance extraordinaire. Au plaisir de photographier à nouveau des mariages dans ce cadre au charme fou!",
+   "reponse": "Réponse du propriétaire il y a un an\nAu plaisir de vous accueillir pour un prochain événement",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNic1k2RWZREAE",
+   "source": "google",
+   "auteur": "Axel A.",
+   "note": 5,
+   "texte": "Lieu de notre mariage, avec une vue exceptionnelle sur toute la région ! L'ensemble de nos invités ont été charmés par cet endroit magique. Merci a Gaelle pour sa gentillesse et son accueil, nous recommandons vivement ce beau lieu de réception!",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nCe fut un plaisir de pouvoir vous accueillir pour ce bel événement.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQ5a2MyQjNBRRAB",
+   "source": "google",
+   "auteur": "Louis C.",
+   "note": 5,
+   "texte": "Un lieu magnifique avec une hôte formidable. Je recommande vraiment si vous voulez vous marier autour de Lyon, la soirée sera inoubliable.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUMxbThmbVFnEAE",
+   "source": "google",
+   "auteur": "Clément T.",
+   "note": 5,
+   "texte": "Un endroit exceptionnel, en plein milieu des vignes, calme absolu! Nous y avons séjourné entre ami.es pour une semaine de découverte des vins du Beaujolais et de far niente. C’était parfait! Le fait que chaque chambre dispose d’une sdb et d’une toilette a grandement contribué à l’excellence de notre séjour. Une cuisine bien équipée, réhaussée d’une plancha au gaz nous a permis de profiter des bons produits du coin. Un séjour génial à l’ombre du gigantesque platane dans la cour.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURsaWI3d1hREAE",
+   "source": "google",
+   "auteur": "Étienne G.",
+   "note": 5,
+   "texte": "Nous avons célébré notre mariage au mois de septembre 2023 à l'Ermitage de Brouilly. Le lieu a beaucoup été apprécié par nos invités.\nNous avons également profité des nombreux logements sur place.\nTout était parfait !\nMerci à Gaëlle pour sa disponibilité et sa gentillesse.\nNous recommandons à 100% ce lieu pour un mariage !",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURGbS12SkZBEAE",
+   "source": "google",
+   "auteur": "Arnaud D.",
+   "note": 5,
+   "texte": "Tant à dire sur ce lieu non seulement magnifique mais également tellement bien équipé et qui vous est remis du vendredi après midi au dimanche après midi pour un grand confort dans l organisation de l événement et qui permet  aux maries de profitez.\nMention très particulière a la propriétaire qui a su rendre le lieu aussi pratique que beau tout en le respectant.\nMerci du confort et de la confiance que vous offrez.",
+   "reponse": "",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQ1ck1HS3NnRRAB",
+   "source": "google",
+   "auteur": "Julie H.",
+   "note": 5,
+   "texte": "Nous avons eu la chance de pouvoir profiter de ce lieu magnifique pour notre mariage. Tout a été parfait: Gaelle a toujours répondu à toutes nos demandes! Le lieu est absolument magnifique et à fortement contribuer à faire de ce week-end un moment magique! Encore merci!",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nMerci de votre très sympathique message. Je vous souhaite le meilleur pour la suite",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURSeWZ6aTF3RRAB",
+   "source": "google",
+   "auteur": "Sophie L.",
+   "note": 5,
+   "texte": "Avec beaucoup de retard je partage mon avis sur ce magnifique domaine. Nous nous sommes mariés en juin dernier dans ce lieu de rêve. La propriétaire est vraiment adorable et nous souhaitons encore la remercier pour son accueil et son magnifique domaine. Donc je recommande plus que fortement ce lieu pour avoir un mariage à couper le souffle !\nUn grand merci à vous Gaëlle :)",
+   "reponse": "",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUR1cTdXQTN3RRAB",
+   "source": "google",
+   "auteur": "Mathilde L.",
+   "note": 5,
+   "texte": "Le lieu est sublime, la vue est à couper le souffle.\nGaelle nous a aidé pour la décoration de notre mariage, elle l'a fait avec beaucoup de goût.\nMerci pour son accueil chaleureux.",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURPbG9xcXZBRRAB",
+   "source": "google",
+   "auteur": "Lassarat M.",
+   "note": 5,
+   "texte": "Nous avons choisi ce lieu pour notre mariage, nous sommes tout de suite tombés amoureux de sa vue panoramique ! Et la propriété et les extérieurs sont sublimes.\nBon contact avec la propriétaire, nous n’hésitons pas à recommander ce lieu, cela a permis de rendre notre mariage encore plus beau.\nMarion & Rémi",
+   "reponse": "",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNHc1lYX3FnRRAB",
+   "source": "google",
+   "auteur": "Sébastien M.",
+   "note": 5,
+   "texte": "Nous avons choisi ce lieu pour notre mariage début octobre 2021.\nLa salle et les extérieurs sont tout simplement magnifiques et la relation avec Gaëlle, la propriétaire des lieux a été très fluide, sympathique et professionnelle. Gaëlle sera à votre écoute pour réaliser ce dont vous avez envie et la restauration de ce lieu, encore une fois est une totale réussite. Merci encore Gaëlle pour tout sur ce WE.\nN'hésitez pas à venir séjourner à l'Ermitage pour un petit week-end en amoureux ou en famille dans le Beaujolais également.\nA bientôt.\n\nMarion & Sébastien",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNhOHJ5TXBRRRAB",
+   "source": "google",
+   "auteur": "Jolande N.",
+   "note": 5,
+   "texte": "Notre séjour a été magnifique et nous aurions aimé retrouver tout cela sur le chemin du retour vers les Pays-Bas : un beau jardin avec vue, un bel immeuble, de la gentillesse, de l’hospitalité, un parking gratuit et facile d’accès, un délicieux petit-déjeuner, un bon wifi et du soleil !\nMerci Beaucoop !",
+   "reponse": "",
+   "titre": "",
+   "date": "2021-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNzcDVHNDVBRRAB",
+   "source": "google",
+   "auteur": "Marine L.",
+   "note": 5,
+   "texte": "Exceptionnel ! Rien à redire , tout est impeccable : hôte très agréable, maison très bien aménagée et décorée, au grand calme, une réelle attention est apportée à la propreté dans toute la maison. Les  chambres sont spacieuses, les lits …",
+   "reponse": "",
+   "titre": "",
+   "date": "2020-11-05"
+  }
+ ],
+ "maj": "2026-11-04"
+}

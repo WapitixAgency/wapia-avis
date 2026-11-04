@@ -1,0 +1,228 @@
+{
+ "client": "domaine-laugerie",
+ "nom": "Domaine de la Laugerie",
+ "note": 4.9,
+ "total": 61,
+ "lienFiche": "https://www.google.com/maps/place/Domaine+de+la+Laugerie/@43.6190834,2.294033,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae0ffc9909362b:0xde457c46b66390e2!8m2!3d43.6190834!4d2.294033!16s%2Fg%2F11cn5qy1y0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/Domaine+de+la+Laugerie/@43.6190834,2.294033,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae0ffc9909362b:0xde457c46b66390e2!8m2!3d43.6190834!4d2.294033!16s%2Fg%2F11cn5qy1y0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.9,
+   "total": 61,
+   "lien": "https://www.google.com/maps/place/Domaine+de+la+Laugerie/@43.6190834,2.294033,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae0ffc9909362b:0xde457c46b66390e2!8m2!3d43.6190834!4d2.294033!16s%2Fg%2F11cn5qy1y0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/Domaine+de+la+Laugerie/@43.6190834,2.294033,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae0ffc9909362b:0xde457c46b66390e2!8m2!3d43.6190834!4d2.294033!16s%2Fg%2F11cn5qy1y0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKUVNrWTVPRFZHY2pZNVVFZGhTR3MwVVRWdmJGRRAB",
+   "source": "google",
+   "auteur": "BRU M.",
+   "note": 5,
+   "texte": "Nous avons eu le plaisir de célébrer notre mariage au Domaine de la Laugerie , et nous garderons un merveilleux souvenir de cette journée ! Le domaine est un très joli cadre pour organiser un mariage, avec beaucoup de charme. Nous avons été ravis d’avoir choisi cet endroit pour partager ce moment si important avec nos proches. Un grand merci à Sophie pour avoir contribué à rendre cette journée aussi belle et mémorable. Nous recommandons ce lieu pour célébrer un événement particulier ! ❤️",
+   "reponse": "Réponse du propriétaire il y a 3 semaines\nMerci Marine pour ce message qui me touche beaucoup. Ce fut un plaisir de vous accueillir et de vous accompagner pour ce jour si important. Savoir que vous garder un merveilleux souvenir est pour moi une très belle récompense. Je vous souhaite beaucoup de bonheur à tous les deux.",
+   "titre": "",
+   "date": "2026-10-14"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21kT2IwaHZObkZtVWt4YWMxcEpjR2RuYUdwM1dHYxAB",
+   "source": "google",
+   "auteur": "Chloé C.",
+   "note": 5,
+   "texte": "Nous avons eu la chance de célébrer notre mariage au Domaine de la Laugerie, et nous tenions à remercier tout particulièrement Sophie pour son accompagnement tout au long de cette belle aventure.\n\nSophie est une personne d’une gentillesse incroyable, disponible et toujours à l’écoute. Elle nous a accompagnés bien au-delà de la simple location du domaine. Elle nous a aidés dans les préparatifs, pour l’installation de la décoration et la mise en place de la salle, et nous a également conseillé sur certains prestataires. Toujours présente lorsque nous avions besoin d’elle, elle a vraiment contribué à ce que tout se déroule au mieux.\n\nGrâce à son aide, ses conseils et sa bienveillance, notre journée s’est déroulée exactement comme nous l’avions rêvée. Nous avons pu profiter pleinement de chaque instant, dans un cadre magnifique et avec la sérénité de savoir que nous pouvions compter sur elle.\n\nUn immense merci à Sophie pour sa disponibilité, sa gentillesse et son investissement. Cette journée restera pour nous un souvenir inoubliable, et elle a largement contribué à la rendre aussi magique. 🤍\n\nNous recommandons le Domaine de la Laugerie à 100 % à tous les futurs mariés !",
+   "reponse": "Réponse du propriétaire il y a un mois\nUn grand merci pour ce très beau message. Vous accompagner a été un vrai plaisir, vous avoir vu profiter pleinement de cette journée si spéciale est la plus belle des récompenses. Je vous souhaite beaucoup de bonheur. A très bientôt.",
+   "titre": "",
+   "date": "2026-10-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkRVNWSm5NbDlmWkVWS1FUaGtXRTlXWkRSclQwRRAB",
+   "source": "google",
+   "auteur": "Aurore S.",
+   "note": 5,
+   "texte": "Le domaine de La Laugerie est juste parfait pour un évènement aussi important qu'un mariage et que dire de Sophie ? Elle est exceptionnelle ! Une grande professionnelle qui connaît parfaitement son métier, le fait avec le cœur, discrétion et douceur.\nMerci Sophie pour votre accueil, votre écoute, nos échanges, vos conseils, qui ont contribué à rendre notre mariage aussi magique et authentique tel que nous le souhaitions.\nTous nos invités, logés ou non, ont fait l'éloge du Domaine.\nNous reviendrons vous saluer avec grand plaisir et pourquoi pas y organiser de nouveaux événements.\nA bientôt Sophie !",
+   "reponse": "Réponse du propriétaire il y a 2 mois\nMerci Aurore pour votre message qui me touche beaucoup. Ce fut un grand plaisir de vous accueillir avec vos proches au domaine. A très bientôt.",
+   "titre": "",
+   "date": "2026-09-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKU2MxUkJOWGh4VWt4c01EQnZRVXg1Vm1OWWRGRRAB",
+   "source": "google",
+   "auteur": "Alaplantive A.",
+   "note": 5,
+   "texte": "Superbe lieu\nSuper accueil\nMa fille a de superbes souvenirs de ses 18 ans!!!\nLes amis et la famille aussi\nMerci encore à Sophie pour son accueil et son soutien dans la préparation",
+   "reponse": "Réponse du propriétaire il y a 3 mois\nMerci Agnès pour votre gentil message. Ce fut un plaisir de vous recevoir avec toute la famille.",
+   "titre": "",
+   "date": "2026-08-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkUmVFMVllRFkzTVU4MFRUQnFZWGcyY1ZSa2VVRRAB",
+   "source": "google",
+   "auteur": "Patricia G.",
+   "note": 5,
+   "texte": "Quel merveilleux week-end passait chez Sophie 😍 des infrastructures idéales  pour  un mariage  ..des hébergements cocooning pour passer de tres bons moments ...\nTous les invites ont ete séduits par ce lieu...\nJe vous le recommande vivement !\nGrâce à Sophie nous garderons un merveilleux souvenir du mariage de nos enfants 🥰",
+   "reponse": "Réponse du propriétaire il y a 4 mois\nMerci beaucoup Patricia pour votre adorable commentaire. Ce fut un grand plaisir d'accueillir ce beau mariage ce week-end. Au plaisir. Sophie",
+   "titre": "",
+   "date": "2026-07-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25GWlVVTnhaamh6YjFsWWVHNUVVRE5IZGpOQmFWRRAB",
+   "source": "google",
+   "auteur": "Cedric M.",
+   "note": 5,
+   "texte": "Domaine parfait pour un moment spécial en famille et avec les amis. Charme et singularité se dégage du domaine, à l’image de Sophie qui nous a parfaitement conseillé et accompagné pour notre événement.",
+   "reponse": "Réponse du propriétaire il y a 5 mois\nMerci pour ce joli commentaire. Ce fut un plaisir de vous accueillir au domaine pour cette journée si spéciale. Merci pour votre confiance.",
+   "titre": "",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSTVQzUkJhQzFUTmt0TGExRm9iblJDY1RNM2ExRRAB",
+   "source": "google",
+   "auteur": "Margaux V.",
+   "note": 5,
+   "texte": "Nous avons pu vivre un rêve éveillé le temps d'un week-end au Domaine de la Laugerie à l'occasion de notre mariage le 16 mai 2026. Merci Sophie pour votre accueil et votre disponibilité, nous repartons avec des souvenirs et des étoiles plein les yeux.",
+   "reponse": "Réponse du propriétaire il y a 5 mois\nMerci mes adorables mariées pour vos sourires et votre gentillesse. Malgré le froid de week-end vous avez su profiter pleinement de chaque instant dans cette bulle chaleureuse et cosy que vous avez offert à vos invités. A très bientôt. Et merci pour ce beau commentaire 🌸 …",
+   "titre": "",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2twMlprUkZhakZrY0dwaVZsRmpNR1ZOYldFek9YYxAB",
+   "source": "google",
+   "auteur": "Marie P.",
+   "note": 5,
+   "texte": "Un immense merci pour votre accueil exceptionnel dans ce magnifique domaine.\nNotre mariage a dépassé toutes nos attentes : des souvenirs inoubliables, des convives émerveillés par la beauté du lieu, l’ambiance et la bienveillance qui s’en dégage.",
+   "reponse": "Réponse du propriétaire il y a 9 mois\nMerci beaucoup pour ce beau témoignage !\nCe fut un réel plaisir de vous accueillir et de contribuer à la réussite de votre journée.\nNous vous souhaitons beaucoup de bonheur.\nBien amicalement,\nSophie - Domaine de la Laugerie",
+   "titre": "",
+   "date": "2026-02-03"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tWbFZqRTJhQzFGTlVRNU9XVktiRGMyY1UxMWIzYxAB",
+   "source": "google",
+   "auteur": "Aurelie P.",
+   "note": 5,
+   "texte": "Nous nous sommes mariés le 30 août 2025 au domaine de la Laugerie. Que dire si ce n’est 1000 fois merci à Sophie la gérante qui a su rendre ce week end de mariage à la hauteur de nos attentes. Rempli de bienveillance et d’attention, Sophie saura être une allié de taille pour votre mariage. Toujours présente pour vous donner un coup de main ou pour veiller à ce que tous soit parfait, elle a le sens du détail ce qui est vraiment agréable pour un événement comme celui-ci. Plus qu’une gérante d’un domaine, elle a su nous conseiller, nous rassurer et nous épauler tout au long de ces préparatifs. Une chose est sûr, en choisissant ce domaine, au delà de sa beauté vous choisissez également la sérénité, vous pouvez être sûr qu’aucun détails ne sera laissez au hasard et qu’aucun soucis ne viendra ternir le plus beau jour de votre vie.\n\nMerci encore mille fois pour tout\n\nAurélie & Mathieu.",
+   "reponse": "Réponse du propriétaire il y a un an\nChère Aurélie et cher Mathieu,\nUne grande aventure qui a duré presque 2 ans entre nous :) Merci pour la confiance que vous m'avez témoignée et votre grande gentillesse. \nEt merci pour ce message très touchant 🙏\nA très bientôt. Sophie",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGc09UTTNXa2RDUTBrM1FUQXRiRU5CUkVWWWFIYxAB",
+   "source": "google",
+   "auteur": "Phil",
+   "note": 5,
+   "texte": "Notre famille a séjourné au Domaine Laugerie en juin pour une occasion spéciale. Ce fut un séjour merveilleux dans un cadre magnifique. Les chambres de La Maison de Jeanne étaient propres, spacieuses et extrêmement calmes. L'accès à la piscine et au terrain de pétanque était un atout appréciable. Sophie était toujours disponible et prête à répondre à nos besoins. Je recommande vivement La Laugerie.",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci Philippe pour votre commentaire. Je suis ravi que vous ayez apprécié votre séjour au Domaine de la Laugerie. Ce fut un réel plaisir de vous accueillir, vous et votre famille.\n\nJe confirme que vous avez été très assidus à la pétanque ! :) À bientôt.\nTraduit par Google ・ Voir l'original (anglais)",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTURJcVBqSG1RRRAB",
+   "source": "google",
+   "auteur": "Agnes L.",
+   "note": 5,
+   "texte": "Le gîte est superbe. Très bien équipé, la literie est très confortable. Groupe de 10 adultes, nous étions aux anges.\nMerci à Sophie pour sa gentillesse et sa disponibilité.\nUne adresse à conserver.",
+   "reponse": "Réponse du propriétaire il y a un an\nMerci Agnès pour votre message. Ce fut un plaisir de vous avoir au gîte la Maison de Jeanne. Une très sympathique équipe ! A bientôt.",
+   "titre": "",
+   "date": "2025-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNYdHNtTGpBRRAB",
+   "source": "google",
+   "auteur": "Christel.david M.",
+   "note": 5,
+   "texte": "Élégance et style définissent parfaitement ce lieu. Nous avons passé un week-end formidable en famille. Sophie, la propriétaire du domaine est aux petits soins de ses clients. Je recommande ce lieu sans hésitation.",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nMerci Christel pour votre commentaire. Ce fut un plaisir pour moi de vous accueillir pour votre cousinade. Que de belles rencontres !",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURIcHFlT0JBEAE",
+   "source": "google",
+   "auteur": "Julie C.",
+   "note": 5,
+   "texte": "Un gros coup de coeur pour ce magnifique domaine qui a tant de charme, ainsi que pour Sophie, sa propriétaire qui est juste incroyable. Prévenante, à l'écoute, attentionnée, sincère et qui fait tout avec le coeur, nous ne pouvions mieux choisir pour célébrer notre mariage laïque, notre soirée et brunch le lendemain. Nous avions réservé les gites pour profiter au maximum du lieu et tout était parfait.\nPour la cérémonie et la soirée, nous étions un peu moins de 60 personnes et l'espace correspondait parfaitement à nos besoins.\nAllez-y les yeux fermés, vous ne serez pas déçus :)\nDéjà triste que ce joli moment hors du temps soit fini...",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nChère Julie, merci beaucoup d'avoir célébré votre mariage sur notre domaine. Ce fut un réel plaisir de vous accueillir avec vos familles et de vous accompagner dans la préparation de ce bel évènement. Un grand merci. A très bientôt.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURUMXJPYzJRRRAB",
+   "source": "google",
+   "auteur": "Florence B.",
+   "note": 5,
+   "texte": "Nous avons passé un séjour magnifique dans ce domaine. Les chambres sont très confortables et tout respire le calme. Nous avons apprécié la très grande gentillesse de Sophie, son professionnalisme ainsi que sa petite surprise culinaire. Merci beaucoup.",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nMerci beaucoup à vous Florence. A très bientôt.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNUdllYNFdBEAE",
+   "source": "google",
+   "auteur": "Sylvie B.",
+   "note": 5,
+   "texte": "Mes invités ont passé un excellent séjour au Domaine de la Laugerie. Cette ancienne métairie rénovée est juste magnifique. Les chambres sont décorées avec beaucoup de goût et sont très spacieuses. De plus, la modularité  des lits (deux personnes ou 2 fois une personne) est très appréciable.\nLes propriétaires sont adorables, super à l’écoute,  gentils, disponibles mais discrets.\nTous ont  passé un très bon week-end prolongé sous le soleil de Castres.\nSylvie",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nMerci beaucoup pour votre commentaire. Ce fut un plaisir de vous recevoir avec votre famille. A très bientôt.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNUaklLM2tBRRAB",
+   "source": "google",
+   "auteur": "Lilian P.",
+   "note": 5,
+   "texte": "Séjour bref mais très agréable : une vaste chambre calme, une salle de bain privative, un petit déjeuner très complet et un accueil fort chaleureux. Merci Sophie, nous reviendrons avec grand plaisir.",
+   "reponse": "Réponse du propriétaire il y a 2 ans\nMerci pour ce si gentil commentaire. Au plaisir de vous accueillir à nouveau.",
+   "titre": "",
+   "date": "2024-11-04"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURKdVpQMGVREAE",
+   "source": "google",
+   "auteur": "Selma N.",
+   "note": 5,
+   "texte": "Nous recommandons ce domaine a 100% .\nLe lieu est exceptionnel et la propriétaire est très professionnelle ,a l'écoute, accessible.\nSuper expérience.\nEncore merci pour tout.",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nMerci à mes adorables jeunes mariés pour ce message qui me touche beaucoup. Je vous remercie de votre confiance. A très bientôt.",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURKcVlHLThnRRAB",
+   "source": "google",
+   "auteur": "Christian G.",
+   "note": 5,
+   "texte": "3 journées inoubliables ,gastronomie, farniente au bord de la piscine ,circuits dans le Sidobre . Site magnifique, accueil chaleureux et professionnel , locaux luxueux,  confortables et ...chargés d 'histoire , dans un environnement aux multiples  opportunités",
+   "reponse": "Réponse du propriétaire il y a 3 ans\nMerci beaucoup pour votre commentaire. Ce fut un réel plaisir de vous accueillir avec vos proches. A très bientôt.",
+   "titre": "",
+   "date": "2023-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUMtOE5uUUR3EAE",
+   "source": "google",
+   "auteur": "Valérie A.",
+   "note": 5,
+   "texte": "Nous avons loué le Domaine de la Laugerie pour un anniversaire avec 90 personnes. Endroit magnifique! et décoration soignée. Les gîtes sont superbes!\nSophie et Eric sont des hôtes attentifs et disponibles afin que la fête soit parfaitement réussie et ce fut le cas. Je remercie encore Sophie de son aide précieuse pour l'organisation et de ses précieux conseils. Je recommande vivement.",
+   "reponse": "Réponse du propriétaire il y a 4 ans\nCe fut un réel plaisir de participer à la réussite de cette belle fête. Merci pour ce joli commentaire. A très bientôt à La Laugerie !",
+   "titre": "",
+   "date": "2022-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURBOUw3OHVBRRAB",
+   "source": "google",
+   "auteur": "Fabien L.",
+   "note": 5,
+   "texte": "Nous avions choisi ce domaine pour le mariage de notre fille (120 personnes). Salle et extérieurs superbes, gîte pour 4/6 personnes + 5 grandes chambres (15 couchages) avec salle d'eau dans chacune, l'ensemble décoré avec goût, propriétaire très accueillant et à l'écoute de nos demandes - Nous recommandons vivement...",
+   "reponse": "",
+   "titre": "",
+   "date": "2017-11-06"
+  }
+ ],
+ "maj": "2026-11-04"
+}

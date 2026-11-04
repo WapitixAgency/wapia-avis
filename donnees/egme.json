@@ -1,0 +1,228 @@
+{
+ "client": "egme",
+ "nom": "EGME",
+ "note": 4.9,
+ "total": 91,
+ "lienFiche": "https://maps.google.com/maps?cid=12722203041321679410",
+ "lienAvis": "https://search.google.com/local/writereview?placeid=ChIJI5bxJlLj5EcRMnpfzkJYjrA",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.9,
+   "total": 91,
+   "lien": "https://maps.google.com/maps?cid=12722203041321679410",
+   "lienAvis": "https://search.google.com/local/writereview?placeid=ChIJI5bxJlLj5EcRMnpfzkJYjrA"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "couleur": "",
+  "titre": "",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "AbFvOqmjzJianyrWgEzz6MjPjvxFbpaOS9TXWH5Y3DKKGEt3HdIXUV1favWwuWYexd3D3H_f_kIDNA",
+   "source": "google",
+   "auteur": "Nicolas P.",
+   "note": 5,
+   "texte": "Je suis passé par EGME45 pour l’installation d’une borne de recharge Hager. Super réactivité, installation au top. Merci à toute l’équipe",
+   "reponse": "Bonjour Mr Piquot, merci de votre retour. A bientôt.",
+   "titre": "",
+   "date": "2026-06-30"
+  },
+  {
+   "id": "AbFvOql1iAdjlxzAYr_-UoyPYsAk0pV1FmdwUEdsP13uWy0vrTAGhaKHywt5SEM0kFSLW8rCVyStPw",
+   "source": "google",
+   "auteur": "Tiffany D.",
+   "note": 5,
+   "texte": "Très satisfaite de la prise de rdv pour un devis jusqu'à la pose de la borne de recharge électrique.\nIntervention très professionnelle de la part du technicien Mr Fouilloux.\nInstallation très propre et explication claire du fonctionnement de la borne.",
+   "reponse": "Bonjour Mme Depardieu, merci de votre retour complet.",
+   "titre": "",
+   "date": "2026-06-09"
+  },
+  {
+   "id": "AbFvOqk9H54Agig5XcHSpcq2Lm8fYKVChnNdbvd24y9By37aT4f42JOp3eyscHaKabUhB1vm1Xa9BA",
+   "source": "google",
+   "auteur": "David E.",
+   "note": 5,
+   "texte": "Contacté début novembre 2025 pour un devis d'installation de borne VE avec fournitures de photos pour estimation. Réception rapide du devis.\nCréneau d'installation obtenu rapidement juste avant livraison du véhicule, intervention rapide et soignée avec toutes les explications fournies.\nJe recommande ;)",
+   "reponse": "Bonjour Mr Ettlin, merci de votre retour.",
+   "titre": "",
+   "date": "2025-12-21"
+  },
+  {
+   "id": "AbFvOqkiEPJhlDu5Onaj-tC5GuPC9ifH041cLkxnE8EvzSFwteJ3pG09qQRy2xZqL2sLFGjrXXKr",
+   "source": "google",
+   "auteur": "Thibault S.",
+   "note": 5,
+   "texte": "Très satisfait, rapide et efficace, de vrais professionnels\nExplication du travail avant de l’effectuer.\nJe recommande fortement",
+   "reponse": "Bonjour Mr Sauvalle, merci de votre retour.",
+   "titre": "",
+   "date": "2025-04-07"
+  },
+  {
+   "id": "AbFvOqnYZq0SV8VTGehnHsZCHA7Ajq0wFU-w1ykm6sllV2aEHnioaJjOWnIEBx-Mluu7WtMt_4WDCw",
+   "source": "google",
+   "auteur": "AF",
+   "note": 5,
+   "texte": "Contact très professionnel, travaux pour la pose d'une borne parfaitement réalisé par rapport à ma demande, respect de mon logement et de mes impératifs.\nJe recommande fortement !",
+   "reponse": "Bonjour Mr AF, merci de votre retour, ravi d'avoir pu répondre à vos attentes.",
+   "titre": "",
+   "date": "2025-03-06"
+  },
+  {
+   "id": "AbFvOqlTpMNTbfS7HcalNlbATyGmuAB9tDz2gEOBSe0L5w5s23SM988RnOJdQKcRhFYWmwnhyMzU",
+   "source": "google",
+   "auteur": "COMBY F.",
+   "note": 5,
+   "texte": "Très satisfait de la borne électrique posée. Entreprise sérieuse, devis rapide, travail propre. Ils ont pris le temps d'adapter l'installation existante, de m'expliquer le fonctionnement de la borne. Prix dans la moyenne du marché (et même bien placé vu le matériel).",
+   "reponse": "Bonjour Mr Comby, merci de votre retour, ravi que d'avoir répondu à vos attentes.",
+   "titre": "",
+   "date": "2024-12-26"
+  },
+  {
+   "id": "AbFvOqllpz5WwS5OlvtSv0SvsnaZDNW5REwLIuIsCYNP39-U7slnPvuDB7vro3hnEehubAj8wajl",
+   "source": "google",
+   "auteur": "Antony C.",
+   "note": 5,
+   "texte": "Un grand merci à EGME45 pour l'installation de ma borne de recharge. Une équipe professionnelle, ponctuelle et efficace ! Le travail a été réalisé avec soin, dans les délais annoncés, et le chantier a été laissé parfaitement propre. L'électricien a pris le temps de m’expliquer le fonctionnement de la borne, ce qui est très appréciable. Je recommande vivement cette entreprise pour leur sérieux et leur expertise. Bravo !",
+   "reponse": "Bonjour Mr Charrier, merci de votre retour très complet.",
+   "titre": "",
+   "date": "2024-12-21"
+  },
+  {
+   "id": "AbFvOqn7z7XPeicJE69QBpLIB54Zkeefq8UQzSXJAas8JHZEvsh2_TB8vs7FlwC-deja7dAMNpz2",
+   "source": "google",
+   "auteur": "Jessica B.",
+   "note": 5,
+   "texte": "Pose d'une borne de recharge pour voiture électrique.\nTravail professionnel , soigné, propre... Ils sont ponctuelles et de très bon conseils. Je recommande vivement.",
+   "reponse": "Bonjour Mme Betty, merci de votre retour.",
+   "titre": "",
+   "date": "2024-12-17"
+  },
+  {
+   "id": "AbFvOqlb-_LWZIuqA1G5WADLpR5fNBZMHPIUL_E5C7Uyw-QYFe_M1r8k_nPfZdLYPGrxCKNJiXn1TQ",
+   "source": "google",
+   "auteur": "Sydeloju",
+   "note": 5,
+   "texte": "J'ai fait appel à Monsieur Millet pour l'installation d'une borne de recharge pour voiture électrique.\nIl a su répondre à toutes mes questions et a réalisé le devis rapidement.\nLe tarif proposé est dans la moyenne du marché.\nAucun problème lors du chantier réalisé par 2 de ses employés.\n\nJe recommande donc vivement EGME45 !",
+   "reponse": "Bonjour, merci de votre retour complet, ravi d'avoir répondu à vos attentes.",
+   "titre": "",
+   "date": "2024-11-28"
+  },
+  {
+   "id": "AbFvOqkJCCiz2g4XA8nStovl59eWZBmFKnR_tYzWFwXpztUYjuHIdCJ8dgtwDhfB-aL6IKsozO0Q",
+   "source": "google",
+   "auteur": "Valentin P.",
+   "note": 5,
+   "texte": "M. Millet est intervenu chez nous un après midi. C'est quelqu'un de très respectueux et professionnel. Il a pris le temps de bien analyser le problème auquel nous étions confrontés et d'agir en conséquence. Je recommande.",
+   "reponse": "Bonjour Mr Valentin, merci de votre retour, ravi d'avoir pu répondre à vos attentes.",
+   "titre": "",
+   "date": "2024-07-01"
+  },
+  {
+   "id": "AbFvOqnz6n72IRHosUczQg2k1NxNEbnO-809C5dfJWD1IFB8rM3n81yfMFz22DuA9glfn5Cc5FyUVg",
+   "source": "google",
+   "auteur": "Matthieu",
+   "note": 5,
+   "texte": "Un électricien exceptionnel, faisant preuve d'un grand professionnalisme et d'une efficacité remarquable. Ses réalisations sont toujours impeccables. J'ai eu recours à ses services à plusieurs reprises et je ne peux que le recommander chaleureusement.",
+   "reponse": "Bonjour Matthieu, merci pour ce retour qui est tout à notre honneur.",
+   "titre": "",
+   "date": "2024-03-12"
+  },
+  {
+   "id": "AbFvOqnwgykEZnlBOuxEj_QuSfEJCXEyb3Shdho8FXXMxGX-Z-rfG01m9kSFLXu2DZCxFDYLfJGLPA",
+   "source": "google",
+   "auteur": "Thomas M.",
+   "note": 5,
+   "texte": "Agréable et de bon conseil, installation d'une borne Tesla WallConnector selon les règlementations en vigueur en France.\nRien a redire ! Merci !",
+   "reponse": "Bonjour Mr Meunier, merci de votre retour, ravi d'avoir répondu à vos attentes.",
+   "titre": "",
+   "date": "2024-02-05"
+  },
+  {
+   "id": "AbFvOqkRtcAYM08h9NbSxmUv7rKJJcRxDPda8Bq7BGX_s950qeVyQZH25QkSA22IMgztURzCooqpeQ",
+   "source": "google",
+   "auteur": "Corentin D.",
+   "note": 5,
+   "texte": "Très bon accompagnement pour l'installation d'une borne de recharge pour véhicule électrique : connaît les nouvelles exigences des crédits d'impôt, propose une alternative lorsque la borne initialement visée sort du périmètre du crédit d'impôt.\n\nCommunication exemplaire (rappel de la date des travaux, donne une plage horaire d'arrivée, etc.).",
+   "reponse": "Bonjour Mr Denis, merci de votre retour, ravi d'avoir répondu à vos attentes.",
+   "titre": "",
+   "date": "2024-02-05"
+  },
+  {
+   "id": "AbFvOqnNSEqTY5JTtQ4cjVq7IdOpS7ZwI7djN04hOTcEqHM9peJ6jVkvcj_9OPOpoWHjMhQlOZh1",
+   "source": "google",
+   "auteur": "Nicolas B.",
+   "note": 5,
+   "texte": "L'équipe d'EGME45 est intervenue dans notre logement pour une remise en conformité de notre installation électrique et le rajout de nouvelles prises et lumières. Nous avons été ravi de cette intervention. Aimable, professionnel et compétent, nous avons été pleinement satisfaits et reviendrons vers M. Millet pour de futurs travaux.",
+   "reponse": "Bonjour Mr Benoot-Giblas, merci pour votre retour.",
+   "titre": "",
+   "date": "2023-08-07"
+  },
+  {
+   "id": "AbFvOqkKL6eSvwp6V5s5FeP9Z0iQlgsqdChV0TuiT6IBgeaSnwyCvxlXtGNj8Ohq7AdmaIL7f0KgeQ",
+   "source": "google",
+   "auteur": "Pascale S.",
+   "note": 5,
+   "texte": "Excellente prestation pour le changement de mon tableau électrique. Tout était parfait : ponctualité, contact, efficacité, propreté du chantier, explications…Très bonne expérience. Je recommande.",
+   "reponse": "Bonjour Mme Sarradin Barbou, merci de votre retour, ravi d'avoir répondu à vos attentes sur tous les points que vous précisez.",
+   "titre": "",
+   "date": "2023-05-03"
+  },
+  {
+   "id": "AbFvOql7HiSon7heQ0sA5Gn48PrXe78XmEkM5QLRhGS5QUBXAXI-AAJJqNa72Rkwk5u7FnMfY74yuA",
+   "source": "google",
+   "auteur": "Johann S.",
+   "note": 5,
+   "texte": "Très bonne réactivité et communication en amont du chantier.\nLe jour de l'installation, travail soigné, pédagogie et explications claires à la mise en route.\nUn professionnel sérieux, qui maitrise son sujet et du travail de qualité.\nJ'envisage déjà de nouveaux travaux à lui confier.",
+   "reponse": "Bonjour Mr Solon, merci de votre retour positif. C’est avec plaisir que nous interviendrons de nouveau pour vous.",
+   "titre": "",
+   "date": "2023-01-07"
+  },
+  {
+   "id": "AbFvOqnSgG3vTm9jtIFdH-2vgtt_RmwGi9h4GY96v7dhs8n7noXzJYdvcDKCDS8zDmKExDJypEdvwg",
+   "source": "google",
+   "auteur": "Cé L.",
+   "note": 5,
+   "texte": "Un projet ou j'ai été accompagner du début à la fin : vérifications techniques et pose dans un délais court. L'équipe venu sur place a été très efficace et professionnelle. Je saurais qui appeller en cas de panne ou de nouveau projet.",
+   "reponse": "Bonjour Mme Rousselot, merci de votre retour et ravi que notre prestation vous ai convenu, Millet David - EGME45.",
+   "titre": "",
+   "date": "2022-09-17"
+  },
+  {
+   "id": "AbFvOqlO6ihtlnSMNVVET67R4ASb5WJZSyUqUTaXfJ3HijWgvT-qymdkFpkQmfqfdPCZTaiTnGb1",
+   "source": "google",
+   "auteur": "Eric F.",
+   "note": 5,
+   "texte": "Nous avons fait installer une borne et changer notre tableau électrique pour une remise aux normes.\nMr Millet est  très professionnel aussi bien sur les conseils techniques que sur la réalisation des travaux.\nJe recommande sans problème cette société.",
+   "reponse": "Bonjour Mr Farina, merci pour votre retour et votre confiance.",
+   "titre": "",
+   "date": "2022-07-09"
+  },
+  {
+   "id": "AbFvOqnQGX3htIKs-uhPIlGW5pmdxTzQa6E5CGklgvIuiPd4jcJD1G_f8DkMSIJn9I82CEfDhDMbvQ",
+   "source": "google",
+   "auteur": "Julia G.",
+   "note": 5,
+   "texte": "L'envoi d'un devis pour répondre au besoin fut très rapide, la prise de rendez-vous pour l'intervention également. L'intervention s'est faite dans le temps prévu par M. MILLET (un peu plus de 1h30 pour une durée prévue de 2h), il s'agissait d'une pose d'une prise renforcée Green Up en vue de la livraison d'un véhicule électrique. Le travail a été bien fait, l'espace était propre après l'intervention, et M. MILLET est même revenu suite à une interrogation de ma part de luminaires qui ne s'allumaient plus suite à un fil qui s'était déconnecté.\nUn professionnel de l'électricité que je recommande vivement compte tenu du bon rapport qualité/prix/propreté/rapidité de l'intervention",
+   "reponse": "Bonjour Mme Gilet, merci pour votre retour. Nous mettons tout en œuvre pour arriver à ce résultat, comme si c’était pour nous! Bonne route en véhicule électrique.",
+   "titre": "",
+   "date": "2022-05-19"
+  },
+  {
+   "id": "AbFvOqmc8YNIh8dqHiFUsyC-iTMyCXa7IP-dLdjqIm_DAbU56Ke1RUzuP-23e49JOOMONWoGsgl06w",
+   "source": "google",
+   "auteur": "Ange O.",
+   "note": 5,
+   "texte": "M MILLET a été très clair dans ces explications, installation d’une borne de recharge de véhicule fait dans les règles de l’art. Travail soigné, prend le temps qu’il faut. Je le recommande et n’hésiterai pas à refaire appel à lui",
+   "reponse": "Bonjour Mr Osenda, merci de votre retour. Au plaisir de vous proposer de nouveau nos services.",
+   "titre": "",
+   "date": "2022-04-15"
+  }
+ ],
+ "maj": "2026-11-04"
+}
