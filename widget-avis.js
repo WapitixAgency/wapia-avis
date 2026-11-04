@@ -50,7 +50,7 @@
 
   const CSS = `
   :host{display:block;width:100%;container-type:inline-size;font-family:inherit;color:var(--texte);--accent:#1a73e8;--fond:#fff;--carte:#f6f6f4;--texte:#1d1d1b;--doux:#6b6b66;--trait:#e6e5e0;--etoile:#f5b301;--etoile-vide:#d9d7d0;--rayon:14px}
-  :host([theme=sombre]){--fond:transparent;--carte:#1c1c1c;--texte:#f3f2ee;--doux:#a9a8a2;--trait:#2e2e2e;--etoile-vide:#4a4a46}
+  :host([theme=sombre]),:host([data-theme=sombre]){--fond:transparent;--carte:#1c1c1c;--texte:#f3f2ee;--doux:#a9a8a2;--trait:#2e2e2e;--etoile-vide:#4a4a46}
   *{box-sizing:border-box}
   .w{display:flex;flex-direction:column;gap:20px}
   .tete{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
@@ -109,8 +109,9 @@
       } catch { this.shadowRoot.innerHTML = ''; }
     }
     rendre() {
-      const d = this.d, modele = this.getAttribute('modele') || 'carrousel';
-      const accent = this.getAttribute('accent'); if (accent) this.style.setProperty('--accent', accent);
+      const d = this.d, af = d.affichage || {}, modele = this.getAttribute('modele') || af.modele || 'carrousel';
+      if (!this.hasAttribute('theme')) { if (af.theme === 'sombre') this.dataset.theme = 'sombre'; else delete this.dataset.theme; }
+      const accent = this.getAttribute('accent') || af.couleur; if (accent && /^#[0-9a-f]{3,8}$/i.test(accent)) this.style.setProperty('--accent', accent);
       const sources = d.sources || [];
       const s0 = this.filtre === 'tous' ? null : sources.find((s) => s.id === this.filtre);
       const note = s0 ? s0.note5 ?? s0.note : d.note, total = s0 ? s0.total : d.total;
@@ -120,7 +121,7 @@
         this.shadowRoot.innerHTML = `<style>${CSS}</style><a class="bandeau" href="${sur(s.lien || d.lienFiche)}" target="_blank" rel="noopener"><span class="logo" style="width:22px;height:22px">${src(s.id).svg}</span><strong>${echap(noteTexte(d.note))}</strong>${etoiles(d.note, 16)}<span class="mention">${echap(d.total)} avis</span></a>`;
         return;
       }
-      const nombre = Number(this.getAttribute('nombre')) || 0;
+      const nombre = Number(this.getAttribute('nombre')) || Number(af.nombre) || 0;
       let avis = (d.avis || []).filter((a) => this.filtre === 'tous' || a.source === this.filtre);
       if (nombre) avis = avis.slice(0, nombre);
       const logo = s0 ? src(s0.id).svg : sources.length === 1 ? src(sources[0].id).svg : '';
@@ -135,10 +136,10 @@
       }).join('');
       const corps = modele === 'grille' ? `<div class="grille">${cartes}</div>` : `<div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><div class="nav"><button class="prec" aria-label="Avis précédents">‹</button><button class="suiv" aria-label="Avis suivants">›</button></div>`;
       this.shadowRoot.innerHTML = `<style>${CSS}</style><section class="w" aria-label="Avis clients">
-        ${this.getAttribute('titre') ? `<h2 class="titre">${echap(this.getAttribute('titre'))}</h2>` : ''}
+        ${(this.getAttribute('titre') || af.titre) ? `<h2 class="titre">${echap(this.getAttribute('titre') || af.titre)}</h2>` : ''}
         ${onglets}
         <div class="tete"><div class="score">${logo ? `<span class="logo">${logo}</span>` : ''}<div><div class="ligne"><span class="chiffre">${echap(noteTexte(note))}</span>${etoiles(Number(note) || 0, 20)}</div><div class="total">${echap(total)} avis${s0 ? ' sur ' + echap(src(s0.id).nom) : sources.length === 1 ? ' sur ' + echap(src(sources[0].id).nom) : ''}</div></div></div>
-        ${lienAvis ? `<a class="btn" href="${sur(lienAvis)}" target="_blank" rel="noopener">${echap(d.libelleBouton || 'Laisser un avis')}</a>` : ''}</div>
+        ${lienAvis ? `<a class="btn" href="${sur(lienAvis)}" target="_blank" rel="noopener">${echap(af.texteBouton || d.libelleBouton || 'Laisser un avis')}</a>` : ''}</div>
         ${corps}</section>`;
       const r = this.shadowRoot;
       r.querySelectorAll('.onglets button').forEach((b) => b.addEventListener('click', () => { this.filtre = b.dataset.f; this.rendre(); }));
