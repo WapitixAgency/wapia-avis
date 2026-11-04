@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Module d'avis Wapia — aperçu</title>
+<style>
+  body{margin:0;font-family:"Inter",system-ui,sans-serif;background:#fafaf8;color:#1d1d1b}
+  section{padding:56px clamp(16px,5vw,80px)}
+  .sombre{background:#0e0e0e}
+  h1{font-size:14px;letter-spacing:.08em;text-transform:uppercase;color:#888;margin:0 0 24px}
+  .sombre h1{color:#777}
+</style>
+<script src="widget-avis.js"></script>
+</head>
+<body>
+  <section><h1>Carrousel, clair (couleur du site : bleu Tanzilli)</h1>
+    <wapia-avis client="plomberie-tanzilli" modele="carrousel" accent="#0b5cab" titre="Ils nous ont fait confiance"></wapia-avis></section>
+  <section class="sombre"><h1>Carrousel, sombre</h1>
+    <wapia-avis client="plomberie-tanzilli" modele="carrousel" theme="sombre" accent="#f5b301"></wapia-avis></section>
+  <section><h1>Grille</h1>
+    <wapia-avis client="plomberie-tanzilli" modele="grille" nombre="6" accent="#0b5cab"></wapia-avis></section>
+  <section><h1>Bandeau (en-tête, pied de page)</h1>
+    <wapia-avis client="plomberie-tanzilli" modele="bandeau"></wapia-avis></section>
+</body>
+</html>
