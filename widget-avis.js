@@ -102,7 +102,7 @@
       const client = this.getAttribute('client'); if (!client) return;
       const url = this.getAttribute('donnees') || `${BASE}donnees/${encodeURIComponent(client)}.json`;
       try {
-        if (!cache.has(url)) cache.set(url, fetch(url, { credentials: 'omit' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }));
+        if (!cache.has(url)) cache.set(url, fetch(url, { credentials: 'omit', cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }));
         this.d = await cache.get(url);
         this.filtre = this.filtre || this.getAttribute('source') || 'tous';
         this.rendre();
