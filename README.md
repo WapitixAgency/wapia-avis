@@ -4,7 +4,8 @@ Le remplaçant d'Elfsight (résilié, actif jusqu'au 15/11/2026) : un custom ele
 
 - `widget-avis.js` : le composant (un seul fichier, tout inclus). Modèles `carrousel`, `grille`, `bandeau` ; thème `clair` ou `sombre` ; `accent` = couleur du site ; onglets par source quand il y en a plusieurs (Blue Lobster Loft : Booking, Airbnb).
 - `donnees/<client>.json` : la vitrine de chaque client, écrite par la routine des avis du serveur Wapia. Aucune republication de site quand les avis changent.
-- `c/<clé>.js` : le lien de chaque client (le widget, clé écrite dedans), fabriqué par `node construire-liens.mjs` ; **à relancer après chaque modification du widget et pour chaque nouveau client**, puis push et `node construire-liens.mjs --purger`.
+- `c/<clé>.js` : le chargeur de chaque client, fabriqué par `node construire-liens.mjs` (nouveau client : le relancer, commiter, pousser, et donner le lien figé sur ce commit).
+- `version.json` : la version du module que chargent les liens. **Après toute modification de `widget-avis.js` : `node construire-liens.mjs --publier`** (commit, push, version.json, vérification).
 - `apercu-sites.html` : chaque vitrine sur un fond proche de son site, pour contrôler les réglages.
 - `apercu.html` + `serveur-apercu.mjs` : l'aperçu local (`node serveur-apercu.mjs`, puis http://127.0.0.1:4390/apercu.html).
 
@@ -12,7 +13,7 @@ Le remplaçant d'Elfsight (résilié, actif jusqu'au 15/11/2026) : un custom ele
 
 1. Dans l'éditeur, supprimer le bloc Elfsight (« Intégrer du code » ou l'appli Elfsight).
 2. Au même endroit : **Ajouter → Intégrer → Élément personnalisé** (Custom Element), source **URL du serveur** = **le lien du client** :
-   `https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/c/<clé>.js`, nom de balise **`wapia-avis`**.
+   `https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@<commit>/c/<clé>.js` (le commit où le chargeur du client a été ajouté : `f91c050` pour les clients du 05/11), nom de balise **`wapia-avis`**. Le chargeur ne change jamais : il lit `version.json` chez GitHub et charge le module figé sur cette version ; les vitrines se lisent chez GitHub. On évite `@main`, que jsDelivr sert parfois en retard de plusieurs heures, même après purge.
 3. Aucun attribut à poser : le lien porte la clé, et la vitrine porte les réglages d'affichage du site (couleur, police, fonds, bouton…), choisis par l'agence d'après le site (`sites.json` de la routine, clé « affichage »). Un attribut posé dans l'éditeur reste possible et passe devant (tableau ci-dessous).
 4. Largeur : pleine largeur de la section (un custom element n'a pas de largeur par défaut) ; la hauteur suit le contenu.
 5. Publier, vérifier en ligne à 1280 × 720 et sur téléphone.
