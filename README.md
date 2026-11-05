@@ -4,14 +4,16 @@ Le remplaçant d'Elfsight (résilié, actif jusqu'au 15/11/2026) : un custom ele
 
 - `widget-avis.js` : le composant (un seul fichier, tout inclus). Modèles `carrousel`, `grille`, `bandeau` ; thème `clair` ou `sombre` ; `accent` = couleur du site ; onglets par source quand il y en a plusieurs (Blue Lobster Loft : Booking, Airbnb).
 - `donnees/<client>.json` : la vitrine de chaque client, écrite par la routine des avis du serveur Wapia. Aucune republication de site quand les avis changent.
+- `c/<clé>.js` : le lien de chaque client (le widget, clé écrite dedans), fabriqué par `node construire-liens.mjs` ; **à relancer après chaque modification du widget et pour chaque nouveau client**, puis push et `node construire-liens.mjs --purger`.
+- `apercu-sites.html` : chaque vitrine sur un fond proche de son site, pour contrôler les réglages.
 - `apercu.html` + `serveur-apercu.mjs` : l'aperçu local (`node serveur-apercu.mjs`, puis http://127.0.0.1:4390/apercu.html).
 
 ## Poser le module sur un site Wix classique (5 minutes par site)
 
 1. Dans l'éditeur, supprimer le bloc Elfsight (« Intégrer du code » ou l'appli Elfsight).
-2. Au même endroit : **Ajouter → Intégrer → Élément personnalisé** (Custom Element), source **URL du serveur** :
-   `https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/widget-avis.js`, nom de balise **`wapia-avis`**.
-3. Attributs : `client` = la clé du client, puis ceux qui collent au site (tableau ci-dessous).
+2. Au même endroit : **Ajouter → Intégrer → Élément personnalisé** (Custom Element), source **URL du serveur** = **le lien du client** :
+   `https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/c/<clé>.js`, nom de balise **`wapia-avis`**.
+3. Aucun attribut à poser : le lien porte la clé, et la vitrine porte les réglages d'affichage du site (couleur, police, fonds, bouton…), choisis par l'agence d'après le site (`sites.json` de la routine, clé « affichage »). Un attribut posé dans l'éditeur reste possible et passe devant (tableau ci-dessous).
 4. Largeur : pleine largeur de la section (un custom element n'a pas de largeur par défaut) ; la hauteur suit le contenu.
 5. Publier, vérifier en ligne à 1280 × 720 et sur téléphone.
 
@@ -26,6 +28,12 @@ Un attribut posé dans l'éditeur l'emporte sur les réglages du CMS. Sans attri
 | `fond-carte` | `blanc` (défaut), `#RRGGBB`, `transparent` | fond des cartes |
 | `ombre` | `non` | cartes sans ombre (quand la carte a la couleur de la section) |
 | `fond` | `#RRGGBB` | fond du module entier (défaut : celui de la section) |
+| `fond-entete` | `blanc`, `#RRGGBB` | met la note globale dans un bloc (indispensable sur une photo) |
+| `alignement` | `centre` | note globale centrée, logo au-dessus |
+| `bord` | `#RRGGBB`, `non` | contour des cartes |
+| `rayon` | `0` à `40` | arrondi des cartes et du bloc de note, en pixels |
+| `colonnes` | `1` à `5` | cartes visibles à la fois sur grand écran (3 par défaut ; 2 sous 860 px, une et demie sur téléphone) |
+| `couleur-etoiles` | `#RRGGBB` | couleur des étoiles (jaune Google par défaut) |
 | `bouton` | présent, ou le libellé | affiche « Laisser un avis » ; `bouton="Laissez-nous un avis sur Google"` change le texte |
 | `style-bouton` | `contour` (défaut), `plein` | bouton cerclé ou rempli de l'accent |
 | `police` | un nom ou une pile CSS | ex. `police="poppins-semibold, poppins, sans-serif"` ; à défaut, celle de la page |

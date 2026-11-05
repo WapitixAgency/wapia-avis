@@ -23,8 +23,10 @@
  */
 (() => {
   if (customElements.get('wapia-avis')) return;
+  // Lien propre à un client (c/<cle>.js, fabriqué par construire-liens.mjs) : la clé y est écrite, l'attribut client devient facultatif.
+  const CLIENT_DU_LIEN = null;
   const SCRIPT = document.currentScript && document.currentScript.src;
-  const BASE = SCRIPT ? SCRIPT.replace(/[^/]*$/, '') : '';
+  const BASE = SCRIPT ? SCRIPT.replace(/(c\/)?[^/]*$/, '') : 'https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/';
   const cache = new Map();
 
   const SOURCES = {
@@ -73,30 +75,37 @@
     return null;
   };
   // Texte lisible sur l'accent : encre sombre si l'accent est clair, blanc sinon.
-  const surAccent = (hex) => {
-    const m = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(hex || ''); if (!m) return '#fff';
+  const lum = (hex) => {
+    const m = /^#([0-9a-f]{3}|[0-9a-f]{6})$/i.exec(hex || ''); if (!m) return null;
     const h = m[1].length === 3 ? m[1].replace(/./g, '$&$&') : m[1];
     const [r, g, b] = [0, 2, 4].map((i) => { const c = parseInt(h.slice(i, i + 2), 16) / 255; return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; });
-    return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.42 ? '#1d1d1b' : '#fff';
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
   };
+  const surAccent = (hex) => (lum(hex) > 0.42 ? '#1d1d1b' : '#fff');
   const police = (v) => {
     const s = String(v || '').trim(); if (!s || /[;{}<>]/.test(s)) return null;
-    return s.includes(',') ? s : `"${s.replace(/"/g, '')}", inherit`;
+    // Toujours une famille générique en dernier : sans elle, une police absente retombe sur un serif.
+    const pile = s.includes(',') ? s : `"${s.replace(/"/g, '')}"`;
+    return /(sans-serif|serif|monospace|system-ui|cursive)\s*$/i.test(pile) ? pile : `${pile}, sans-serif`;
   };
 
   const CSS = `
-  :host{display:block;width:100%;container-type:inline-size;font-family:inherit;color:var(--texte);background:var(--fond-module);--accent:#1a73e8;--sur-accent:#fff;--fond-module:transparent;--carte:#fff;--texte:#1d1d1b;--doux:#6b6b66;--trait:#e6e5e0;--bord:#ecebe6;--etoile:#f5b301;--etoile-vide:#d9d7d0;--rayon:16px;--ombre:0 1px 2px rgba(20,20,15,.04),0 8px 24px rgba(20,20,15,.07)}
+  :host{display:block;width:100%;container-type:inline-size;font-family:inherit;color:var(--texte);background:var(--fond-module);--accent:#1a73e8;--sur-accent:#fff;--fond-module:transparent;--carte:#fff;--texte:#1d1d1b;--doux:#6b6b66;--trait:#e6e5e0;--bord:#ecebe6;--etoile:#f5b301;--etoile-vide:#d9d7d0;--rayon:16px;--col:3;--fond-entete:transparent;--ombre:0 1px 2px rgba(20,20,15,.04),0 8px 24px rgba(20,20,15,.07)}
   :host([theme=sombre]),:host([data-theme=sombre]){--carte:#1c1c1c;--texte:#f3f2ee;--doux:#a9a8a2;--trait:#3a3a37;--bord:#2a2a28;--etoile-vide:#4a4a46;--ombre:none}
-  :host([ombre=non]){--ombre:none}
+  :host([data-ombre=non]){--ombre:none}
   *{box-sizing:border-box}
   .w{display:flex;flex-direction:column;gap:22px}
   .tete{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .score{display:flex;align-items:center;gap:14px}
+  :host([data-bloc]) .tete{background:var(--fond-entete);border-radius:var(--rayon);padding:22px 26px}
+  :host([data-align=centre]) .tete{flex-direction:column;justify-content:center;text-align:center}
+  :host([data-align=centre]) .score{flex-direction:column;gap:10px}
+  :host([data-align=centre]) .score .ligne{justify-content:center}
   .logo{width:34px;height:34px;flex:none}.logo svg,.src svg{width:100%;height:100%}
   .chiffre{font-size:34px;font-weight:700;line-height:1;letter-spacing:-.02em}
   .total{font-size:13.5px;color:var(--doux);margin-top:5px}
   .titre{font-size:clamp(20px,2.4vw,26px);font-weight:600;margin:0 0 4px}
-  .btn{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--accent);color:var(--accent);background:transparent;border-radius:999px;padding:11px 20px;font:inherit;font-size:14.5px;font-weight:600;line-height:1.2;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,box-shadow .2s,transform .2s}
+  .btn{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--accent);color:var(--lien,var(--accent));background:transparent;border-radius:999px;padding:11px 20px;font:inherit;font-size:14.5px;font-weight:600;line-height:1.2;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,box-shadow .2s,transform .2s}
   .btn svg{width:18px;height:18px;flex:none}
   .btn:hover,.btn:focus-visible{background:var(--accent);color:var(--sur-accent);outline:none}
   .btn.plein{background:var(--accent);color:var(--sur-accent);box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 28%,transparent)}
@@ -107,12 +116,12 @@
   .onglets .src{width:16px;height:16px}
   .piste{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:6px 6px 26px;margin:-6px -6px -20px;scroll-padding:0 6px;scroll-behavior:smooth;align-items:stretch}
   .piste::-webkit-scrollbar{display:none}
-  .piste .carte{flex:0 0 calc((100% - 36px)/3);scroll-snap-align:start}
-  @container (max-width:860px){.piste .carte{flex-basis:calc((100% - 18px)/2)}}
+  .piste .carte{flex:0 0 calc((100% - (var(--col) - 1) * 18px) / var(--col));scroll-snap-align:start}
+  @container (max-width:1000px){.piste .carte{flex-basis:calc((100% - (min(var(--col), 3) - 1) * 18px) / min(var(--col), 3))}}
+  @container (max-width:860px){.piste .carte{flex-basis:calc((100% - (min(var(--col), 2) - 1) * 18px) / min(var(--col), 2))}}
   @container (max-width:560px){.piste .carte{flex-basis:86%}}
-  .grille{columns:3 280px;column-gap:18px}.grille .carte{break-inside:avoid;margin-bottom:18px}
+  .grille{columns:var(--col) 260px;column-gap:18px}.grille .carte{break-inside:avoid;margin-bottom:18px}
   .carte{background:var(--carte);border:1px solid var(--bord);box-shadow:var(--ombre);border-radius:var(--rayon);padding:24px;display:flex;flex-direction:column;gap:12px}
-  :host([fond-carte=transparent]) .carte,:host([fond-carte=aucun]) .carte{border-color:var(--trait);box-shadow:none}
   .qui{display:flex;align-items:center;gap:12px}
   .av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:600;font-size:16px;flex:none}
   .nom{font-weight:600;font-size:15.5px;line-height:1.2}.date{font-size:12.5px;color:var(--doux);margin-top:3px}
@@ -123,7 +132,7 @@
   .txt{font-size:15px;line-height:1.6;margin:0;white-space:pre-line;max-height:calc(1.6em * 6);overflow:hidden}
   .txt.coupe{white-space:normal;-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 2.2em),transparent);mask-image:linear-gradient(to bottom,#000 calc(100% - 2.2em),transparent)}
   .txt.ouvert{max-height:none;-webkit-mask-image:none;mask-image:none}
-  .plus{appearance:none;border:0;background:none;padding:4px 0;margin-top:auto;font:inherit;font-size:14px;font-weight:600;color:var(--accent);cursor:pointer;align-self:flex-start;display:inline-flex;align-items:center;gap:6px;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;text-decoration-thickness:1.5px;transition:text-decoration-color .2s}
+  .plus{appearance:none;border:0;background:none;padding:4px 0;margin-top:auto;font:inherit;font-size:14px;font-weight:600;color:var(--lien,var(--accent));cursor:pointer;align-self:flex-start;display:inline-flex;align-items:center;gap:6px;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;text-decoration-thickness:1.5px;transition:text-decoration-color .2s}
   .plus[hidden],.points[hidden]{display:none}
   .plus svg{width:16px;height:16px;transition:transform .25s}
   .plus[aria-expanded=true] svg{transform:rotate(180deg)}
@@ -145,12 +154,12 @@
   `;
 
   class WapiaAvis extends HTMLElement {
-    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bouton', 'style-bouton', 'police', 'entete', 'reponses']; }
+    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses']; }
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
     async charger() {
-      const client = this.getAttribute('client'); if (!client) return;
+      const client = this.getAttribute('client') || CLIENT_DU_LIEN; if (!client) return;
       const url = this.getAttribute('donnees') || `${BASE}donnees/${encodeURIComponent(client)}.json`;
       try {
         if (!cache.has(url)) cache.set(url, fetch(url, { credentials: 'omit', cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }));
@@ -162,16 +171,30 @@
     // Attribut posé > réglage du CMS (bloc « affichage » de la vitrine) > défaut.
     reglage(attr, cle) { return this.hasAttribute(attr) ? this.getAttribute(attr) : (this.d.affichage || {})[cle]; }
     habiller() {
-      const st = this.style;
-      if (!this.hasAttribute('theme')) { if ((this.d.affichage || {}).theme === 'sombre') this.dataset.theme = 'sombre'; else delete this.dataset.theme; }
+      const st = this.style, ds = this.dataset;
+      const pose = (v, val) => (val != null && val !== '' ? st.setProperty(v, val) : st.removeProperty(v));
+      const drapeau = (k, oui) => (oui ? (ds[k] = oui) : delete ds[k]);
+      if (!this.hasAttribute('theme')) drapeau('theme', (this.d.affichage || {}).theme === 'sombre' ? 'sombre' : '');
       const accent = couleur(this.reglage('accent', 'couleur'));
-      if (accent) { st.setProperty('--accent', accent); st.setProperty('--sur-accent', surAccent(accent)); } else { st.removeProperty('--accent'); st.removeProperty('--sur-accent'); }
+      pose('--accent', accent); pose('--sur-accent', accent ? surAccent(accent) : null);
+      // Un accent clair (jaune, pêche) ne se lit pas en texte sur fond clair, ni un accent foncé sur fond sombre : le lien prend alors la couleur du texte.
+      const sombre = (this.getAttribute('theme') || ds.theme) === 'sombre', clair = accent && lum(accent) > 0.3; // contraste < 3:1 sur blanc
+      pose('--lien', accent && (sombre ? !clair : clair) ? 'var(--texte)' : null);
       const fc = couleur(this.reglage('fond-carte', 'fondCarte'));
-      if (fc) st.setProperty('--carte', fc); else st.removeProperty('--carte');
-      const fm = couleur(this.reglage('fond', 'fond'));
-      if (fm) st.setProperty('--fond-module', fm); else st.removeProperty('--fond-module');
-      const p = police(this.reglage('police', 'police'));
-      if (p) st.setProperty('font-family', p); else st.removeProperty('font-family');
+      pose('--carte', fc);
+      const b = String(this.reglage('bord', 'bord') || '').trim();
+      pose('--bord', /^non$/i.test(b) ? 'transparent' : couleur(b) || (fc === 'transparent' ? 'var(--trait)' : null));
+      drapeau('ombre', /^non$/i.test(this.reglage('ombre', 'ombre') || '') || fc === 'transparent' ? 'non' : '');
+      const r = Number.parseInt(this.reglage('rayon', 'rayon'), 10);
+      pose('--rayon', Number.isFinite(r) && r >= 0 && r <= 40 ? r + 'px' : null);
+      const col = Number.parseInt(this.reglage('colonnes', 'colonnes'), 10);
+      pose('--col', col >= 1 && col <= 5 ? String(col) : null);
+      pose('--fond-module', couleur(this.reglage('fond', 'fond')));
+      const fe = couleur(this.reglage('fond-entete', 'fondEntete'));
+      pose('--fond-entete', fe); drapeau('bloc', fe ? 'oui' : '');
+      pose('--etoile', couleur(this.reglage('couleur-etoiles', 'couleurEtoiles')));
+      drapeau('align', /^cent/i.test(this.reglage('alignement', 'alignement') || '') ? 'centre' : '');
+      pose('font-family', police(this.reglage('police', 'police')));
     }
     rendre() {
       const d = this.d, af = d.affichage || {}, modele = this.getAttribute('modele') || af.modele || 'carrousel';

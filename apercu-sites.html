@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vitrines par site</title>
+<style>
+  body{margin:0;font-family:system-ui,sans-serif;background:#fff;color:#1d1d1b}
+  section{padding:48px clamp(16px,5vw,80px)}
+  .etroit{max-width:1000px;margin:0 auto}
+  h1{font:600 13px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;margin:0 0 22px;color:#888}
+  .noir{background:#000}.noir h1{color:#999}
+  .photo{background:linear-gradient(135deg,#3b4a2c,#5c3a3a 60%,#2f3d27)}.photo h1{color:#ddd}
+  .gery{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:#0a0a0a}
+  .gery .vid{background:#222;border-radius:12px;min-height:300px}
+</style>
+<script src="widget-avis.js"></script>
+</head>
+<body>
+  <section style="background:#fffdf8"><div class="etroit"><h1>Domaine de la Laugerie</h1><wapia-avis client="domaine-laugerie"></wapia-avis></div></section>
+  <section style="background:#fff"><h1>Gambas Royale</h1><wapia-avis client="gambas-royale"></wapia-avis></section>
+  <section style="background:#eeede8"><div class="etroit"><h1>Le Rideau</h1><wapia-avis client="le-rideau"></wapia-avis></div></section>
+  <section style="background:#fff"><div class="etroit"><h1>SunSolutions</h1><wapia-avis client="sunsolutions"></wapia-avis></div></section>
+  <section style="background:#fff"><div class="etroit"><h1>EGME</h1><wapia-avis client="egme"></wapia-avis></div></section>
+  <section class="noir"><div style="max-width:520px;margin-left:auto"><h1>BDG (colonne de droite)</h1><wapia-avis client="bdg"></wapia-avis></div></section>
+  <section class="photo"><div class="etroit"><h1>L'Ermitage de Brouilly (sur photo)</h1><wapia-avis client="ermitage-brouilly"></wapia-avis></div></section>
+  <section class="gery"><div><h1 style="color:#999">Gery Corporation (demi-colonne)</h1><wapia-avis client="gerycorpo"></wapia-avis></div><div class="vid"></div></section>
+  <section style="background:#fff"><div class="etroit"><h1>Mecanosk</h1><wapia-avis client="mecanosk"></wapia-avis></div></section>
+  <section style="background:#eef8f8"><div style="max-width:620px"><h1>Plomberie Tanzilli (colonne)</h1><wapia-avis client="plomberie-tanzilli"></wapia-avis></div></section>
+  <section style="background:#f7f7f7"><h1>Philao</h1><wapia-avis client="philao"></wapia-avis></section>
+</body>
+</html>
