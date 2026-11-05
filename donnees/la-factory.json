@@ -1,0 +1,240 @@
+{
+ "client": "la-factory",
+ "nom": "La Factory",
+ "note": 4.9,
+ "total": 114,
+ "lienFiche": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.9,
+   "total": 114,
+   "lien": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "couleur": "#9aaa96",
+  "couleurEtoiles": "#d69a78",
+  "entete": "compact",
+  "logo": "mot",
+  "couleurLogo": "#9aaa96",
+  "colonnes": 4,
+  "lignes": 3,
+  "fondCarte": "transparent",
+  "bord": "non",
+  "rayon": 0,
+  "bouton": true,
+  "styleBouton": "plein",
+  "texteBouton": "Laissez-nous un avis sur Google",
+  "policeWeb": "Montserrat",
+  "modele": "carrousel",
+  "theme": "clair",
+  "titre": ""
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKZlVFbDFRVlkwVVc5bk5EbHlPWFIxYldjNFJIYxAB",
+   "source": "google",
+   "auteur": "Axel B.",
+   "note": 5,
+   "texte": "Nous avons eu le bonheur de célébrer notre mariage à la Factory ce weekend. En plus d'être original, le lieu est très beau, très bien équipé et propose des logements très agréable et de qualité. Gwenaëlle et son mari sauront vous aider pour l'organisation du grand jour et leur brunch est excellent ! On y gardera de très beaux souvenirs à vie !",
+   "reponse": "Salut Axel. Un grand merci à vous deux. Vous avez tout très bien choisi et organisé, beau mariage. Tout plein de bonheur à vous deux et au plaisir de vous revoir. La Factory team.",
+   "titre": "",
+   "date": "2026-11-02"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2poa1JrdFphM28xT0haZmJGOVliVzA0VGxkc1ExRRAB",
+   "source": "google",
+   "auteur": "Justine P.",
+   "note": 5,
+   "texte": "J'ai récemment organisé un séminaire de travail à la Factory pour un bureau d'étude structure (Ingé et dessinateurs projeteurs). Groupe de 16 pax.\n2 jours mêlant temps de travail et temps de cohésion informels rendus parfaitement possible grâce aux aménagements extérieurs très conviviaux (pétanque, piscine, canapés etc...)\nLe duo de Gwen a été aux petits soins, discret mais présent pour répondre à toutes les demandes de mon client.\nCôté restauration, rien à redire, c'était très bon et copieux.\nLe soir, mon client avait un diner en formule \"autonome\", le frigo était plein et c'est l'équipe qui a géré le BBQ ce qui leur a beaucoup plu. Une formule idéale pour souder le collectif et créer de bons souvenirs communs.\nLa salle de travail est bien équipée avec un accès quasi direct sur l'extérieur, parfait pour des petites pauses régulières. Mes clients auraient pu travailler dehors mais il faisait trop chaud !\nCôté accessibilité, rien à dire, moins d'1h de Lyon et un grand parking pour stationner 8 voitures.\nUn grand merci la Factory pour votre professionnalisme dans l'accueil de séminaire d'entreprise !\nJe garde précieusement cette adresse insolite pour des prochains clients ;)",
+   "reponse": "Bonjour Justine. Heureuses que cela vous ait plu. N'hésitez pas revenir on equipe et on ameliore d'année en année depuis 8 ans maintenant, mais pour de nombreuses années encore aussi ;-)",
+   "titre": "",
+   "date": "2026-08-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21abU5IRnpUM2R0WmxkeGRWSjNhSFk1VlRSR2FtYxAB",
+   "source": "google",
+   "auteur": "Constance",
+   "note": 5,
+   "texte": "Un immense merci à Gwennaëlle et à La Factory !\n\nNous avons célébré notre mariage dans ce magnifique domaine, et nous en gardons un merveilleux souvenir. Gwennaëlle a été exceptionnelle du début à la fin, aussi bien dans l’accompagnement des préparatifs que le jour J.\n\nSon professionnalisme, sa disponibilité et son expérience nous ont énormément aidés à organiser notre mariage sereinement. Les plans interactifs, les fiches techniques, la location de déco, et tous les outils mis à disposition sont de véritables atouts pour préparer cet événement dans les meilleures conditions.\n\nLe jour J, Gwennaëlle et son équipe ont été au top ! Tout a été géré avec beaucoup de sérieux, de discrétion et d’attention. Nous avons particulièrement apprécié toutes les petites attentions et les initiatives qui ont contribué à rendre cette journée encore plus belle et fluide, ainsi que le brunch du lendemain.\n\nNous recommandons La Factory les yeux fermés à tous les futurs mariés ! Encore un immense merci à Gwennaëlle qui a littéralement sauvé notre jour J quand notre maître d'hôtel nous a lâché à un mois du mariage !",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-10-15"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUN2dF9QSkdREAE",
+   "source": "google",
+   "auteur": "Driss D.",
+   "note": 5,
+   "texte": "Nous avons loué la Factory en novembre 2024 (gîte + salle) pour fêter le baptême laïque et les 2 ans de notre fille, et le lieu s’y prêtait à merveille. Nous avons reçu énormément de compliments de nos invités concernant le lieu au global, …",
+   "reponse": "Merci beaucoup pour ce chaleureux retour, ce fut un plaisir partagé. Un gros souvenir déjà pour votre petite ! Bravo.",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOUFFXVnhkMjlxVjJSRVEzVnBVSEZWTjBWSldYYxAB",
+   "source": "google",
+   "auteur": "Solène M.",
+   "note": 5,
+   "texte": "Cela ne pouvait pas être mieux!\n\nNous nous sommes mariés à la Factory le we du 17 juillet 2026. Un lieu authentique exceptionnel, une salle de réception et de cérémonie incroyables! Un gîte décoré avec goût, assez grand pour accueillir tous nos invités ! Et des air bnb ou hôtels juste à côté si besoin.\nNous avons adoré ce lieu et nos invités aussi qui l'ont trouvé \"magnifique\", \" incroyable\"!\nUn grand merci à Gwenaëlle et Loïc pour leur disponibilité. Le brunch proposé le dimanche était un régal!\nLa location de la décoration, l'œil avisé de Gwenaëlle, la to do list, les mobiliers pour bébé, la baby sitter, le catalogue des prestataires, les plans des lieux, des gîtes, etc. Tout ça est un vrai plus!!\nBeaucoup de nos invités nous ont dit que c'était un des plus beaux we qu'ils aient passé depuis longtemps! Tout est dit : cela ne pouvait pas être mieux!\nSolène & Nicolas",
+   "reponse": "Tout est dit dans votre avis, mille merci, cela fait chaud au cœur et donne l'énergie pour faire toujours aussi bien pour les prochains donc mille et un merci pour ça. La team Factory.",
+   "titre": "",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT214aFZIcHlYMk10YjFocFlWQnFOMk5yWm1sbmRIYxAB",
+   "source": "google",
+   "auteur": "Adrien D.",
+   "note": 5,
+   "texte": "Nous avons organisé notre séminaire annuel dans ce lieu et tout s’est parfaitement déroulé.\n\nLe cadre est chaleureux, convivial et parfaitement adapté à l’organisation d’événements professionnels.\n\nUn grand merci à Gwendoline ainsi qu’aux propriétaires pour leur accueil, leur disponibilité et leur professionnalisme tout au long de la préparation et de la journée.\n\nMention spéciale pour la pause gourmande faite maison, qui a été particulièrement appréciée par nos adhérents !\n\nL’organisation était fluide du début à la fin et nous n’avons reçu que des retours positifs de nos participants.",
+   "reponse": "Bonjour Adrien. Ce fut un réel plaisir. La Factory s'ameliore et s'equipe sans cesse, pour le même prix de service ;-). N'hésitez pas à revenir. La team Factory",
+   "titre": "",
+   "date": "2026-07-07"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25Oc2NVUlFjMlJmUWs5Slp6bEZiVzVLVVhOcVpHYxAB",
+   "source": "google",
+   "auteur": "Cloé M.",
+   "note": 5,
+   "texte": "Un lieu vraiment magnifique ! Le cadre est superbe et nous avons passé un week-end absolument délicieux, dans une ambiance très agréable et chaleureuse.\n\nMention spéciale pour le brunch, qui était vraiment de grande qualité : tout était délicieux et très bien préparé.\n\nGwenaëlle et son mari sont adorables, accueillants et aux petits soins. Leur gentillesse a vraiment contribué à rendre ce week-end encore plus agréable.\n\nUn endroit que nous recommandons les yeux fermés !",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNUb3ZqT2R3EAE",
+   "source": "google",
+   "auteur": "Catherine V.",
+   "note": 5,
+   "texte": "Nous avons loué le gîte et la salle de réception le 08 mai dernier et nous tenons à remercier chaleureusement Gwenaëlle et Loïc pour leur accueil ! Le gîte est très sympa, propre, et l'espace extérieur super agréable. Nous avons passé un …",
+   "reponse": "Bonjour Catherine et Philippe. Et nous recommandons cette gentille famille comme locataire ;-) merci beaucoup. Gwenaelle et Loïc",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pRMGFVeE9ObTVtYlZoNWVrRmpXakpzU0dwak5tYxAB",
+   "source": "google",
+   "auteur": "Samuel S.",
+   "note": 5,
+   "texte": "Nous avons choisi la Factory pour notre lieu de mariage et nous avons été ravis de notre choix. La salle de cérémonie était parfaite, charmante, lumineuse et suffisamment grande pour accueillir confortablement nos invités. Sa disposition en longueur permet de créer une belle allée pour l’entrée des mariés. De plus, la salle est très bien climatisée ce qui a été très apprécié en une journée de canicule.\nL’extérieur était très bien aménagé, en plus d’être beau, pour notre vin d’honneur et il était bien ombragé à partir du milieu d’après-midi un 20 juin. Il y a beaucoup d’équipements pour s’asseoir et se détendre : tables, chaises, canapés, boulodrome, piscine…\nLe lieu dispose en plus d’une salle de jeux qui a été un succès auprès des enfants.\nLe clou du spectacle a été la salle de réception, très grande et lumineuse, climatisée aussi et bien pensée pour associer l’espace repas et l’espace dance floor (maîtrise du volume sonore et circulation entre les tables).\nEnfin, la partie gîte est un gros plus qui permet de loger sur place de nombreux invités. Il offre un espace agréable pour se préparer et se détendre avec nos proches avant le mariage.\nLa communication avec Gwen était fluide, elle était disponible et super arrangeante.\nPour conclure, le lieu était parfait, on ne pouvait pas rêver mieux pour notre mariage.\n\nJustine & Samuel\n20/06/2026",
+   "reponse": "Bonjour à tous les deux. Merci pour cet avis qui en plus détaille tout bien. Génial. Au plaisir de vous revoir. La team Factory.",
+   "titre": "",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGek4yNURPVmt5YWxWb1kxaFdOMHczZW14R1lrRRAB",
+   "source": "google",
+   "auteur": "Stephane D.",
+   "note": 5,
+   "texte": "Nous avons loué ce gîte pour organiser un séminaire professionnel de trois jours. Le lieu, superbement réhabilité dans une ancienne usine, offre un cadre à la fois original et très agréable. Tout est pensé pour répondre aux besoins de ce type d’événement, et les aménagements extérieurs sont particulièrement remarquables.",
+   "reponse": "Bonjour Stephane, merci beaucoup. Des nouveautés seront là d'ici la fin de saison estivale, n'hesitez pas à revenir avec votre équipe à la prochaine. C'est bien de changer mais c'est bien aussi d'avoir ses habitudes ;-) au plaisir et merci encore pour tout, vous avez été au top. La Factory team.",
+   "titre": "",
+   "date": "2026-05-07"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKclkwMHpaalpTTWxoVVZYbHBVV3AxUWxoUVJuYxAB",
+   "source": "google",
+   "auteur": "Laura M.",
+   "note": 5,
+   "texte": "Pour nous, le lieu idéal pour notre mariage !\n\nNous avons réservé la Factory pour notre mariage et pour nous, c’est le lieu parfait :\n- Hébergements: une quarantaine de couchages sur place + un hôtel à 2 min à pied + plusieurs Airbnb dans la ville. Au total, nous avons pu loger nos 100 invités sans qu’ils aient à reprendre la voiture, ce qui est très rare pour un lieu de mariage !!\n- Le cadre : un lieu charmant, original, sans chichi mais élégant, plein d’histoire ! Ça a été le premier lieu que nous avons visité et nous avons eu un coup de cœur 🤩, nous vous conseillons de faire la même 😬 D’ailleurs, tous nos invités étaient de cet avis\n- Les équipements : un terrain de pétanque, une piscine, une salle de jeux pour enfant, même une machine d’arcade ! Qu’il fasse beau ou qu’il pleuve, vous saurez vous occuper (PS: nous avons eu de la chance, il faisait tellement beau que nous avons pu faire un plouf !)\n- Petit plus pour le catalogue de décoration très complet qui évite de tout acheter et de repartir avec des tonnes de décorations !\nEn bref, tout était parfait !\nCe serait avec plaisir de relouer ce lieu pour une autre occasion 🤩\nMerci à toute l’équipe pour leur accueil et leur disponibilité !",
+   "reponse": "Bonjour les amoureux. Miles merci pour tout et pour ce gentil avis. C'était un plaisir de vous avoir et ce le sera de vous revoir. La Factory a déjà prévu ses prochaines améliorations, vous pourrez voir tout ça ;-)",
+   "titre": "",
+   "date": "2026-08-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKUWJXVkJRbU5UU1ZFdFlUbHhlRFJ2Y1VZNFIzYxAB",
+   "source": "google",
+   "auteur": "Rachel L.",
+   "note": 5,
+   "texte": "Très beau lieu de réception\nLes propriétaires sont adorables\nLe gîte est très confortable\nJe recommande",
+   "reponse": "Merci beaucoup! Cela fait plaisir d'avoir aussi de beaux avis des invités. Au plaisir. La team Factory",
+   "titre": "",
+   "date": "2026-10-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5S2NtSjRkMUpxZEVsYU1XdzBhbVJ3YmxJMGQxRRAB",
+   "source": "google",
+   "auteur": "Charline R.",
+   "note": 5,
+   "texte": "Quand nous avons visité la Factory pour la première fois, ça a été un véritable coup de cœur. Si vous aimez le style industriel et vintage, cette salle est clairement faite pour vous : un charme incroyable et une vraie identité.\n\nGwenaëlle et son mari ont été disponibles, réactifs, à l’écoute et ont également facilité l’organisation en faisant visiter les lieux à nos différents prestataires.\n\nAutre atout majeur : les hébergements sur place, un vrai plus pour nous et pour nos invités qui enlève beaucoup de stress logistique. Nous avons opté pour un mariage d’hiver et c’est pourquoi la Factory a été idéale : plusieurs salles de grandes capacités connectées entre elles. Cela permet de créer des ambiances différentes au fil de la soirée.",
+   "reponse": "Merci beaucoup pour ce chaleureux avis. On ne parle plus de mariage \"hors saison\" à la Factory, le mariage d'hiver devient un vrai style, comme notre domaine. Nous vous remercions de votre confiance et de si bien le souligner. Au plaisir de vous revoir et portez vous bien. La Factory team",
+   "titre": "",
+   "date": "2026-03-07"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2todlMwZFhWV2xrYlVsWWVrczVkMnhxUkdVd2JXYxAB",
+   "source": "google",
+   "auteur": "Flavie B.",
+   "note": 5,
+   "texte": "Nous avons passé 2 journées dans le cadre d'un séminaire à La Factory. Le lieu est vraiment sympa pour un séminaire comme le nôtre en petit comité dans la partie \"Gîte\". Tout était très bien organisé: déjeuner, repas, matériel. Merci",
+   "reponse": "Bonjour Flavie. Et je Suis sûr que vous reviendrez regulierement pour vous aerer et changer d'environnement de travail ;-) bon en tout cas ce serait avec plaisir. Merci beaucoup de nous avoir fait confiance et pour ce retour.",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KQldVUXlhVzVyTURWdVNUWk1TV1ExVTNoTlIxRRAB",
+   "source": "google",
+   "auteur": "Caroline S.",
+   "note": 5,
+   "texte": "Voilà un peu plus d un mois que nous nous sommes maries à La Factory. Nous redescendons tout doucement de notre nuage. Nous avions eu un coup de cœur sur le lieux, nos invités l ont adoré. Tout est à la hauteur d un tel événement. La salle de réception, la salle de la cérémonie, les gîtes … Nous souhaitions que tous nos invités puissent dormir sur place. À La Factory, c est possible. Ts nos prestataires ont été bienveillants et aidants, avec une mention spéciale pour Gwenaëlle. Nous savons que nous avons fait le bon choix en choisissant La Factory !",
+   "reponse": "Et vous etes des mariés comme on les aime aussi! Au plaisir de vous revoir. La team Factory.",
+   "titre": "",
+   "date": "2026-01-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOR09VVmtNMDVQY25wemJEUkNlbmQxVmt4MWFrRRAB",
+   "source": "google",
+   "auteur": "Christophe C.",
+   "note": 5,
+   "texte": "Très belle salle. Un lieu atypique et vraiment agréable et super fonctionnel.\nVous serez accueillis par une équipe énergique, vraiment professionnelle et à votre écoute ce qui est indispensable pour votre bien être le jour J.\nJe recommande ce lieu pour sa modernité et son professionnalisme de haut niveau.",
+   "reponse": "Merci mille fois pour ces mots. Et pour ce qui est de la modernité, on n'est pas près de s'arrêter ;-)",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNyMGR2TlVBEAE",
+   "source": "google",
+   "auteur": "Tristan D.",
+   "note": 5,
+   "texte": "Un immense merci à Gwenaëlle et Loïc qui ont rendu notre mariage exceptionnel ce 6 juillet 2024 avec leur salle hors du commun.\nNos invités ont été émerveillés par le lieu que ce soit la salle de réception …",
+   "reponse": "Merci beaucoup les jeunes amoureux! Ce fut un plaisir de croiser votre route et d'avoir contribué à votre mariage à notre façon. Ce sera un plaisir de vous accueillir de nouveau, you're welcome!",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUQzMDd2c1lBEAE",
+   "source": "google",
+   "auteur": "Jean D.",
+   "note": 5,
+   "texte": "Nous avons utilisé pour la 2ème fois La Factory pour un séminaire d'entreprise et avons de nouveau été très satisfaits des lieux, de l'organisation et de l'accueil de Gwendoline. …",
+   "reponse": "Bonsoir, et merci beaucoup pour votre retour et fidélité. C'est un plaisir de partager notre lieu avec des entreprises locales, nous sommes les premiers honorés. … Plus",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNuMnBMQ0FnEAE",
+   "source": "google",
+   "auteur": "Marie F.",
+   "note": 5,
+   "texte": "Nous avons découvert la salle de La Factory par bouche à oreille et sur mariages.net, et le premier contact avec les gérants, Loïc et Gwenaëlle, a été excellent. Ils nous ont fait part à plusieurs reprises de leurs conseils avisés, ce qui a …",
+   "reponse": "Mille merci pour votre retour et pour cette mise en lumière. C'est ce qui nous rends heureux de faire notre métier. Que vous appréciez également notre engagement éco responsable est très flatteur. Bravo à vous aussi et au plaisir de vous … Plus",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURoNTcyWHBnRRAB",
+   "source": "google",
+   "auteur": "Mélanie D.",
+   "note": 5,
+   "texte": "Tout a commencé par une recherche google \"mariage usine Lyon\" et là, premier résultat on est conquis immédiatement. Mais on n'aurait pas pu imaginer tomber sur la meilleure salle possible et surtout sur les meilleurs propriétaires possibles …",
+   "reponse": "Merci Mélanie, nous gardons un merveilleux souvenir de vous, j'espère que vous allez bien. Au plaisir. \nGwenaëlle",
+   "titre": "",
+   "date": "2023-11-06"
+  }
+ ],
+ "maj": "2026-11-05"
+}
