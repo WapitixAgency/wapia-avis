@@ -1,0 +1,271 @@
+{
+ "client": "blue-lobster-loft",
+ "nom": "Blue Lobster Loft",
+ "note": 4.8,
+ "total": 176,
+ "lienFiche": "",
+ "lienAvis": "",
+ "sources": [
+  {
+   "id": "booking-honfleur",
+   "type": "booking",
+   "libelle": "Honfleur - Booking.com",
+   "note": 9.2,
+   "total": 98,
+   "lien": "https://www.booking.com/hotel/fr/le-loft-du-homard-bleu-entre-ciel-et-mer.fr.html",
+   "lienAvis": "https://www.booking.com/hotel/fr/le-loft-du-homard-bleu-entre-ciel-et-mer.fr.html"
+  },
+  {
+   "id": "airbnb-honfleur",
+   "type": "airbnb",
+   "libelle": "Honfleur - Airbnb",
+   "note": 4.96,
+   "total": 48,
+   "lien": "https://www.airbnb.fr/rooms/610503999366386610",
+   "lienAvis": "https://www.airbnb.fr/rooms/610503999366386610"
+  },
+  {
+   "id": "booking-saint-malo",
+   "type": "booking",
+   "libelle": "Saint-Malo - Booking.com",
+   "note": 9.9,
+   "total": 22,
+   "lien": "https://www.booking.com/hotel/fr/le-loft-du-homard-bleu-a-saint-malo-intra-muros.fr.html",
+   "lienAvis": "https://www.booking.com/hotel/fr/le-loft-du-homard-bleu-a-saint-malo-intra-muros.fr.html"
+  },
+  {
+   "id": "airbnb-saint-malo",
+   "type": "airbnb",
+   "libelle": "Saint-Malo - Airbnb",
+   "note": 5,
+   "total": 8,
+   "lien": "https://www.airbnb.fr/rooms/1086187413124184755",
+   "lienAvis": "https://www.airbnb.fr/rooms/1086187413124184755"
+  }
+ ],
+ "affichage": {
+  "modele": "carrousel",
+  "theme": "clair",
+  "titre": "Les avis de nos voyageurs",
+  "alignement": "centre",
+  "entete": "compact",
+  "logo": "aucun",
+  "titreEntete": "Note globale",
+  "fondCarte": "#f8f8f8",
+  "bord": "non",
+  "ombre": "non",
+  "rayon": 0,
+  "colonnes": 4,
+  "lignes": 4,
+  "coupe": "points",
+  "pied": "google",
+  "navigation": "cote",
+  "couleurEtoiles": "#fbbc04",
+  "couleur": "#1d1d1b",
+  "couleurLien": "#8a8a8a",
+  "policeWeb": "Roboto"
+ },
+ "avis": [
+  {
+   "id": "booking-saint-malo:dcbf9da0deb768bd",
+   "source": "booking-saint-malo",
+   "auteur": "Carlos",
+   "note": 5,
+   "titre": "La route du rhum au départ de Saint-Malo",
+   "texte": "La décoration, l’emplacement, la literie.",
+   "reponse": "Thank you very much, Carlos, for your excellent rating…",
+   "date": "2026-10-29"
+  },
+  {
+   "id": "booking-honfleur:16fbf68bb994a0bd",
+   "source": "booking-honfleur",
+   "auteur": "Nathalie",
+   "note": 4.5,
+   "titre": "Fabuleux",
+   "texte": "Le charme et le confort de l'appartement\nLa cuisine toute équipée\nL'emplacement et la vue dégagée sur les toits et le lever du soleil\nLa clarté des explications et informations données par Thierry",
+   "reponse": "Dear Nathalie,\nThank you so much for your wonderful…",
+   "date": "2026-10-07"
+  },
+  {
+   "id": "booking-honfleur:c33ef2a28404a125",
+   "source": "booking-honfleur",
+   "auteur": "Reynald",
+   "note": 5,
+   "titre": "Exceptionnel",
+   "texte": "Quelle belle surprise, un appartement où tout est fait pour vivre un agréable séjour.\nUn lieu atypique haut en couleur avec une belle qualité de matériaux, une décoration haut de gamme, un coin cuisine très fonctionnel et l'emplacement parfait pour profiter du centre historique de Honfleur et des échanges de qualité avec Thierry le propriétaire.",
+   "reponse": "Thank you very much, Reynald, for this wonderful review…",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "airbnb-honfleur:1768011589058051164",
+   "source": "airbnb-honfleur",
+   "auteur": "Marie",
+   "note": 5,
+   "titre": "",
+   "texte": "Appt très bien situé, très fonctionnel, avec un petit supplément d’âme 🤍 \nNous recommandons !",
+   "reponse": "",
+   "date": "2026-09-15"
+  },
+  {
+   "id": "booking-saint-malo:65d0547f766d279e",
+   "source": "booking-saint-malo",
+   "auteur": "David",
+   "note": 5,
+   "titre": "Rien à redire, c’était parfait !",
+   "texte": "Le loft est très bien équipé et bien situé en intramuros",
+   "reponse": "Thank you very much, David, for your excellent review and…",
+   "date": "2026-09-12"
+  },
+  {
+   "id": "airbnb-honfleur:1762155246805413395",
+   "source": "airbnb-honfleur",
+   "auteur": "Lauline",
+   "note": 5,
+   "titre": "",
+   "texte": "Nous avons passé un merveilleux séjour dans le loft de Thierry. Le logement était exactement comme décrit et a dépassé nos espérances. C'est l'un des meilleurs endroits où nous ayons séjourné à Honfleur. Nous apprécions l'emplacement, la propreté et les équipements de base nécessaires à nos déplacements. \nLa communication avec Thierry a été facile et rapide. \nNous n'hésiterions pas à utiliser à nouveau son logement à l'avenir.",
+   "reponse": "",
+   "date": "2026-08-15"
+  },
+  {
+   "id": "booking-saint-malo:74747b677f888071",
+   "source": "booking-saint-malo",
+   "auteur": "Jekaterina",
+   "note": 5,
+   "titre": "Exceptionnel",
+   "texte": "The apartment exceeded my expectations! It is not only incredibly stylish and beautifully designed, but also thoughtfully equipped down to the smallest detail. Everything you could possibly need for a comfortable stay is provided: a fully equipped kitchen with beautiful tableware, a dishwasher, a washing machine, and all the necessary appliances.\nThere was a choice of soft or firm pillows, the bed linen was good quality, and every little touch made the apartment feel welcoming and cozy.\nThe location is another big advantage. It is in a quiet area while still being conveniently close to the center, making it easy to get around. I would happily stay here again and highly recommend this appartment!",
+   "reponse": "Thank you very much, Jekaterina, for such a wonderful and…",
+   "date": "2026-07-29"
+  },
+  {
+   "id": "airbnb-honfleur:1741936126238569157",
+   "source": "airbnb-honfleur",
+   "auteur": "Mirosław",
+   "note": 5,
+   "titre": "",
+   "texte": "L'appartement de Thierry est charmant et plein de caractère. Nous nous sommes sentis très à l'aise tout au long de notre séjour. Il est très bien équipé, idéalement situé et dispose de tout ce dont vous avez besoin. Thierry est un hôte sympathique et très serviable. Nous recommandons vivement cet appartement et serions heureux de séjourner ici à nouveau.",
+   "reponse": "Réponse envoyée par Thierry\naoût 2026\nMerci beaucoup, Miroslaw, pour votre merveilleux commentaire et pour vos paroles aimables.\nCe fut un réel plaisir de vous accueillir. Nous sommes ravis que vous ayez apprécié le caractère de l'appartement, son emplacement et son atmosphère, et que vous vous soyez sentis comme chez vous pendant tout votre séjour.\nVous êtes toujours les bienvenus chaque fois que vous visitez Paris à nouveau. Nous serions ravis de vous accueillir à nouveau.\nCordialement,\nThierry\nLire la suite\nTraduction  Afficher le texte d'origine",
+   "date": "2026-07-15"
+  },
+  {
+   "id": "airbnb-honfleur:1721641968761887025",
+   "source": "airbnb-honfleur",
+   "auteur": "Adri",
+   "note": 5,
+   "titre": "",
+   "texte": "Excellent emplacement, en plein centre de la pittoresque Honfleur, avec une vue magnifique. Décoration très élégante. \nL'approche de Thierry axée sur le client.",
+   "reponse": "",
+   "date": "2026-07-15"
+  },
+  {
+   "id": "booking-honfleur:7f9dcc58950f19e5",
+   "source": "booking-honfleur",
+   "auteur": "Richard",
+   "note": 5,
+   "titre": "Exceptionnel",
+   "texte": "This is a very special apartment - really bright with a lovely view, nicely decorated blending the old building with modern furniture and art. Highly recommended if you are mobile. If you have mobility issues, there are 66 steps up a 17th century mostly spiral staircase going up - so not for everybody. But if you can manage those steps, it is definitely worth it.",
+   "reponse": "Thank you very much, Richard, for your wonderful review…",
+   "date": "2026-06-05"
+  },
+  {
+   "id": "booking-honfleur:f100f01987b0f58d",
+   "source": "booking-honfleur",
+   "auteur": "Sarah",
+   "note": 5,
+   "titre": "Perfect pad in the heart of honfleur",
+   "texte": "The loft is perfectly located and very, very cool!! Funky decor contrasts with the historic building. As long as you don’t mind the stairs!",
+   "reponse": "Dear Sarah,\n\nThank you very much for your fantastic…",
+   "date": "2026-05-20"
+  },
+  {
+   "id": "airbnb-saint-malo:1690626136988985384",
+   "source": "airbnb-saint-malo",
+   "auteur": "Laura-Maria",
+   "note": 5,
+   "titre": "",
+   "texte": "Le loft est vraiment spécial, très chic et pensé dans les moindres détails. L'emplacement est également super : central, proche de la plage et pourtant calme. La communication avec Thierry a également été très simple. Nous nous sommes sentis très à l'aise.",
+   "reponse": "",
+   "date": "2026-05-15"
+  },
+  {
+   "id": "airbnb-honfleur:1693489910640554442",
+   "source": "airbnb-honfleur",
+   "auteur": "Lola",
+   "note": 5,
+   "titre": "",
+   "texte": "Un super logement ! \nEmplacement parfait, logement décoré avec beaucoup de goût. Tout le nécessaire à disposition, literies confortables.",
+   "reponse": "",
+   "date": "2026-05-15"
+  },
+  {
+   "id": "booking-honfleur:32dff336560ba078",
+   "source": "booking-honfleur",
+   "auteur": "Millelunes",
+   "note": 5,
+   "titre": "Exceptionnel",
+   "texte": "L'appartement est atypique et équipé avec beaucoup de goût en pensant à tous les besoins!\nOn se sent vite comme chez soit dans ce cadre exceptionnel.",
+   "reponse": "Dear Deborah,\nThank you for taking the time to share your…",
+   "date": "2026-02-23"
+  },
+  {
+   "id": "airbnb-honfleur:1606541227856284099",
+   "source": "airbnb-honfleur",
+   "auteur": "Evyne",
+   "note": 5,
+   "titre": "",
+   "texte": "Le logement de Thierry est un véritable bijou situé dans le centre d'Honfleur.\nL'appartement est sublime : bien entretenu et extrêmement confortable !\nThierry lui-même est très agréable et proactif.\nJe recommande vivement cet Airbnb !!",
+   "reponse": "",
+   "date": "2026-01-15"
+  },
+  {
+   "id": "booking-honfleur:206ab1a7653da0c2",
+   "source": "booking-honfleur",
+   "auteur": "Annabel",
+   "note": 5,
+   "titre": "Magnifique",
+   "texte": "L’appartement est très grand, confortable, très bien équipé, notamment la literie et magnifiquement décoré. Très bien placé, avec une vue superbe.\nTrès bon contact avec le propriétaire.",
+   "reponse": "Dear Annabel,\nThank you so much for this magnificent…",
+   "date": "2025-09-11"
+  },
+  {
+   "id": "airbnb-saint-malo:1476729439483703138",
+   "source": "airbnb-saint-malo",
+   "auteur": "Chloé",
+   "note": 5,
+   "titre": "",
+   "texte": "Super séjour au cœur d’intra muros, le logement correspond en tous points à la description et aux photos, et est extrêmement bien équipé côté cuisine. Sa position permet de délaisser la voiture pendant le séjour et de tout faire à pieds.",
+   "reponse": "",
+   "date": "2025-07-15"
+  },
+  {
+   "id": "booking-saint-malo:00ee6c19b95e2b9a",
+   "source": "booking-saint-malo",
+   "auteur": "Joel",
+   "note": 5,
+   "titre": "Exceptionnel",
+   "texte": "tres bien situé, logement exceptionnel, par sa surface et la qualité de son agencement - equipement - decoration. tres calme, tres fonctionnel. tres facile ( en septembre ) de se garer au parking proche P4 pour un cout modéré ( pour un parisien ! )",
+   "reponse": "",
+   "date": "2024-10-06"
+  },
+  {
+   "id": "booking-saint-malo:dac80d2e0ee84775",
+   "source": "booking-saint-malo",
+   "auteur": "Cedric",
+   "note": 5,
+   "titre": "Séjour parfait, nous reviendrons",
+   "texte": "Magnifique loft idéalement placé dans un passage hyper calme et très proche de tous commerces restaurants etc. Literie très confortable, équipements au top.",
+   "reponse": "",
+   "date": "2024-09-03"
+  },
+  {
+   "id": "airbnb-saint-malo:1216602675641707635",
+   "source": "airbnb-saint-malo",
+   "auteur": "Anna",
+   "note": 5,
+   "titre": "",
+   "texte": "Très haut niveau d'hébergement, élégant, original avec un beau bord artistique, ce qui en fait un bel espace à apprécier. Excellentes salles de bain et douche et appareils électroménagers haut de gamme rendent tout le logement de très haute qualité. Dans l'ensemble, un logement merveilleux idéalement situé.",
+   "reponse": "Réponse envoyée par Thierry\naoût 2024\nMerci beaucoup Anna pour vos si gentils commentaires.\nRevenez quand vous voulez et nous nous ferons un plaisir de vous recevoir à nouveau avec peut-être quelques nouveautés !",
+   "date": "2024-08-15"
+  }
+ ],
+ "maj": "2026-11-05"
+}
