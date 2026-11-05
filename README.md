@@ -38,7 +38,14 @@ Un attribut posé dans l'éditeur l'emporte sur les réglages du CMS. Sans attri
 | `bouton` | présent, ou le libellé | affiche « Laisser un avis » ; `bouton="Laissez-nous un avis sur Google"` change le texte |
 | `style-bouton` | `contour` (défaut), `plein` | bouton cerclé ou rempli de l'accent |
 | `police` | un nom ou une pile CSS | ex. `police="poppins-semibold, poppins, sans-serif"` ; à défaut, celle de la page |
-| `entete` | `non` | masque la note globale |
+| `entete` | `complet` (défaut), `compact`, `nombre`, `non` | `compact` : « Google Avis » puis « 4,9 ★★★★★ (139) » ; `nombre` : le nombre d'avis sans la note (Gambas) ; `non` : pas d'en-tête |
+| `logo` | `icone` (défaut), `icone-haut`, `mot`, `aucun` | G à gauche, G au-dessus, logotype « Google Avis », rien |
+| `titre-entete` | un texte | ex. « Excellent sur Google » |
+| `couleur-logo`, `couleur-entete` | `#RRGGBB` | logotype d'une seule couleur ; couleur du texte de l'en-tête |
+| `disposition` | `centre` | carte centrée : étoiles, texte, puis l'auteur (SunSolutions, Gery) |
+| `pied` | `google` | « Publié sur Google » en bas de chaque carte |
+| `lignes` | `2` à `12` | lignes de texte avant « Lire la suite » (6 par défaut) |
+| `police-web` | un nom de Google Fonts | police chargée chez Bunny Fonts (sans traceur), ex. `Montserrat` |
 | `modele` | `carrousel` (défaut), `grille`, `bandeau` | |
 | `theme` | `clair` (défaut), `sombre` | |
 | `nombre`, `titre`, `source`, `reponses` | | nombre de cartes, titre, filtre initial, réponses du gérant |
