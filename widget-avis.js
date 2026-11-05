@@ -140,6 +140,9 @@
   .tete{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .score{display:flex;align-items:center;gap:14px}
   :host([data-bloc]) .tete{background:var(--fond-entete);border-radius:var(--rayon);padding:22px 26px}
+  /* En-tête en pastille : la note posée dans un bloc de la couleur des cartes, lisible sur une photo ou une vidéo de fond. */
+  :host([data-pastille]) .score,:host([data-pastille]) .cpt{background:var(--fond-pastille,var(--carte));border:1px solid var(--bord);border-radius:var(--rayon);box-shadow:var(--ombre);padding:14px 24px 14px 16px;color:var(--texte-entete,var(--texte))}
+  :host([data-pastille]) .score .total{margin-top:6px}
   :host([data-align=centre]) .tete{flex-direction:column;justify-content:center;text-align:center}
   :host([data-align=centre]) .score{flex-direction:column;gap:10px}
   :host([data-align=centre]) .score .ligne{justify-content:center}
@@ -196,7 +199,7 @@
   `;
 
   class WapiaAvis extends HTMLElement {
-    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web']; }
+    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete']; }
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
@@ -234,7 +237,10 @@
       pose('--col', col >= 1 && col <= 5 ? String(col) : null);
       pose('--fond-module', couleur(this.reglage('fond', 'fond')));
       const fe = couleur(this.reglage('fond-entete', 'fondEntete'));
-      pose('--fond-entete', fe); drapeau('bloc', fe ? 'oui' : '');
+      const pastille = /^pastille$/i.test(this.reglage('forme-entete', 'formeEntete') || '');
+      drapeau('pastille', pastille ? 'oui' : '');
+      pose('--fond-entete', pastille ? null : fe); drapeau('bloc', fe && !pastille ? 'oui' : '');
+      pose('--fond-pastille', pastille ? fe : null);
       pose('--etoile', couleur(this.reglage('couleur-etoiles', 'couleurEtoiles')));
       drapeau('align', /^cent/i.test(this.reglage('alignement', 'alignement') || '') ? 'centre' : '');
       const pw = this.reglage('police-web', 'policeWeb');
