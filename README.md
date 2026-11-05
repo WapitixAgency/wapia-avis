@@ -31,10 +31,13 @@ Un attribut posé dans l'éditeur l'emporte sur les réglages du CMS. Sans attri
 | `fond` | `#RRGGBB` | fond du module entier (défaut : celui de la section) |
 | `fond-entete` | `blanc`, `#RRGGBB` | met la note globale dans un bloc (indispensable sur une photo) |
 | `forme-entete` | `pastille` | pose la note seule dans une pastille de la couleur des cartes (ombre, contour), lisible sur une photo ou une vidéo de fond ; `fond-entete` en change la couleur |
-| `navigation` | `cote` | flèches blanches posées sur les côtés des cartes, sans points (comme les anciens widgets Elfsight) |
+| `navigation` | `cote`, `points` | `cote` : flèches blanches posées sur les côtés des cartes, sans points ; `points` : points centrés, sans flèches |
 | `coupe` | `points` | coupe le texte par « … » au lieu d'un fondu |
 | `icone-source` | `avatar` | petit logo de la source (G) sur l'avatar, au lieu du logo à droite |
 | `couleur-lien` | `#RRGGBB` | couleur imposée de « Lire la suite » (sinon l'accent, ou le texte si l'accent se lit mal) |
+| `avatar` | `source` | logo de la source dans un carré à la place de l'initiale |
+| `date` | `non` | masque la date des avis |
+| `entete` | `ligne` | (en plus de `complet`, `compact`, `nombre`, `non`) logo, note et étoiles sur une seule ligne |
 | `alignement` | `centre` | note globale centrée, logo au-dessus |
 | `bord` | `#RRGGBB`, `non` | contour des cartes |
 | `rayon` | `0` à `40` | arrondi des cartes et du bloc de note, en pixels |
@@ -66,3 +69,7 @@ Le composant se pose dans le code du site (`<script>` dans la mise en page, `<wa
 - Jamais « vérifié » ni « certifié » (les avis Google ne le sont pas).
 - Noms affichés : prénom et initiale du nom. Avatars : initiale sur une couleur, aucune photo chargée chez Google.
 - Seuls des liens `https://` sont rendus ; tout le texte est échappé.
+
+## Plusieurs annonces d'une même plateforme
+
+Une vitrine peut porter plusieurs sources du même type (Booking Honfleur, Booking Saint-Malo…) : chaque source a son `id` (`booking-honfleur`) et son `type` (`booking`, `airbnb`, `google`), qui donne le logo et la note sur 10 pour Booking. Les avis portent l'`id` de leur source.

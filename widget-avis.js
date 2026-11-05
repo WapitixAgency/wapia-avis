@@ -207,6 +207,19 @@
   :host([data-icone=avatar]) .av .mini{display:grid;position:absolute;right:-5px;bottom:-5px;width:21px;height:21px;border-radius:50%;background:#fff;padding:2px}
   .av .mini svg{width:100%;height:100%}
   :host([data-icone=avatar]) .qui>.src{display:none}
+  /* Points seuls, centrés, sans flèches (navigation="points"). */
+  :host([data-nav=points]) .nav{display:none}
+  :host([data-nav=points]) .pied{justify-content:center}
+  /* Logo de la source dans un carré à la place de l'avatar (avatar="source"), date masquée (date="non"). */
+  :host([data-avatar=source]) .av{background:#fff!important;border:1px solid var(--trait);border-radius:6px;padding:8px}
+  :host([data-avatar=source]) .av .ini{display:none}
+  .av .grand{display:none}:host([data-avatar=source]) .av .grand{display:block;width:100%;height:100%}
+  :host([data-avatar=source]) .qui>.src,:host([data-avatar=source]) .av .mini{display:none}
+  :host([data-date=non]) .date{display:none}
+  /* En-tête sur une ligne : logo, note, étoiles (entete="ligne"). */
+  .cpt.ligne1{flex-direction:row;align-items:center;gap:10px}
+  .cpt.ligne1 .mot-g{height:30px}
+  .cpt.ligne1 .cpt-chiffre{font-size:24px}
   .bandeau{display:inline-flex;align-items:center;gap:12px;padding:10px 16px;border-radius:999px;background:var(--carte);border:1px solid var(--bord);text-decoration:none;color:var(--texte);font-size:14px}
   .bandeau strong{font-size:18px}
   .mention{font-size:12px;color:var(--doux)}
@@ -214,7 +227,7 @@
   `;
 
   class WapiaAvis extends HTMLElement {
-    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete', 'navigation', 'coupe', 'icone-source', 'couleur-lien']; }
+    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete', 'navigation', 'coupe', 'icone-source', 'couleur-lien', 'avatar', 'date']; }
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
@@ -268,7 +281,10 @@
       pose('--texte-entete', couleur(this.reglage('couleur-entete', 'couleurEntete')));
       drapeau('pied', /^google$/i.test(this.reglage('pied', 'pied') || '') ? 'google' : '');
       const cli = couleur(this.reglage('couleur-lien', 'couleurLien')); if (cli) pose('--lien', cli);
-      drapeau('nav', /^c[oô]t/i.test(this.reglage('navigation', 'navigation') || '') ? 'cote' : '');
+      const nav = String(this.reglage('navigation', 'navigation') || '');
+      drapeau('nav', /^c[oô]t/i.test(nav) ? 'cote' : /^points?$/i.test(nav) ? 'points' : '');
+      drapeau('avatar', /^source$/i.test(this.reglage('avatar', 'avatar') || '') ? 'source' : '');
+      drapeau('date', /^non$/i.test(String(this.reglage('date', 'date') ?? '')) ? 'non' : '');
       drapeau('coupe', /^points?$/i.test(this.reglage('coupe', 'coupe') || '') ? 'points' : '');
       drapeau('icone', /^avatar$/i.test(this.reglage('icone-source', 'iconeSource') || '') ? 'avatar' : '');
     }
@@ -276,19 +292,21 @@
       const d = this.d, af = d.affichage || {}, modele = this.getAttribute('modele') || af.modele || 'carrousel';
       this.habiller();
       const sources = d.sources || [];
+      // Plusieurs annonces d'une même plateforme (Booking Honfleur, Booking Saint-Malo…) : chaque source a son id, et son « type » donne le logo.
+      const typeDe = (id) => (sources.find((x) => x.id === id) || {}).type || id;
       const s0 = this.filtre === 'tous' ? null : sources.find((s) => s.id === this.filtre);
       const note = s0 ? s0.note5 ?? s0.note : d.note, total = s0 ? s0.total : d.total;
       const lienAvis = (s0 || sources[0] || {}).lienAvis || d.lienAvis;
       if (modele === 'bandeau') {
         const s = sources[0] || { id: 'google' };
-        this.shadowRoot.innerHTML = `<style>${CSS}</style><a class="bandeau" href="${sur(s.lien || d.lienFiche)}" target="_blank" rel="noopener"><span class="logo" style="width:22px;height:22px">${src(s.id).svg}</span><strong>${echap(noteTexte(d.note))}</strong>${etoiles(d.note, 16)}<span class="mention">${echap(d.total)} avis</span></a>`;
+        this.shadowRoot.innerHTML = `<style>${CSS}</style><a class="bandeau" href="${sur(s.lien || d.lienFiche)}" target="_blank" rel="noopener"><span class="logo" style="width:22px;height:22px">${src(typeDe(s.id)).svg}</span><strong>${echap(noteTexte(d.note))}</strong>${etoiles(d.note, 16)}<span class="mention">${echap(d.total)} avis</span></a>`;
         return;
       }
       const reponses = this.hasAttribute('reponses') || af.reponses === true;
       const nombre = Number(this.getAttribute('nombre')) || Number(af.nombre) || 0;
       let avis = (d.avis || []).filter((a) => this.filtre === 'tous' || a.source === this.filtre);
       if (nombre) avis = avis.slice(0, nombre);
-      const logo = s0 ? src(s0.id).svg : sources.length === 1 ? src(sources[0].id).svg : '';
+      const logo = s0 ? src(typeDe(s0.id)).svg : sources.length === 1 ? src(typeDe(sources[0].id)).svg : '';
       // Bouton : seulement si l'attribut « bouton » est posé (ou af.bouton === true). Sa valeur, si elle est écrite, est le libellé.
       const vb = this.getAttribute('bouton');
       const avecBouton = this.hasAttribute('bouton') ? !/^(non|false|0)$/i.test(vb || '') : af.bouton === true;
@@ -300,27 +318,30 @@
       const entete = modeEntete !== 'non';
       const modeLogo = String(this.reglage('logo', 'logo') || 'icone').toLowerCase();
       const titreEntete = this.reglage('titre-entete', 'titreEntete');
-      const sourceUnique = s0 ? s0.id : sources.length === 1 ? sources[0].id : null;
+      const sourceUnique = s0 ? typeDe(s0.id) : sources.length === 1 ? typeDe(sources[0].id) : null;
       const blocLogo = modeLogo === 'aucun' ? '' : modeLogo === 'mot' && sourceUnique === 'google' ? `<span class="mot">${MOT_GOOGLE}<b>Avis</b></span>` : logo ? `<span class="logo">${logo}</span>` : '';
       const nb = (n) => (n == null || n === '' ? '' : Number(n).toLocaleString('fr-FR'));
       const pied = /^google$/i.test(this.reglage('pied', 'pied') || '');
       const centree = /^cent/i.test(this.reglage('disposition', 'disposition') || '');
-      const onglets = sources.length > 1 ? `<div class="onglets" role="tablist">${[{ id: 'tous', nom: 'Tous les avis', note: d.note }, ...sources].map((s) => `<button role="tab" data-f="${echap(s.id)}" aria-selected="${this.filtre === s.id}">${s.id !== 'tous' ? `<span class="src">${src(s.id).svg}</span>` : ''}${echap(s.libelle || s.nom || src(s.id).nom)} <b>${echap(noteTexte(s.note))}</b></button>`).join('')}</div>` : '';
+      const onglets = sources.length > 1 ? `<div class="onglets" role="tablist">${[{ id: 'tous', nom: 'Tous les avis', note: d.note }, ...sources].map((s) => `<button role="tab" data-f="${echap(s.id)}" aria-selected="${this.filtre === s.id}">${s.id !== 'tous' ? `<span class="src">${src(typeDe(s.id)).svg}</span>` : ''}${echap(s.libelle || s.nom || src(typeDe(s.id)).nom)} <b>${echap(noteTexte(s.note))}</b></button>`).join('')}</div>` : '';
       const cartes = avis.map((a, i) => {
         const h = teinte(a.auteur);
-        const qui = `<div class="qui"><div class="av" style="background:hsl(${h} 42% 44%)">${echap(initiale(a.auteur))}<span class="mini">${src(a.source).svg}</span></div><div><div class="nom">${echap(auteurAffiche(a.auteur))}</div><div class="date">${echap(quand(a.date) || a.dateTexte || '')}</div></div><span class="src" title="${echap(src(a.source).mot)}">${src(a.source).svg}</span></div>`;
-        const corpsAvis = `<div class="ligne">${a.source === 'booking' ? note10('booking', a.note) : etoiles(a.note)}</div>
+        const qui = `<div class="qui"><div class="av" style="background:hsl(${h} 42% 44%)"><span class="ini">${echap(initiale(a.auteur))}</span><span class="grand">${src(typeDe(a.source)).svg}</span><span class="mini">${src(typeDe(a.source)).svg}</span></div><div><div class="nom">${echap(auteurAffiche(a.auteur))}</div><div class="date">${echap(quand(a.date) || a.dateTexte || '')}</div></div><span class="src" title="${echap(src(typeDe(a.source)).mot)}">${src(typeDe(a.source)).svg}</span></div>`;
+        const corpsAvis = `<div class="ligne">${typeDe(a.source) === 'booking' ? note10('booking', a.note) : etoiles(a.note)}</div>
           ${a.titre ? `<strong>${echap(a.titre)}</strong>` : ''}<p class="txt" id="t${i}">${echap(nettoyerTexte(a.texte))}</p>
           <button class="plus" data-t="t${i}" aria-controls="t${i}" aria-expanded="false" hidden><span>Lire la suite</span>${CHEVRON('b')}</button>
           ${a.reponse && reponses ? `<p class="rep"><strong>Réponse :</strong> ${echap(nettoyerReponse(a.reponse))}</p>` : ''}`;
-        const piedSrc = pied ? `<div class="pied-src">${src(a.source).svg}<span>Publié sur<b>${echap(src(a.source).nom)}</b></span></div>` : '';
+        const piedSrc = pied ? `<div class="pied-src">${src(typeDe(a.source)).svg}<span>Publié sur<b>${echap(src(typeDe(a.source)).nom)}</b></span></div>` : '';
         return centree ? `<article class="carte centre">${corpsAvis}${qui}${piedSrc}</article>` : `<article class="carte">${qui}${corpsAvis}${piedSrc}</article>`;
       }).join('');
       const navCote = /^c[oô]t/i.test(this.reglage('navigation', 'navigation') || '');
       const corps = modele === 'grille' ? `<div class="grille">${cartes}</div>` : navCote ? `<div class="zone"><div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><button class="prec cote" aria-label="Avis précédents">${CHEVRON('g')}</button><button class="suiv cote" aria-label="Avis suivants">${CHEVRON('d')}</button></div><div class="points" hidden></div>` : `<div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><div class="pied"><div class="points" role="group" aria-label="Pages d'avis"></div><div class="nav"><button class="prec" aria-label="Avis précédents">${CHEVRON('g')}</button><button class="suiv" aria-label="Avis suivants">${CHEVRON('d')}</button></div></div>`;
       const surSource = sourceUnique ? ' sur ' + echap(src(sourceUnique).nom) : '';
       let score = '<span></span>';
-      if (modeEntete === 'compact' || modeEntete === 'nombre') {
+      if (modeEntete === 'ligne') {
+        const marque = sourceUnique === 'google' && modeLogo === 'mot' ? MOT_GOOGLE : logo ? `<span class="logo">${logo}</span>` : '';
+        score = `<div class="cpt ligne1">${marque}<span class="cpt-chiffre">${echap(noteTexte(note))}</span>${etoiles(Number(note) || 0, 24)}</div>`;
+      } else if (modeEntete === 'compact' || modeEntete === 'nombre') {
         const pile = modeLogo === 'mot' || modeLogo === 'icone-haut';
         const titre = titreEntete ? `<div class="cpt-titre">${echap(titreEntete)}</div>` : '';
         const ligneNote = modeEntete === 'nombre'
