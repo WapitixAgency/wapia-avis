@@ -16,9 +16,15 @@
   }
  ],
  "affichage": {
+  "theme": "clair",
+  "entete": "non",
+  "couleur": "#fde910",
+  "couleurEtoiles": "#fde910",
+  "fondCarte": "#f7f7f7",
+  "rayon": 8,
+  "ombre": "non",
+  "police": "syne, sans-serif",
   "modele": "carrousel",
-  "theme": "sombre",
-  "couleur": "",
   "titre": "",
   "texteBouton": "Laisser un avis"
  },
@@ -224,5 +230,5 @@
    "date": "2023-11-05"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-05"
 }

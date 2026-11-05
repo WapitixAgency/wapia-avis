@@ -16,9 +16,14 @@
   }
  ],
  "affichage": {
+  "couleur": "#ff4000",
+  "fondCarte": "transparent",
+  "bord": "non",
+  "colonnes": 4,
+  "alignement": "centre",
+  "police": "wfont_b65653_f28d3b4cc2674cb29790a65763fe8780, wf_f28d3b4cc2674cb29790a6576, orig_plus_jakarta_sans_regular",
   "modele": "carrousel",
   "theme": "clair",
-  "couleur": "",
   "titre": "",
   "texteBouton": "Laisser un avis"
  },
@@ -224,5 +229,5 @@
    "date": "2024-11-04"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-05"
 }

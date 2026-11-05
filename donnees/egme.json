@@ -16,9 +16,15 @@
   }
  ],
  "affichage": {
+  "couleur": "#fe4c06",
+  "couleurEtoiles": "#fe4c06",
+  "fondCarte": "#f4f4f4",
+  "rayon": 8,
+  "ombre": "non",
+  "entete": "non",
+  "police": "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular",
   "modele": "carrousel",
   "theme": "clair",
-  "couleur": "",
   "titre": "",
   "texteBouton": "Laisser un avis"
  },
@@ -224,5 +230,5 @@
    "date": "2022-04-15"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-05"
 }

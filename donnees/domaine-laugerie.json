@@ -16,11 +16,16 @@
   }
  ],
  "affichage": {
+  "couleur": "#607391",
+  "fondCarte": "#ffffff",
+  "rayon": 20,
+  "ombre": "non",
+  "bouton": true,
+  "texteBouton": "Laissez-nous un avis sur Google",
+  "police": "poppins-v2, sans-serif",
   "modele": "carrousel",
   "theme": "clair",
-  "couleur": "",
-  "titre": "",
-  "texteBouton": "Laisser un avis"
+  "titre": ""
  },
  "avis": [
   {
@@ -224,5 +229,5 @@
    "date": "2017-11-06"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-05"
 }

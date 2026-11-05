@@ -16,11 +16,17 @@
   }
  ],
  "affichage": {
+  "couleur": "#fc5417",
+  "fondCarte": "transparent",
+  "bord": "#000000",
+  "rayon": 0,
+  "alignement": "centre",
+  "bouton": true,
+  "texteBouton": "Laissez-nous un avis sur Google",
+  "police": "wfont_459113_ebfb1394532347b3b7691d160bb35bd1, wf_ebfb1394532347b3b7691d160, orig_poppins_light",
   "modele": "carrousel",
   "theme": "clair",
-  "couleur": "",
-  "titre": "",
-  "texteBouton": "Laisser un avis"
+  "titre": ""
  },
  "avis": [
   {
@@ -224,5 +230,5 @@
    "date": "2026-10-05"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-05"
 }

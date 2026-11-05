@@ -16,9 +16,10 @@
   }
  ],
  "affichage": {
+  "couleur": "#045184",
+  "police": "madefor-text, helveticaneuew01-45ligh, helveticaneuew02-45ligh, helveticaneuew10-45ligh, sans-serif",
   "modele": "carrousel",
   "theme": "clair",
-  "couleur": "",
   "titre": "",
   "texteBouton": "Laisser un avis"
  },
@@ -224,5 +225,5 @@
    "date": "2021-11-05"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-05"
 }
