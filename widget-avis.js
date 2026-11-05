@@ -192,6 +192,21 @@
   .nav button:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 8px 20px color-mix(in srgb,var(--accent) 32%,transparent)}
   .nav button:disabled{background:transparent;color:var(--doux);border-color:var(--trait);box-shadow:none;cursor:default}
   .nav button:focus-visible,.onglets button:focus-visible,.plus:focus-visible,.points button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  /* Flèches posées sur les côtés des cartes (navigation="cote"), sans points : la flèche inutile s'efface. */
+  .zone{position:relative}
+  :host([data-nav=cote]) .points{display:none}
+  .cote{position:absolute;top:calc(50% - 10px);transform:translateY(-50%);z-index:2;appearance:none;width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:#1d1d1b;box-shadow:0 2px 10px rgba(0,0,0,.2);cursor:pointer;display:grid;place-items:center;transition:opacity .2s,box-shadow .2s}
+  .cote.prec{left:-12px}.cote.suiv{right:-12px}
+  .cote:disabled{opacity:0;pointer-events:none}
+  .cote:hover{box-shadow:0 4px 16px rgba(0,0,0,.28)}
+  .cote:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+  /* Texte coupé par des points de suspension (coupe="points") plutôt que par un fondu. */
+  :host([data-coupe=points]) .txt.coupe:not(.ouvert){white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:var(--lignes,6);-webkit-mask-image:none;mask-image:none}
+  /* Petit logo de la source sur l'avatar (icone-source="avatar") au lieu du logo à droite. */
+  .av{position:relative}.av .mini{display:none}
+  :host([data-icone=avatar]) .av .mini{display:grid;position:absolute;right:-5px;bottom:-5px;width:21px;height:21px;border-radius:50%;background:#fff;padding:2px}
+  .av .mini svg{width:100%;height:100%}
+  :host([data-icone=avatar]) .qui>.src{display:none}
   .bandeau{display:inline-flex;align-items:center;gap:12px;padding:10px 16px;border-radius:999px;background:var(--carte);border:1px solid var(--bord);text-decoration:none;color:var(--texte);font-size:14px}
   .bandeau strong{font-size:18px}
   .mention{font-size:12px;color:var(--doux)}
@@ -199,7 +214,7 @@
   `;
 
   class WapiaAvis extends HTMLElement {
-    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete']; }
+    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete', 'navigation', 'coupe', 'icone-source', 'couleur-lien']; }
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
@@ -252,6 +267,10 @@
       pose('--couleur-logo', cl); drapeau('logoMono', cl ? 'oui' : '');
       pose('--texte-entete', couleur(this.reglage('couleur-entete', 'couleurEntete')));
       drapeau('pied', /^google$/i.test(this.reglage('pied', 'pied') || '') ? 'google' : '');
+      const cli = couleur(this.reglage('couleur-lien', 'couleurLien')); if (cli) pose('--lien', cli);
+      drapeau('nav', /^c[oô]t/i.test(this.reglage('navigation', 'navigation') || '') ? 'cote' : '');
+      drapeau('coupe', /^points?$/i.test(this.reglage('coupe', 'coupe') || '') ? 'points' : '');
+      drapeau('icone', /^avatar$/i.test(this.reglage('icone-source', 'iconeSource') || '') ? 'avatar' : '');
     }
     rendre() {
       const d = this.d, af = d.affichage || {}, modele = this.getAttribute('modele') || af.modele || 'carrousel';
@@ -289,7 +308,7 @@
       const onglets = sources.length > 1 ? `<div class="onglets" role="tablist">${[{ id: 'tous', nom: 'Tous les avis', note: d.note }, ...sources].map((s) => `<button role="tab" data-f="${echap(s.id)}" aria-selected="${this.filtre === s.id}">${s.id !== 'tous' ? `<span class="src">${src(s.id).svg}</span>` : ''}${echap(s.libelle || s.nom || src(s.id).nom)} <b>${echap(noteTexte(s.note))}</b></button>`).join('')}</div>` : '';
       const cartes = avis.map((a, i) => {
         const h = teinte(a.auteur);
-        const qui = `<div class="qui"><div class="av" style="background:hsl(${h} 42% 44%)">${echap(initiale(a.auteur))}</div><div><div class="nom">${echap(auteurAffiche(a.auteur))}</div><div class="date">${echap(quand(a.date) || a.dateTexte || '')}</div></div><span class="src" title="${echap(src(a.source).mot)}">${src(a.source).svg}</span></div>`;
+        const qui = `<div class="qui"><div class="av" style="background:hsl(${h} 42% 44%)">${echap(initiale(a.auteur))}<span class="mini">${src(a.source).svg}</span></div><div><div class="nom">${echap(auteurAffiche(a.auteur))}</div><div class="date">${echap(quand(a.date) || a.dateTexte || '')}</div></div><span class="src" title="${echap(src(a.source).mot)}">${src(a.source).svg}</span></div>`;
         const corpsAvis = `<div class="ligne">${a.source === 'booking' ? note10('booking', a.note) : etoiles(a.note)}</div>
           ${a.titre ? `<strong>${echap(a.titre)}</strong>` : ''}<p class="txt" id="t${i}">${echap(nettoyerTexte(a.texte))}</p>
           <button class="plus" data-t="t${i}" aria-controls="t${i}" aria-expanded="false" hidden><span>Lire la suite</span>${CHEVRON('b')}</button>
@@ -297,7 +316,8 @@
         const piedSrc = pied ? `<div class="pied-src">${src(a.source).svg}<span>Publié sur<b>${echap(src(a.source).nom)}</b></span></div>` : '';
         return centree ? `<article class="carte centre">${corpsAvis}${qui}${piedSrc}</article>` : `<article class="carte">${qui}${corpsAvis}${piedSrc}</article>`;
       }).join('');
-      const corps = modele === 'grille' ? `<div class="grille">${cartes}</div>` : `<div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><div class="pied"><div class="points" role="group" aria-label="Pages d'avis"></div><div class="nav"><button class="prec" aria-label="Avis précédents">${CHEVRON('g')}</button><button class="suiv" aria-label="Avis suivants">${CHEVRON('d')}</button></div></div>`;
+      const navCote = /^c[oô]t/i.test(this.reglage('navigation', 'navigation') || '');
+      const corps = modele === 'grille' ? `<div class="grille">${cartes}</div>` : navCote ? `<div class="zone"><div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><button class="prec cote" aria-label="Avis précédents">${CHEVRON('g')}</button><button class="suiv cote" aria-label="Avis suivants">${CHEVRON('d')}</button></div><div class="points" hidden></div>` : `<div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><div class="pied"><div class="points" role="group" aria-label="Pages d'avis"></div><div class="nav"><button class="prec" aria-label="Avis précédents">${CHEVRON('g')}</button><button class="suiv" aria-label="Avis suivants">${CHEVRON('d')}</button></div></div>`;
       const surSource = sourceUnique ? ' sur ' + echap(src(sourceUnique).nom) : '';
       let score = '<span></span>';
       if (modeEntete === 'compact' || modeEntete === 'nombre') {

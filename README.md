@@ -31,6 +31,10 @@ Un attribut posé dans l'éditeur l'emporte sur les réglages du CMS. Sans attri
 | `fond` | `#RRGGBB` | fond du module entier (défaut : celui de la section) |
 | `fond-entete` | `blanc`, `#RRGGBB` | met la note globale dans un bloc (indispensable sur une photo) |
 | `forme-entete` | `pastille` | pose la note seule dans une pastille de la couleur des cartes (ombre, contour), lisible sur une photo ou une vidéo de fond ; `fond-entete` en change la couleur |
+| `navigation` | `cote` | flèches blanches posées sur les côtés des cartes, sans points (comme les anciens widgets Elfsight) |
+| `coupe` | `points` | coupe le texte par « … » au lieu d'un fondu |
+| `icone-source` | `avatar` | petit logo de la source (G) sur l'avatar, au lieu du logo à droite |
+| `couleur-lien` | `#RRGGBB` | couleur imposée de « Lire la suite » (sinon l'accent, ou le texte si l'accent se lit mal) |
 | `alignement` | `centre` | note globale centrée, logo au-dessus |
 | `bord` | `#RRGGBB`, `non` | contour des cartes |
 | `rayon` | `0` à `40` | arrondi des cartes et du bloc de note, en pixels |
