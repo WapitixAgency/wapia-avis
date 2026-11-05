@@ -25,8 +25,15 @@
   if (customElements.get('wapia-avis')) return;
   // Lien propre à un client (c/<cle>.js, fabriqué par construire-liens.mjs) : la clé y est écrite, l'attribut client devient facultatif.
   const CLIENT_DU_LIEN = null;
-  const SCRIPT = document.currentScript && document.currentScript.src;
-  const BASE = SCRIPT ? SCRIPT.replace(/(c\/)?[^/]*$/, '') : 'https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/';
+  const ICI = document.currentScript;
+  const CLIENT_DU_CHARGEUR = ICI && ICI.dataset && ICI.dataset.client; // posé par le chargeur c/<clé>.js
+  const SCRIPT = ICI && ICI.src;
+  const LOCAL = /^https?:\/\/(localhost|127\.0\.0\.1)[:/]/.test(SCRIPT || '');
+  const BASE = SCRIPT && LOCAL ? SCRIPT.replace(/(c\/)?[^/]*$/, '') : 'https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/';
+  // Les vitrines se lisent chez GitHub (à jour moins de 5 minutes après chaque passage de la routine) : jsDelivr garde
+  // parfois une ancienne copie des heures, même après purge (mesuré le 05/11 sur Laugerie). jsDelivr ne sert plus que de repli.
+  const DONNEES = LOCAL ? BASE + 'donnees/' : 'https://raw.githubusercontent.com/WapitixAgency/wapia-avis/main/donnees/';
+  const REPLI = 'https://cdn.jsdelivr.net/gh/WapitixAgency/wapia-avis@main/donnees/';
   const cache = new Map();
 
   const SOURCES = {
@@ -159,10 +166,11 @@
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
     async charger() {
-      const client = this.getAttribute('client') || CLIENT_DU_LIEN; if (!client) return;
-      const url = this.getAttribute('donnees') || `${BASE}donnees/${encodeURIComponent(client)}.json`;
+      const client = this.getAttribute('client') || CLIENT_DU_LIEN || CLIENT_DU_CHARGEUR; if (!client) return;
+      const url = this.getAttribute('donnees') || `${DONNEES}${encodeURIComponent(client)}.json`;
       try {
-        if (!cache.has(url)) cache.set(url, fetch(url, { credentials: 'omit', cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }));
+        const lire = (u) => fetch(u, { credentials: 'omit', cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); });
+        if (!cache.has(url)) cache.set(url, lire(url).catch((e) => (url.startsWith(DONNEES) && !LOCAL ? lire(REPLI + url.slice(DONNEES.length)) : Promise.reject(e))));
         this.d = await cache.get(url);
         this.filtre = this.filtre || this.getAttribute('source') || 'tous';
         this.rendre();
