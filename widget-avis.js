@@ -195,8 +195,11 @@
   .nav button:disabled{background:transparent;color:var(--doux);border-color:var(--trait);box-shadow:none;cursor:default}
   .nav button:focus-visible,.onglets button:focus-visible,.plus:focus-visible,.points button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
   /* Flèches posées sur les côtés des cartes (navigation="cote"), sans points : la flèche inutile s'efface. */
-  .zone{position:relative}
+  /* Les flèches se posent dans une marge, hors des cartes : elles ne couvrent jamais le texte. */
+  .zone{position:relative;padding:0 32px}
   :host([data-nav=cote]) .points{display:none}
+  /* Flèches sur les côtés et points centrés dessous (navigation="cote-points"). */
+  :host([data-nav=cote-points]) .points{align-self:center}
   .cote{position:absolute;top:calc(50% - 10px);transform:translateY(-50%);z-index:2;appearance:none;width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:#1d1d1b;box-shadow:0 2px 10px rgba(0,0,0,.2);cursor:pointer;display:grid;place-items:center;transition:opacity .2s,box-shadow .2s}
   .cote.prec{left:-12px}.cote.suiv{right:-12px}
   .cote:disabled{opacity:0;pointer-events:none}
@@ -229,7 +232,7 @@
   `;
 
   class WapiaAvis extends HTMLElement {
-    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete', 'navigation', 'coupe', 'icone-source', 'couleur-lien', 'avatar', 'date']; }
+    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web', 'forme-entete', 'navigation', 'coupe', 'icone-source', 'couleur-lien', 'avatar', 'date', 'defilement']; }
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
@@ -284,13 +287,14 @@
       drapeau('pied', /^google$/i.test(this.reglage('pied', 'pied') || '') ? 'google' : '');
       const cli = couleur(this.reglage('couleur-lien', 'couleurLien')); if (cli) pose('--lien', cli);
       const nav = String(this.reglage('navigation', 'navigation') || '');
-      drapeau('nav', /^c[oô]t/i.test(nav) ? 'cote' : /^points?$/i.test(nav) ? 'points' : '');
+      drapeau('nav', /^c[oô]te-points$/i.test(nav) ? 'cote-points' : /^c[oô]t/i.test(nav) ? 'cote' : /^points?$/i.test(nav) ? 'points' : '');
       drapeau('avatar', /^source$/i.test(this.reglage('avatar', 'avatar') || '') ? 'source' : '');
       drapeau('date', /^non$/i.test(String(this.reglage('date', 'date') ?? '')) ? 'non' : '');
       drapeau('coupe', /^points?$/i.test(this.reglage('coupe', 'coupe') || '') ? 'points' : '');
       drapeau('icone', /^avatar$/i.test(this.reglage('icone-source', 'iconeSource') || '') ? 'avatar' : '');
     }
     rendre() {
+      this.arreter();
       const d = this.d, af = d.affichage || {}, modele = this.getAttribute('modele') || af.modele || 'carrousel';
       this.habiller();
       const sources = d.sources || [];
@@ -390,12 +394,39 @@
         r.querySelector('.suiv').addEventListener('click', () => piste.scrollBy({ left: pas() }));
         piste.addEventListener('scroll', maj, { passive: true });
         suivre = () => { dessinerPoints(); maj(); };
+        // Défilement automatique (comme les anciens widgets) : une carte toutes les 5 s, retour au début à la fin.
+        // En pause tant que la souris ou le clavier est dans le module, 12 s après un geste (doigt, flèche, point),
+        // quand un avis est déplié, hors de l'écran ou onglet caché ; jamais si le visiteur demande moins d'animations.
+        // defilement="non" le coupe, defilement="8" règle l'intervalle (2 à 30 s).
+        const def = String(this.reglage('defilement', 'defilement') ?? '').trim().toLowerCase();
+        const sec = Number.parseFloat(def);
+        if (!/^(non|false|0)$/.test(def) && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+          let survol = false, repos = 0, visible = true;
+          const w = r.querySelector('.w');
+          w.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse') survol = true; });
+          w.addEventListener('pointerleave', () => { survol = false; });
+          w.addEventListener('focusin', () => { survol = true; });
+          w.addEventListener('focusout', () => { survol = false; });
+          const geste = () => { repos = Date.now() + 12000; };
+          piste.addEventListener('touchstart', geste, { passive: true });
+          piste.addEventListener('wheel', geste, { passive: true });
+          r.querySelectorAll('.prec,.suiv,.points').forEach((b) => b.addEventListener('click', geste));
+          if ('IntersectionObserver' in window) { this.io = new IntersectionObserver(([e]) => { visible = e.isIntersecting; }); this.io.observe(this); }
+          this.auto = setInterval(() => {
+            if (survol || !visible || document.hidden || Date.now() < repos || r.querySelector('.txt.ouvert')) return;
+            if (piste.scrollWidth <= piste.clientWidth + 4) return;
+            const c = piste.querySelector('.carte');
+            if (piste.scrollLeft + piste.clientWidth > piste.scrollWidth - 4) piste.scrollTo({ left: 0 });
+            else piste.scrollBy({ left: c ? c.offsetWidth + 18 : pas() });
+          }, (sec >= 2 && sec <= 30 ? sec : 5) * 1000);
+        }
       }
       if (this.ro) this.ro.disconnect();
       this.ro = new ResizeObserver(() => { verifier(); suivre(); }); this.ro.observe(r.querySelector('.w'));
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { verifier(); suivre(); });
     }
-    disconnectedCallback() { if (this.ro) this.ro.disconnect(); }
+    arreter() { if (this.auto) clearInterval(this.auto); this.auto = null; if (this.io) this.io.disconnect(); this.io = null; }
+    disconnectedCallback() { if (this.ro) this.ro.disconnect(); this.arreter(); }
   }
   customElements.define('wapia-avis', WapiaAvis);
 })();

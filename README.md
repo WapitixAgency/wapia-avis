@@ -31,7 +31,8 @@ Un attribut posé dans l'éditeur l'emporte sur les réglages du CMS. Sans attri
 | `fond` | `#RRGGBB` | fond du module entier (défaut : celui de la section) |
 | `fond-entete` | `blanc`, `#RRGGBB` | met la note globale dans un bloc (indispensable sur une photo) |
 | `forme-entete` | `pastille` | pose la note seule dans une pastille de la couleur des cartes (ombre, contour), lisible sur une photo ou une vidéo de fond ; `fond-entete` en change la couleur |
-| `navigation` | `cote`, `points` | `cote` : flèches blanches posées sur les côtés des cartes, sans points ; `points` : points centrés, sans flèches |
+| `navigation` | `cote`, `cote-points`, `points` | `cote` : flèches blanches sur les côtés des cartes, sans points ; `cote-points` : les mêmes flèches et les points centrés dessous ; `points` : points centrés, sans flèches |
+| `defilement` | `non`, ou un nombre de secondes | le carrousel défile seul (une carte toutes les 5 s par défaut, retour au début à la fin ; pause au survol, au clavier, 12 s après un geste, avis déplié, hors écran ; jamais si le visiteur demande moins d'animations) ; `non` le coupe |
 | `coupe` | `points` | coupe le texte par « … » au lieu d'un fondu |
 | `icone-source` | `avatar` | petit logo de la source (G) sur l'avatar, au lieu du logo à droite |
 | `couleur-lien` | `#RRGGBB` | couleur imposée de « Lire la suite » (sinon l'accent, ou le texte si l'accent se lit mal) |
