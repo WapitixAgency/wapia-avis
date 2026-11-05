@@ -30,6 +30,7 @@ Un attribut posé dans l'éditeur l'emporte sur les réglages du CMS. Sans attri
 | `ombre` | `non` | cartes sans ombre (quand la carte a la couleur de la section) |
 | `fond` | `#RRGGBB` | fond du module entier (défaut : celui de la section) |
 | `fond-entete` | `blanc`, `#RRGGBB` | met la note globale dans un bloc (indispensable sur une photo) |
+| `forme-entete` | `pastille` | pose la note seule dans une pastille de la couleur des cartes (ombre, contour), lisible sur une photo ou une vidéo de fond ; `fond-entete` en change la couleur |
 | `alignement` | `centre` | note globale centrée, logo au-dessus |
 | `bord` | `#RRGGBB`, `non` | contour des cartes |
 | `rayon` | `0` à `40` | arrondi des cartes et du bloc de note, en pixels |
