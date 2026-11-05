@@ -143,6 +143,8 @@
   /* En-tête en pastille : la note posée dans un bloc de la couleur des cartes, lisible sur une photo ou une vidéo de fond. */
   :host([data-pastille]) .score,:host([data-pastille]) .cpt{background:var(--fond-pastille,var(--carte));border:1px solid var(--bord);border-radius:var(--rayon);box-shadow:var(--ombre);padding:14px 24px 14px 16px;color:var(--texte-entete,var(--texte))}
   :host([data-pastille]) .score .total{margin-top:6px}
+  :host([data-align=centre]) .titre{text-align:center}
+  :host([data-align=centre]) .onglets{justify-content:safe center}
   :host([data-align=centre]) .tete{flex-direction:column;justify-content:center;text-align:center}
   :host([data-align=centre]) .score{flex-direction:column;gap:10px}
   :host([data-align=centre]) .score .ligne{justify-content:center}
