@@ -1,0 +1,234 @@
+{
+ "client": "pik-beach",
+ "nom": "Villa Pik'Beach",
+ "note": 4.8,
+ "total": 66,
+ "lienFiche": "https://www.google.com/maps/place/Pik'Beach/@48.5646557,2.5366948,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5e5ae43d38ba3:0xbf902a9419c49c95!8m2!3d48.5646557!4d2.5366948!16s%2Fg%2F11s8v6tfv0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/Pik'Beach/@48.5646557,2.5366948,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5e5ae43d38ba3:0xbf902a9419c49c95!8m2!3d48.5646557!4d2.5366948!16s%2Fg%2F11s8v6tfv0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+ "sources": [
+  {
+   "id": "google",
+   "nom": "Google",
+   "note": 4.8,
+   "total": 66,
+   "lien": "https://www.google.com/maps/place/Pik'Beach/@48.5646557,2.5366948,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5e5ae43d38ba3:0xbf902a9419c49c95!8m2!3d48.5646557!4d2.5366948!16s%2Fg%2F11s8v6tfv0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/Pik'Beach/@48.5646557,2.5366948,17z/data=!3m1!4b1!4m6!3m5!1s0x47e5e5ae43d38ba3:0xbf902a9419c49c95!8m2!3d48.5646557!4d2.5366948!16s%2Fg%2F11s8v6tfv0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D"
+  }
+ ],
+ "affichage": {
+  "theme": "sombre",
+  "couleur": "#E8B873",
+  "couleurEtoiles": "#E8B873",
+  "fondCarte": "rgba(255,255,255,.045)",
+  "bord": "rgba(255,255,255,.10)",
+  "ombre": "non",
+  "rayon": 18,
+  "police": "Hanken Grotesk, sans-serif",
+  "titre": "",
+  "modele": "carrousel",
+  "texteBouton": "Laisser un avis"
+ },
+ "avis": [
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21SdFYyUktMVGR5YzJKMU4wMU9WeTEyYWtveVIzYxAB",
+   "source": "google",
+   "auteur": "Matthieu L.",
+   "note": 5,
+   "texte": "Le lieu est vraiment bien pensé, avec tous les éléments indispensables pour passer une superbe soirée !!\nL'accueil a été géniale et la propriétaire très disponible pour nous accompagner dans l'organisation de l'événement et la facilitation de la gestion.\nNous avons passé une soirée mémorable grâce a Pik'Beach !",
+   "reponse": "Merci beaucoup Matthieu ! A très vite 🥳 …",
+   "titre": "",
+   "date": "2026-04-07"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnTURJd1kzN25nRRAB",
+   "source": "google",
+   "auteur": "Laura Q.",
+   "note": 5,
+   "texte": "Villa réservée pour un EVJF, la\nVilla est immense et magnifiquement décorée, toutes les filles ont adoré! Un effet WAHOU pour toutes!\nLes équipements sont variés et de très grande qualité en plus de l’espace boîte de nuit privée (bras zéro, billard, jacuzzi). Tout était parfait je recommande vraiment!\nLa propriétaire s’est montrée très disponible et nous a fait le tour de la propriété pour bien expliquer le fonctionnement des équipements de la boîte de nuit.\nIl faut toutefois avoir en tête que le bruit à l’extérieur après 22h n’est pas autorisé, dans notre cas, ce n’était pas gênant car nous avons profité de la boite de nuit toute la soirée.",
+   "reponse": "Merci Laura d'avoir prit le temps de nous laisser un avis. Nous serons ravis de vous accueillir à nouveau! Beau mariage et beaucoup de bonheur à votre soeur.",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQ3MS1xQXhRRRAB",
+   "source": "google",
+   "auteur": "William W.",
+   "note": 5,
+   "texte": "J’ai réservé la villa pour un enterrement de vie de garçon. Et je peux vous dire que l’intéressé a passé une soirée inoubliable. La villa est équipée d’un jacuzzi extérieur, d’une boîte de nuit insonorisée au sous sol, avec projecteurs et micros pour faire des karaokes. Et après la fête nous avons tous pu dormir sur place dans des chambres et des lits très confortables.\nJe recommande grandement cette location.",
+   "reponse": "Merci beaucoup William.\nNous éspèrons vous revoir très vite!",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQzOF92c3ZnRRAB",
+   "source": "google",
+   "auteur": "Alexandra L.",
+   "note": 5,
+   "texte": "Villa louée à l'occasion de mes 30 ans. Le lieu est très bien décoré, pensé et équipé. Il a fait un bel effet au près de mes invités. De la salle de jeux à la boîte de nuit, tout est réuni pour passer un excellent moment et s'ambiancer.\nTrès pratique aussi, la quantité et la qualité des couchages!\nL'endroit est paisible c'est appréciable. Attention au bruit en extérieur après 22h mais la propriétaire vous en avise avant la signature du contrat.\nJe recommande ce lieu pour vos événements! C'est original, ça change de ce qu'on peut trouver pour faire la fête avec nos proches. Tout le monde s'est amusé, et je n'oublierai pas mes 30 ans!\nMerci beaucoup à Noémie pour son accueil, sa gentillesse et sa disponibilité !",
+   "reponse": "Merci Alexandra pour votre avis. Je suis ravie que la villa vous ait plu.\nAu plaisir.",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURqakplb3hBRRAB",
+   "source": "google",
+   "auteur": "Tiphaine J.",
+   "note": 5,
+   "texte": "Un lieu idéal pour passer une excellente soirée ! Billard, fléchettes, salle au -1 qui est clairement une boîte de nuit, très bien insonorisée! La maison est décorée avec goût, les matériaux utilisés sont de qualité !\nPlaces de stationnement devant la maison !\nSituée dans un quartier pavillonnaire, calme !\nJe recommande ce logement !",
+   "reponse": "Merci beaucoup Tiphaine!",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnTURvMklLYWNREAE",
+   "source": "google",
+   "auteur": "Florean20",
+   "note": 5,
+   "texte": "Séjour familial chez Arnaud et Noémie. Nous avons passé un très agréable moment grâce aux  nombreux équipements que propose la location. Noémie s’est rendue très disponible pour toutes nos questions ainsi que flexible sur l’arrivée et le départ. Toute la famille recommande !",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNucjlIMkJREAE",
+   "source": "google",
+   "auteur": "Cindy G.",
+   "note": 5,
+   "texte": "Une soiree exeptionnelle pour mes 30 ans .\nUn Acceuil au top , une maison spacieuse et très propre . La boite de nuit est un énorme plus , nous avons passé une soirée de fou , le matériel est performant , le coin fumoir dans la boîte de nuit permet de ne pas sortir dehors en plein hiver , je me suis senti en sécurité dans cette maison grâce au vigile qui est présent une bonne partie de la nuit  , ce qui permet une surveillance pendant la soirée et de se sentir tranquille , nous avons pu garer plusieurs véhicules dans la cours.\nBref . Tout est prévu pour passer une soirée de folie.  Je recommande sans hesiter cet endroit ! Alors Foncez 🥰",
+   "reponse": "Merci beaucoup Cindy. Votre avis compte beaucoup pour nous !\nNous éspèrons vous revoir très bientôt !",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25ZMVVuZ3pVWFpzUlhSQmJWWTRWR3BSUWpCVE1IYxAB",
+   "source": "google",
+   "auteur": "Betty V.",
+   "note": 5,
+   "texte": "Merci à Noemi pour son accueil.\nLa maison est incroyable, tout est parfait.\nLes chambres sont spacieuses et très très bien décorées!\nLa cuisine est tout équipée ce qui est très agréable, rien ne manque!\nLa salle de jeu est parfaite aussi!\nLe petit plus, c’est la discothèque au sous-sol! Elle est magnifique, dispose de tout le nécessaire pour une fête réussie!!!!\nMerci encore, nous reviendrons avec plaisir!",
+   "reponse": "Merci beaucoup Betty pour ce commentaire.\nAu plaisir de vous revoir très vite!",
+   "titre": "",
+   "date": "2025-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURqdVp2dTF3RRAB",
+   "source": "google",
+   "auteur": "Thomas F.",
+   "note": 5,
+   "texte": "Villa réservée pour un anniversaire surprise. Pas déçu des prestations! Salle de jeux avec billard, bar, et boîte de nuit au sous-sol. Très pratique de pouvoir faire la fête et dormir sur place. Les chambres sont de qualités et la décoration de la villa est parfaite. Pas de mauvaise surprise, très bonne soirée et nuit, je recommande vivement!",
+   "reponse": "Merci beaucoup Thomas pour votre message. Nous sommes ravis que la villa vous ai plut.\nA bientôt chez Pik'Beach",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSURYb0xYaUl3EAE",
+   "source": "google",
+   "auteur": "Jeanne L.",
+   "note": 5,
+   "texte": "Nous avons passés un week-end de folie ! Les hôtes sont très respectueux et soucieux du détails. La maison est spacieuse, propre et fonctionnelle. Pour passer un week-end familiale ou faire une fête, toutes les conditions sont réunies. Merci Pik Beach pour ces souvenirs gravés à jamais. :)",
+   "reponse": "Merci Jeanne pour votre message. Nous sommes très heureux que le lieu vous ait plu.\nA bientôt",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNubV9yMzhBRRAB",
+   "source": "google",
+   "auteur": "Lyly",
+   "note": 5,
+   "texte": "Nous avons passé un week-end exceptionnel dans cet villa, entre le bain norvégien, les chambres confortables, et le sous sol aménagé, tout était parfait ! 10/10",
+   "reponse": "Merci beaucoup Lynn. Votre avis compte beaucoup pour nous !\nNous éspèrons vous revoir très bientôt !",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNuejVxUU5REAE",
+   "source": "google",
+   "auteur": "Samantha L.",
+   "note": 5,
+   "texte": "Pik Beach c’est une magnifique villa décorer avec beaucoup de goût, spacieuse pour y accueillir tout nos invités! Les photos sont superbes, mais en réalité c’est encore mieux!!\nEt l’endroit où on s’y sent le mieux est la boite de nuit au sous-sol, aménager vraiment de façon à ce qu’on fasse la fête sans problème ! L’espace bar et le coin DJ à disposition 💃🏻🕺🏻🪩\nUn lieu que je recommande pour fêter un événement comme il se doit 😊\nMerci beaucoup à Emilie pour ses services, au top !!",
+   "reponse": "Merci beaucoup Samantha. Votre avis compte beaucoup pour nous !\nNous éspèrons vous revoir très vite !",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNIbEtMTjF3RRAB",
+   "source": "google",
+   "auteur": "Sébastien Q.",
+   "note": 5,
+   "texte": "Un lieu magique pour faire la fête jusqu'à tard dans la nuit ou tôt le matin, c'est selon. La boîte de nuit est incroyable, tout est très bien pensé, bien équipé, bien décoré, la salle de billard idéale, les différentes pièces de la maison  très chaleureuses et bien decorées, et l'espace détente en bois est très joli et très agréable bien qu'un peu cher (en option). Il faut vraiment avoir un timing pas trop serré pour pouvoir en profiter dans la soirée ou le matin (ferme à 23h et ouvre à 8h30 automatiquement), nous ne nous en sommes pratiquement pas servi.\nCôté hôtes, très bon accueil de la part de Noëmie et tous ceux qui l'entourent. Nous avons pu profiter des activités nautiques avant de profiter à proprement parler de la maison et c'était génial de glisser sur la Seine, à 10 minutes à pied de la maison. Noëmie a été à l'écoute de nos besoins en amont de la soirée et nous avons pu nous caler ensemble à quelques jours de l'événement en fonction de la météo.\n\nMême si la politique des lieux peut paraître un peu stricte (check in 17h check out 11h, agent de secu à l'entrée pendant la soirée, pas de voitures garées à  l'extérieur, pas de bruit dehors après 22/23h, ...) Noémie sait être arrangeante et à l'écoute. Et quelque part c'est compréhensible de devoir respecter le voisinage pour pouvoir faire la fête presque tous les week-ends de l'année !\n\nBref un lieu que je recommande, qui est surprenant et envoûtant et offre plein de possibilités pour passer un très bon moment !",
+   "reponse": "Merci beaucoup Sébastien pour cet avis objectif et détaillé. Votre avis compte beaucoup pour nous et nos futurs clients.\nNous éspèrons vous revoir très vite!",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSURqbE5uc2h3RRAB",
+   "source": "google",
+   "auteur": "Nicolas P.",
+   "note": 5,
+   "texte": "Une maison de dingue avec une décoration tout droit sortie d’Instagram, des chambres spacieuses et la surprise du chef. De quoi faire la fête jusqu’à pas d’heure dans une salle digne d’un bar tout droit sorti de Paris!\n\nMerci c’était super!",
+   "reponse": "Merci Nicolas pour votre message. A bientôt chez Pik'Beach !",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNIZ3VYb3dRRRAB",
+   "source": "google",
+   "auteur": "Jean-Brice",
+   "note": 5,
+   "texte": "Invités pour un anniversaire, nous avons passé un week-end inoubliable dans cette maison située dans un lieu qui respire la tranquillité. Superbe maison magnifiquement décorée ! chambres spacieuses et confortables, vaste lieu de vie à la déco encore une fois originale et très jolie. Le plus c'est la discothèque qui est tout simplement incroyable, tellement propice à la fête !",
+   "reponse": "Merci beaucoup Jean Brice.\nNous éspèrons vous revoir très vite!",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNIdXFfYWJREAE",
+   "source": "google",
+   "auteur": "Sopez H.",
+   "note": 5,
+   "texte": "L’endroit et la maison sont super pour se mettre dans l’ambiance!! Nous avons loué pour une soirée, le propriétaire est très accueillant et serviable. Le jardin est très bien entretenu ainsi que la propreté des chambres et des salles de bain est au rendez-vous. Nous y retournerons avec grand plaisir!!",
+   "reponse": "Merci beaucoup Hugo.\nNous éspèrons vous revoir très vite!",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pONU1saGFRMlZPWkdKM1JIaExOMUY0VG14TlRFRRAB",
+   "source": "google",
+   "auteur": "David J.",
+   "note": 5,
+   "texte": "Le top, pour faire une fête anniversaire on s’est éclaté, karaoké la discothèque elle est juste incroyable le lieu propre franchement aucune hésitation à avoir, je ne serai pas déçu",
+   "reponse": "",
+   "titre": "",
+   "date": "2025-12-06"
+  },
+  {
+   "id": "ChZDSUhNMG9nS0VJQ0FnSUNuczVtMmVBEAE",
+   "source": "google",
+   "auteur": "Manon C.",
+   "note": 5,
+   "texte": "Nous avons passé tout un weekend à PikBeach avec des copines ! Le personnel est vraiment génial ! Toujours au petit soin et avec plein d'idées d'activités !\n\nLa maison est splendide ! Nous avons bien swingué sur le poste de la boîte de nuit 😂 !\n\nMerci infiniment !!!",
+   "reponse": "Merci beaucoup Manon. Votre avis compte beaucoup pour nous !\nNous éspèrons vous revoir très bientôt !",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUNudjRyci1RRRAB",
+   "source": "google",
+   "auteur": "Melodie M.",
+   "note": 5,
+   "texte": "La villa PikBeach est juste incroyable !\nLe calme de la ville, le confort de la maison, la piscine, le jacuzzi tout y ai ! Je recommande a 1000% !",
+   "reponse": "Merci beaucoup Mélodie.\nNous éspèrons vous revoir très bientôt !",
+   "titre": "",
+   "date": "2024-11-05"
+  },
+  {
+   "id": "ChdDSUhNMG9nS0VJQ0FnSUQ3bDdmVzZ3RRAB",
+   "source": "google",
+   "auteur": "Marine B.",
+   "note": 5,
+   "texte": "Magnifique Villa ! La décoration est superbe et les prestations sont folles. Merci à Noémie pour son accueil chaleureux. Je recommande !!!",
+   "reponse": "Merci beaucoup Marine. Votre avis compte beaucoup pour nous.\nNous éspèrons vous revoir très vite!",
+   "titre": "",
+   "date": "2024-11-05"
+  }
+ ],
+ "maj": "2026-11-05"
+}
