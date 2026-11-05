@@ -96,12 +96,47 @@
     return /(sans-serif|serif|monospace|system-ui|cursive)\s*$/i.test(pile) ? pile : `${pile}, sans-serif`;
   };
 
+  // Logotype « Google » (en-tête « Google Avis », comme les anciens widgets) ; une couleur unique possible (couleur-logo).
+  const MOT_GOOGLE = '<svg class="mot-g" viewBox="0 0 272 92" aria-label="Google" role="img"><path fill="#EA4335" d="M115.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18C71.25 34.32 81.24 25 93.5 25s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44S80.99 39.2 80.99 47.18c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z"/><path fill="#FBBC05" d="M163.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.85 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.980-5.79-13.44-12.51-13.44s-12.51 5.46-12.51 13.44c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z"/><path fill="#4285F4" d="M209.75 26.34v39.82c0 16.38-9.66 23.07-21.08 23.07-10.75 0-17.22-7.19-19.66-13.07l8.48-3.53c1.51 3.61 5.21 7.870 11.17 7.87 7.31 0 11.84-4.51 11.84-13v-3.19h-.34c-2.18 2.69-6.38 5.04-11.68 5.04-11.09 0-21.25-9.66-21.25-22.09 0-12.52 10.16-22.26 21.25-22.26 5.29 0 9.49 2.35 11.68 4.96h.34v-3.61h9.25zm-8.56 20.92c0-7.81-5.21-13.52-11.84-13.52-6.72 0-12.35 5.71-12.35 13.52 0 7.73 5.63 13.36 12.35 13.36 6.63 0 11.84-5.63 11.84-13.36z"/><path fill="#34A853" d="M225 3v65h-9.5V3h9.5z"/><path fill="#EA4335" d="M262.02 54.48l7.56 5.04c-2.44 3.61-8.32 9.83-18.48 9.83-12.6 0-22.01-9.74-22.01-22.18 0-13.19 9.49-22.18 20.92-22.18 11.51 0 17.14 9.16 18.98 14.11l1.010 2.52-29.65 12.28c2.27 4.45 5.8 6.72 10.75 6.72 4.96 0 8.4-2.44 10.92-6.14zm-23.27-7.98l19.82-8.23c-1.09-2.77-4.37-4.7-8.23-4.7-4.95 0-11.84 4.37-11.59 12.93z"/><path fill="#4285F4" d="M35.29 41.41V32H67c.31 1.64.47 3.58.47 5.68 0 7.06-1.93 15.79-8.15 22.01-6.05 6.3-13.78 9.66-24.02 9.66C16.32 69.35.36 53.89.36 34.91.36 15.93 16.32.47 35.3.47c10.5 0 17.98 4.12 23.6 9.49l-6.64 6.64c-4.03-3.78-9.49-6.72-16.97-6.72-13.86 0-24.7 11.17-24.7 25.030 0 13.86 10.84 25.03 24.7 25.03 8.99 0 14.11-3.61 17.39-6.89 2.66-2.66 4.41-6.46 5.1-11.65l-22.49.01z"/></svg>';
+  // Police chargée chez Bunny Fonts (miroir de Google Fonts sans traceur), une fois par page : l'en-tête du document la rend
+  // visible dans le shadow DOM. Sert à retrouver la police de l'ancien widget quand le site ne l'a pas.
+  const chargerPolice = (nom) => {
+    if (!/^[A-Za-z0-9 ]{2,40}$/.test(nom || '')) return false;
+    const id = 'wapia-police-' + nom.toLowerCase().replace(/ /g, '-');
+    if (!document.getElementById(id)) { const l = document.createElement('link'); l.id = id; l.rel = 'stylesheet'; l.href = `https://fonts.bunny.net/css?family=${nom.toLowerCase().replace(/ /g, '-')}:400,500,600,700&display=swap`; document.head.appendChild(l); }
+    return true;
+  };
+
   const CSS = `
   :host{display:block;width:100%;container-type:inline-size;font-family:inherit;color:var(--texte);background:var(--fond-module);--accent:#1a73e8;--sur-accent:#fff;--fond-module:transparent;--carte:#fff;--texte:#1d1d1b;--doux:#6b6b66;--trait:#e6e5e0;--bord:#ecebe6;--etoile:#f5b301;--etoile-vide:#d9d7d0;--rayon:16px;--col:3;--fond-entete:transparent;--ombre:0 1px 2px rgba(20,20,15,.04),0 8px 24px rgba(20,20,15,.07)}
   :host([theme=sombre]),:host([data-theme=sombre]){--carte:#1c1c1c;--texte:#f3f2ee;--doux:#a9a8a2;--trait:#3a3a37;--bord:#2a2a28;--etoile-vide:#4a4a46;--ombre:none}
   :host([data-ombre=non]){--ombre:none}
   *{box-sizing:border-box}
-  .w{display:flex;flex-direction:column;gap:22px}
+  /* De l'air sur les bords : l'élément Wix coupe ce qui dépasse, ombres des cartes et des flèches comprises. */
+  .w{display:flex;flex-direction:column;gap:22px;padding:14px 16px 22px}
+  /* En-tête compact (« Google Avis » puis « 4,9 ★★★★★ (139) ») et en-tête sans note (« Google Avis », « 1 413 avis »). */
+  .cpt{display:flex;align-items:center;gap:14px;color:var(--texte-entete,var(--texte))}
+  .cpt.pile{flex-direction:column;align-items:flex-start;gap:6px}
+  :host([data-align=centre]) .cpt,:host([data-align=centre]) .cpt.pile{align-items:center;text-align:center}
+  .cpt.haut{flex-direction:column;gap:10px}
+  .cpt .logo{width:42px;height:42px}
+  .cpt-t{display:flex;flex-direction:column;gap:4px}
+  :host([data-align=centre]) .cpt-t{align-items:center}
+  .cpt-titre{font-size:clamp(18px,2.2vw,22px);font-weight:700;line-height:1.2}
+  .cpt-note{gap:8px}.cpt-chiffre{font-size:20px;font-weight:700}
+  .cpt-total{font-size:13px;color:var(--doux)}
+  .mot{display:inline-flex;align-items:flex-end;gap:8px;line-height:1}
+  .mot-g{height:28px;width:auto}
+  .mot b{font-size:21px;font-weight:600;color:var(--texte-entete,var(--texte));position:relative;top:-2px}
+  :host([data-logo-mono]) .mot-g path{fill:var(--couleur-logo)}
+  /* Pied « Publié sur Google » et carte centrée (étoiles, texte, puis l'auteur), comme certains anciens widgets. */
+  .pied-src{display:flex;align-items:center;gap:10px;margin-top:4px;font-size:12.5px;line-height:1.25;color:var(--doux)}
+  .pied-src svg{width:28px;height:28px;flex:none}.pied-src b{display:block;color:#1a73e8;font-weight:500;font-size:14px}
+  :host([data-pied]) .qui .src{display:none}
+  .carte.centre{align-items:center;text-align:center}
+  .carte.centre .plus{align-self:center}
+  .carte.centre .qui{flex-direction:column;gap:8px;margin-top:6px}
+  .carte.centre .qui .src{display:none}
   .tete{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .score{display:flex;align-items:center;gap:14px}
   :host([data-bloc]) .tete{background:var(--fond-entete);border-radius:var(--rayon);padding:22px 26px}
@@ -112,7 +147,7 @@
   .chiffre{font-size:34px;font-weight:700;line-height:1;letter-spacing:-.02em}
   .total{font-size:13.5px;color:var(--doux);margin-top:5px}
   .titre{font-size:clamp(20px,2.4vw,26px);font-weight:600;margin:0 0 4px}
-  .btn{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--accent);color:var(--lien,var(--accent));background:transparent;border-radius:999px;padding:11px 20px;font:inherit;font-size:14.5px;font-weight:600;line-height:1.2;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,box-shadow .2s,transform .2s}
+  .btn{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--accent);color:var(--lien,var(--accent));background:transparent;border-radius:var(--rayon-bouton,999px);padding:11px 20px;font:inherit;font-size:14.5px;font-weight:600;line-height:1.2;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s,box-shadow .2s,transform .2s}
   .btn svg{width:18px;height:18px;flex:none}
   .btn:hover,.btn:focus-visible{background:var(--accent);color:var(--sur-accent);outline:none}
   .btn.plein{background:var(--accent);color:var(--sur-accent);box-shadow:0 4px 14px color-mix(in srgb,var(--accent) 28%,transparent)}
@@ -136,7 +171,7 @@
   .ligne{display:flex;align-items:center;gap:8px}
   .n10{background:#003580;color:#fff;font-size:12px;font-weight:700;border-radius:5px 5px 5px 0;padding:2px 6px}
   .et{display:inline-flex;gap:1px;vertical-align:middle}
-  .txt{font-size:15px;line-height:1.6;margin:0;white-space:pre-line;max-height:calc(1.6em * 6);overflow:hidden}
+  .txt{font-size:15px;line-height:1.6;margin:0;white-space:pre-line;max-height:calc(1.6em * var(--lignes, 6));overflow:hidden}
   .txt.coupe{white-space:normal;-webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 2.2em),transparent);mask-image:linear-gradient(to bottom,#000 calc(100% - 2.2em),transparent)}
   .txt.ouvert{max-height:none;-webkit-mask-image:none;mask-image:none}
   .plus{appearance:none;border:0;background:none;padding:4px 0;margin-top:auto;font:inherit;font-size:14px;font-weight:600;color:var(--lien,var(--accent));cursor:pointer;align-self:flex-start;display:inline-flex;align-items:center;gap:6px;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:4px;text-decoration-thickness:1.5px;transition:text-decoration-color .2s}
@@ -161,7 +196,7 @@
   `;
 
   class WapiaAvis extends HTMLElement {
-    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses']; }
+    static get observedAttributes() { return ['client', 'modele', 'theme', 'accent', 'nombre', 'source', 'donnees', 'titre', 'fond', 'fond-carte', 'ombre', 'bord', 'rayon', 'colonnes', 'fond-entete', 'alignement', 'couleur-etoiles', 'bouton', 'style-bouton', 'police', 'entete', 'reponses', 'lignes', 'disposition', 'pied', 'logo', 'titre-entete', 'couleur-logo', 'couleur-entete', 'police-web']; }
     constructor() { super(); this.attachShadow({ mode: 'open' }); }
     connectedCallback() { this.charger(); }
     attributeChangedCallback(nom) { if (!this.isConnected) return; if (this.d && nom !== 'client' && nom !== 'donnees') this.rendre(); else this.charger(); }
@@ -194,7 +229,7 @@
       pose('--bord', /^non$/i.test(b) ? 'transparent' : couleur(b) || (fc === 'transparent' ? 'var(--trait)' : null));
       drapeau('ombre', /^non$/i.test(this.reglage('ombre', 'ombre') || '') || fc === 'transparent' ? 'non' : '');
       const r = Number.parseInt(this.reglage('rayon', 'rayon'), 10);
-      pose('--rayon', Number.isFinite(r) && r >= 0 && r <= 40 ? r + 'px' : null);
+      pose('--rayon', Number.isFinite(r) && r >= 0 && r <= 40 ? r + 'px' : null); pose('--rayon-bouton', r === 0 ? '0' : null);
       const col = Number.parseInt(this.reglage('colonnes', 'colonnes'), 10);
       pose('--col', col >= 1 && col <= 5 ? String(col) : null);
       pose('--fond-module', couleur(this.reglage('fond', 'fond')));
@@ -202,7 +237,15 @@
       pose('--fond-entete', fe); drapeau('bloc', fe ? 'oui' : '');
       pose('--etoile', couleur(this.reglage('couleur-etoiles', 'couleurEtoiles')));
       drapeau('align', /^cent/i.test(this.reglage('alignement', 'alignement') || '') ? 'centre' : '');
-      pose('font-family', police(this.reglage('police', 'police')));
+      const pw = this.reglage('police-web', 'policeWeb');
+      const pol = police(this.reglage('police', 'police')) || (chargerPolice(pw) ? police(pw) : null);
+      pose('font-family', pol);
+      const lg = Number.parseInt(this.reglage('lignes', 'lignes'), 10);
+      pose('--lignes', lg >= 2 && lg <= 12 ? String(lg) : null);
+      const cl = couleur(this.reglage('couleur-logo', 'couleurLogo'));
+      pose('--couleur-logo', cl); drapeau('logoMono', cl ? 'oui' : '');
+      pose('--texte-entete', couleur(this.reglage('couleur-entete', 'couleurEntete')));
+      drapeau('pied', /^google$/i.test(this.reglage('pied', 'pied') || '') ? 'google' : '');
     }
     rendre() {
       const d = this.d, af = d.affichage || {}, modele = this.getAttribute('modele') || af.modele || 'carrousel';
@@ -227,18 +270,41 @@
       const libelle = vb && !/^(oui|true|1)$/i.test(vb) ? vb : (af.texteBouton || d.libelleBouton || 'Laisser un avis');
       const plein = /^plein$/i.test(this.reglage('style-bouton', 'styleBouton') || '');
       const bouton = avecBouton && lienAvis ? `<a class="btn${plein ? ' plein' : ''}" href="${sur(lienAvis)}" target="_blank" rel="noopener">${echap(libelle)}</a>` : '';
-      const entete = !/^non$/i.test(this.reglage('entete', 'entete') || '');
+      // En-tête : complet (défaut), compact, nombre (sans la note), non.
+      const modeEntete = String(this.reglage('entete', 'entete') || 'complet').toLowerCase();
+      const entete = modeEntete !== 'non';
+      const modeLogo = String(this.reglage('logo', 'logo') || 'icone').toLowerCase();
+      const titreEntete = this.reglage('titre-entete', 'titreEntete');
+      const sourceUnique = s0 ? s0.id : sources.length === 1 ? sources[0].id : null;
+      const blocLogo = modeLogo === 'aucun' ? '' : modeLogo === 'mot' && sourceUnique === 'google' ? `<span class="mot">${MOT_GOOGLE}<b>Avis</b></span>` : logo ? `<span class="logo">${logo}</span>` : '';
+      const nb = (n) => (n == null || n === '' ? '' : Number(n).toLocaleString('fr-FR'));
+      const pied = /^google$/i.test(this.reglage('pied', 'pied') || '');
+      const centree = /^cent/i.test(this.reglage('disposition', 'disposition') || '');
       const onglets = sources.length > 1 ? `<div class="onglets" role="tablist">${[{ id: 'tous', nom: 'Tous les avis', note: d.note }, ...sources].map((s) => `<button role="tab" data-f="${echap(s.id)}" aria-selected="${this.filtre === s.id}">${s.id !== 'tous' ? `<span class="src">${src(s.id).svg}</span>` : ''}${echap(s.libelle || s.nom || src(s.id).nom)} <b>${echap(noteTexte(s.note))}</b></button>`).join('')}</div>` : '';
       const cartes = avis.map((a, i) => {
         const h = teinte(a.auteur);
-        return `<article class="carte"><div class="qui"><div class="av" style="background:hsl(${h} 42% 44%)">${echap(initiale(a.auteur))}</div><div><div class="nom">${echap(auteurAffiche(a.auteur))}</div><div class="date">${echap(quand(a.date) || a.dateTexte || '')}</div></div><span class="src" title="${echap(src(a.source).mot)}">${src(a.source).svg}</span></div>
-          <div class="ligne">${a.source === 'booking' ? note10('booking', a.note) : etoiles(a.note)}</div>
+        const qui = `<div class="qui"><div class="av" style="background:hsl(${h} 42% 44%)">${echap(initiale(a.auteur))}</div><div><div class="nom">${echap(auteurAffiche(a.auteur))}</div><div class="date">${echap(quand(a.date) || a.dateTexte || '')}</div></div><span class="src" title="${echap(src(a.source).mot)}">${src(a.source).svg}</span></div>`;
+        const corpsAvis = `<div class="ligne">${a.source === 'booking' ? note10('booking', a.note) : etoiles(a.note)}</div>
           ${a.titre ? `<strong>${echap(a.titre)}</strong>` : ''}<p class="txt" id="t${i}">${echap(nettoyerTexte(a.texte))}</p>
           <button class="plus" data-t="t${i}" aria-controls="t${i}" aria-expanded="false" hidden><span>Lire la suite</span>${CHEVRON('b')}</button>
-          ${a.reponse && reponses ? `<p class="rep"><strong>Réponse :</strong> ${echap(nettoyerReponse(a.reponse))}</p>` : ''}</article>`;
+          ${a.reponse && reponses ? `<p class="rep"><strong>Réponse :</strong> ${echap(nettoyerReponse(a.reponse))}</p>` : ''}`;
+        const piedSrc = pied ? `<div class="pied-src">${src(a.source).svg}<span>Publié sur<b>${echap(src(a.source).nom)}</b></span></div>` : '';
+        return centree ? `<article class="carte centre">${corpsAvis}${qui}${piedSrc}</article>` : `<article class="carte">${qui}${corpsAvis}${piedSrc}</article>`;
       }).join('');
       const corps = modele === 'grille' ? `<div class="grille">${cartes}</div>` : `<div class="piste" tabindex="0" aria-label="Avis clients">${cartes}</div><div class="pied"><div class="points" role="group" aria-label="Pages d'avis"></div><div class="nav"><button class="prec" aria-label="Avis précédents">${CHEVRON('g')}</button><button class="suiv" aria-label="Avis suivants">${CHEVRON('d')}</button></div></div>`;
-      const tete = entete || bouton ? `<div class="tete">${entete ? `<div class="score">${logo ? `<span class="logo">${logo}</span>` : ''}<div><div class="ligne"><span class="chiffre">${echap(noteTexte(note))}</span>${etoiles(Number(note) || 0, 20)}</div><div class="total">${echap(total)} avis${s0 ? ' sur ' + echap(src(s0.id).nom) : sources.length === 1 ? ' sur ' + echap(src(sources[0].id).nom) : ''}</div></div></div>` : '<span></span>'}${bouton}</div>` : '';
+      const surSource = sourceUnique ? ' sur ' + echap(src(sourceUnique).nom) : '';
+      let score = '<span></span>';
+      if (modeEntete === 'compact' || modeEntete === 'nombre') {
+        const pile = modeLogo === 'mot' || modeLogo === 'icone-haut';
+        const titre = titreEntete ? `<div class="cpt-titre">${echap(titreEntete)}</div>` : '';
+        const ligneNote = modeEntete === 'nombre'
+          ? `<div class="cpt-total" style="font-size:13.5px">${echap(nb(total))} avis</div>`
+          : `<div class="ligne cpt-note"><span class="cpt-chiffre">${echap(noteTexte(note))}</span>${etoiles(Number(note) || 0, 20)}<span class="cpt-total">(${echap(nb(total))})</span></div>`;
+        score = `<div class="cpt${pile ? ' pile' : ''}${modeLogo === 'icone-haut' ? ' haut' : ''}">${blocLogo}<div class="cpt-t">${titre}${ligneNote}</div></div>`;
+      } else if (entete) {
+        score = `<div class="score">${blocLogo}<div><div class="ligne"><span class="chiffre">${echap(noteTexte(note))}</span>${etoiles(Number(note) || 0, 20)}</div><div class="total">${echap(nb(total))} avis${surSource}</div></div></div>`;
+      }
+      const tete = entete || bouton ? `<div class="tete">${score}${bouton}</div>` : '';
       this.shadowRoot.innerHTML = `<style>${CSS}</style><section class="w" aria-label="Avis clients">
         ${(this.getAttribute('titre') || af.titre) ? `<h2 class="titre">${echap(this.getAttribute('titre') || af.titre)}</h2>` : ''}
         ${onglets}${tete}${corps}</section>`;
