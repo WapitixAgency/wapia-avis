@@ -18,6 +18,7 @@
  "affichage": {
   "couleur": "#f3a261",
   "police": "madefor-text",
+  "formeEntete": "pastille",
   "modele": "carrousel",
   "theme": "clair",
   "titre": "",
