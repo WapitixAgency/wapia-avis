@@ -2,17 +2,17 @@
  "client": "mecanosk",
  "nom": "Mecanosk",
  "note": 4.9,
- "total": 139,
- "lienFiche": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
- "lienAvis": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "total": 140,
+ "lienFiche": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
  "sources": [
   {
    "id": "google",
    "nom": "Google",
    "note": 4.9,
-   "total": 139,
-   "lien": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
-   "lienAvis": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+   "total": 140,
+   "lien": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/MECANOSK+-+Garage+Auto+%C3%A0+domicile/@47.1745178,-1.5479292,17z/data=!3m1!4b1!4m6!3m5!1s0x4805e9141ba25939:0xd22f2d96743d28e6!8m2!3d47.1745178!4d-1.5479292!16s%2Fg%2F11hx_2btzz?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D"
   }
  ],
  "affichage": {
@@ -206,16 +206,6 @@
    "date": "2023-11-05"
   },
   {
-   "id": "ChdDSUhNMG9nS0VJQ0FnSUQtc3NqbzZRRRAB",
-   "source": "google",
-   "auteur": "Thibault C.",
-   "note": 5,
-   "texte": "super service mécanique, très aimable, pas cher, se déplace : que demander de plus :) merci olivier, à recommander !",
-   "reponse": "",
-   "titre": "",
-   "date": "2023-11-05"
-  },
-  {
    "id": "ChdDSUhNMG9nS0VJQ0FnSUM2MlpMZm53RRAB",
    "source": "google",
    "auteur": "Charles T.",
@@ -234,7 +224,17 @@
    "reponse": "",
    "titre": "",
    "date": "2021-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGbk5FcEJhWFp2UWpka1oxRnFaM05wWkdkVWRGRRAB",
+   "source": "google",
+   "auteur": "Keanu L.",
+   "note": 5,
+   "texte": "Encore une fois, Olivier était au top ! 👍 Il a pris le temps de rechercher et d’identifier la panne. Toujours à l’écoute, disponible et efficace, on sent qu’il aime son métier et qu’il cherche avant tout à trouver la bonne solution. Un garagiste de confiance que je recommande sans hésitation ! Merci encore pour ton travail ! 🚗🔧 …",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-11-05"
   }
  ],
- "maj": "2026-11-05"
+ "maj": "2026-11-06"
 }
