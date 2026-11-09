@@ -2,17 +2,17 @@
  "client": "la-factory",
  "nom": "La Factory",
  "note": 4.9,
- "total": 114,
- "lienFiche": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
- "lienAvis": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
+ "total": 115,
+ "lienFiche": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
  "sources": [
   {
    "id": "google",
    "nom": "Google",
    "note": 4.9,
-   "total": 114,
-   "lien": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D",
-   "lienAvis": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMi4wIKXMDSoASAFQAw%3D%3D"
+   "total": 115,
+   "lien": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/La+Factory/@46.0384518,4.295323,17z/data=!3m1!4b1!4m6!3m5!1s0x47f473ecac155555:0x611b6a2fe4411177!8m2!3d46.0384518!4d4.295323!16s%2Fg%2F11hd6v_4sq?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D"
   }
  ],
  "affichage": {
@@ -152,16 +152,6 @@
    "date": "2026-08-06"
   },
   {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKUWJXVkJRbU5UU1ZFdFlUbHhlRFJ2Y1VZNFIzYxAB",
-   "source": "google",
-   "auteur": "Rachel L.",
-   "note": 5,
-   "texte": "Très beau lieu de réception\nLes propriétaires sont adorables\nLe gîte est très confortable\nJe recommande",
-   "reponse": "Merci beaucoup! Cela fait plaisir d'avoir aussi de beaux avis des invités. Au plaisir. La team Factory",
-   "titre": "",
-   "date": "2026-10-06"
-  },
-  {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5S2NtSjRkMUpxZEVsYU1XdzBhbVJ3YmxJMGQxRRAB",
    "source": "google",
    "auteur": "Charline R.",
@@ -240,7 +230,17 @@
    "reponse": "Merci Mélanie, nous gardons un merveilleux souvenir de vous, j'espère que vous allez bien. Au plaisir. \nGwenaëlle",
    "titre": "",
    "date": "2023-11-06"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2psWmVESk1ZVjlOYTAxU2VFNDJjalU0WVhCdFpYYxAB",
+   "source": "google",
+   "auteur": "Erin P.",
+   "note": 5,
+   "texte": "Nous avons célébré notre mariage à La Factory et tout a été absolument parfait. Un immense merci à l'équipe : disponible et pleine de bons conseils, ce qui nous a permis de rendre cette journée incroyable !\n\nLe lieu est magnifique et fonctionnel, tout est prévu pour rendre le mariage agréable autant pour les mariés que pour leurs invités.\nTous les espaces sont bien pensés : la salle pour la cérémonie, la grande salle du repas, la cour pour le vin d'honneur, les gîtes pour accueillir nos invités, le tout dans une décoration superbe qui crée une ambiance chaleureuse !\nLes couchages sur place sont un vrai plus : ils nous ont permis de vivre de vrais moments conviviaux avec nos proches dès la veille du mariage et de prolonger la fête jusqu'au brunch du dimanche autour de la piscine !\nNous recommandons vivement La Factory, et nos invités aussi, car nous avons eu plein de retours positifs de leur part !\nMerci d'avoir rendu notre mariage inoubliable 🥰",
+   "reponse": "Coucou. Merci beaucoup, votre commentaire met tellement bien en avant ce que nous avons toujours voulu pour le lieu et pour les célébrations de nos clients. Bravo à vous surtout pour votre engagement et pour votre mariage qui a été bien organisé. La Factory Team.",
+   "titre": "",
+   "date": "2026-11-07"
   }
  ],
- "maj": "2026-11-05"
+ "maj": "2026-11-09"
 }

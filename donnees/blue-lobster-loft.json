@@ -2,7 +2,7 @@
  "client": "blue-lobster-loft",
  "nom": "Blue Lobster Loft",
  "note": 4.8,
- "total": 176,
+ "total": 175,
  "lienFiche": "",
  "lienAvis": "",
  "sources": [
@@ -11,7 +11,7 @@
    "type": "booking",
    "libelle": "Honfleur - Booking.com",
    "note": 9.2,
-   "total": 98,
+   "total": 97,
    "lien": "https://www.booking.com/hotel/fr/le-loft-du-homard-bleu-entre-ciel-et-mer.fr.html",
    "lienAvis": "https://www.booking.com/hotel/fr/le-loft-du-homard-bleu-entre-ciel-et-mer.fr.html"
   },
@@ -267,5 +267,5 @@
    "date": "2024-08-15"
   }
  ],
- "maj": "2026-11-05"
+ "maj": "2026-11-09"
 }
