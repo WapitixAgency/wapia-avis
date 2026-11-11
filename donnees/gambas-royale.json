@@ -2,17 +2,17 @@
  "client": "gambas-royale",
  "nom": "Gambas Royale",
  "note": 4.3,
- "total": 1413,
- "lienFiche": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
- "lienAvis": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "total": 1416,
+ "lienFiche": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwOC4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwOC4wIKXMDSoASAFQAw%3D%3D",
  "sources": [
   {
    "id": "google",
    "nom": "Google",
    "note": 4.3,
-   "total": 1413,
-   "lien": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
-   "lienAvis": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+   "total": 1416,
+   "lien": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwOC4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/Gambas+Royale/@47.0843741,-1.7999615,7z/data=!4m10!1m2!2m1!1sGambas+Royale!3m6!1s0x47fa964398900001:0xa045f02fcf9bdf0!8m2!3d47.0843741!4d2.4187885!15sCg1HYW1iYXMgUm95YWxlWg8iDWdhbWJhcyByb3lhbGWSARFidWZmZXRfcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOdWVFeEhUMnQzUlJBQuABAPoBBAg8EEk!16s%2Fg%2F11j8ln2lwn?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwOC4wIKXMDSoASAFQAw%3D%3D"
   }
  ],
  "affichage": {
@@ -232,5 +232,5 @@
    "date": "2024-11-04"
   }
  ],
- "maj": "2026-11-05"
+ "maj": "2026-11-11"
 }
