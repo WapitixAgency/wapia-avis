@@ -2,17 +2,17 @@
  "client": "deauvijeune",
  "nom": "DeauviJeûne",
  "note": 4.9,
- "total": 109,
- "lienFiche": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
- "lienAvis": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+ "total": 111,
+ "lienFiche": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+ "lienAvis": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
  "sources": [
   {
    "id": "google",
    "nom": "Google",
    "note": 4.9,
-   "total": 109,
-   "lien": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
-   "lienAvis": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D"
+   "total": 111,
+   "lien": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+   "lienAvis": "https://www.google.com/maps/place/DeauviJe%C3%BBne+-+centre+de+je%C3%BBne+et+randonn%C3%A9e+-+Normandie/@49.0319685,0.294297,17z/data=!3m1!4b1!4m6!3m5!1s0x47e1d1272b5fa06b:0x876ba78e21378bcf!8m2!3d49.0319685!4d0.294297!16s%2Fg%2F11pkfn2tq0?hl=fr&entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D"
   }
  ],
  "affichage": {
@@ -23,16 +23,6 @@
   "texteBouton": "Laisser un avis"
  },
  "avis": [
-  {
-   "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5NGRrZzRSSFJIVm1FMFpYUnpVRkJ1VVZSRFVHYxAB",
-   "source": "google",
-   "auteur": "Isa L.",
-   "note": 5,
-   "texte": "Accueil chaleureux et amical, très bon accompagnement et conseils pour mon 1er jeûne. Jus et bouillons sont très bons et diversifiés. Les randonnées effectuées dans un superbe environnement, de quoi se ressourcer. Le longe-côte est un +, c'était une bonne découverte.",
-   "reponse": "Réponse du propriétaire il y a un mois\nMerci beaucoup Isabelle, et jeûne un jour, jeûne toujours !",
-   "titre": "",
-   "date": "2026-10-05"
-  },
   {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0TVFuVm1XWEpxWW0xWmVVbFVla0ZtVGxoTGRrRRAB",
    "source": "google",
@@ -174,16 +164,6 @@
    "date": "2023-11-05"
   },
   {
-   "id": "ChZDSUhNMG9nS0VJQ0FnSUN4NjhhZlpnEAE",
-   "source": "google",
-   "auteur": "Sophie H.",
-   "note": 5,
-   "texte": "Cadre et équipe idylliques !! Tout est fait pour que le jeûne se passe bien ! Jus de fruit et bouillon chaque jour différent et goûteux ! Les randonnées sont merveilleuses ! Je conseille le longe  côte ! Et je recommande ce séjour.",
-   "reponse": "",
-   "titre": "",
-   "date": "2023-11-05"
-  },
-  {
    "id": "ChdDSUhNMG9nS0VJQ0FnSURSenV1dG1RRRAB",
    "source": "google",
    "auteur": "Jean-Maurice M.",
@@ -222,7 +202,17 @@
    "reponse": "",
    "titre": "",
    "date": "2022-11-05"
+  },
+  {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25GYWRuTjROVmhxVDBKWGFscHNiVEprWWxSRWJrRRAB",
+   "source": "google",
+   "auteur": "Florence G.",
+   "note": 5,
+   "texte": "Ravie de ma semaine passée chez DeauviJeûne.\nRandonnées ressourçantes qui font découvrir le beau Pays d’Auge, séances de sport dynamisantes pendant l'éveil musculaire et le yoga, jus et bouillons extraordinaires et très variés.\nJe recommande ce lieu plein de charme (j'ai dormi au Pressoir) où Clara et Jean-Michel nous accueillent avec bienveillance et professionnalisme.\nJe choisirai la prochaine fois la période du printemps pour revoir le paysage sous un autre oeil et profiter du jardin et de la piscine qui sont un vrai plus. A noter aussi la qualité des massages proposés très appréciable.",
+   "reponse": "",
+   "titre": "",
+   "date": "2026-11-13"
   }
  ],
- "maj": "2026-11-04"
+ "maj": "2026-11-13"
 }
